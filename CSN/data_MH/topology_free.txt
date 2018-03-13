@@ -1,0 +1,65 @@
+|molecule_name|color|fasta_fn|fasta_id|pdb_fn|chain|residue_range|pdb_offset|bead_size|em_residues_per_gaussian|rigid_body|super_rigid_body|chain_of_super_rigid_bodies|
+
+|CSN1	|purple			|CSN.fasta|CSN1	|BEADS		| |1,43		|0|10|0| |100||
+|CSN1	|purple			|CSN.fasta|CSN1	|CSN1.pdb	|A|44,107	|0|10|0|2|100||
+|CSN1	|purple			|CSN.fasta|CSN1	|BEADS		| |108,127	|0|10|0| |100||
+|CSN1	|purple			|CSN.fasta|CSN1	|CSN1.pdb	|A|128,227	|0|10|0|3|100||
+|CSN1	|purple			|CSN.fasta|CSN1	|BEADS		| |228,245	|0|10|0| |100||
+|CSN1	|purple			|CSN.fasta|CSN1	|CSN1.pdb	|A|246,426	|0|10|0|4|100||
+|CSN1	|purple			|CSN.fasta|CSN1	|BEADS		| |427,430	|0|10|0| |100||
+|CSN1	|purple			|CSN.fasta|CSN1	|CSN1.pdb	|A|431,462	|0|10|0|1|100||
+|CSN1	|purple			|CSN.fasta|CSN1	|BEADS		| |463,END	|0|10|0| |100||
+
+|CSN2	|blue			|CSN.fasta|CSN2	|BEADS		| |1,29		|0|10|0| |200||
+|CSN2	|blue			|CSN.fasta|CSN2	|CSN.pdb	|B|30,179	|0|10|0|5|200||
+|CSN2	|blue			|CSN.fasta|CSN2	|BEADS		| |180,191	|0|10|0| |200||
+|CSN2	|blue			|CSN.fasta|CSN2	|CSN.pdb	|B|192,289	|0|10|0|6|200||
+|CSN2	|blue			|CSN.fasta|CSN2	|BEADS		| |290,307	|0|10|0| |200||
+|CSN2	|blue			|CSN.fasta|CSN2	|CSN.pdb	|B|308,397	|0|10|0|7|200||
+|CSN2	|blue			|CSN.fasta|CSN2	|BEADS		| |398,416	|0|10|0| |200||
+|CSN2	|blue			|CSN.fasta|CSN2	|CSN.pdb	|B|417,443	|0|10|0|1|200||
+#|CSN2	|blue			|CSN.fasta|CSN2	|BEADS		| |444,END	|0|10|0| |200||
+
+|CSN3	|red			|CSN.fasta|CSN3	|BEADS		| |1,2		|0|10|0| |300||
+|CSN3	|red			|CSN.fasta|CSN3	|CSN.pdb	|C|3,163	|0|10|0|8|300||
+|CSN3	|red			|CSN.fasta|CSN3	|BEADS		| |164,176	|0|10|0| |300||
+|CSN3	|red			|CSN.fasta|CSN3	|CSN.pdb	|C|177,361	|0|10|0|9|300||
+|CSN3	|red			|CSN.fasta|CSN3	|BEADS		| |362,367	|0|10|0| |300||
+|CSN3	|red			|CSN.fasta|CSN3	|CSN.pdb	|C|368,401	|0|10|0|1|300||
+|CSN3	|red			|CSN.fasta|CSN3	|BEADS		| |402,END	|0|10|0| |300||
+
+|CSN4	|cornflower blue	|CSN.fasta|CSN4	|BEADS		| |1,2		|0|10|0| |400||
+|CSN4	|cornflower blue	|CSN.fasta|CSN4	|CSN.pdb	|D|3,131	|0|10|0|10|400||
+|CSN4	|cornflower blue	|CSN.fasta|CSN4	|BEADS		| |132,138	|0|10|0| |400||
+|CSN4	|cornflower blue	|CSN.fasta|CSN4	|CSN.pdb	|D|139,361	|0|10|0|11|400||
+|CSN4	|cornflower blue	|CSN.fasta|CSN4	|BEADS		| |362,364	|0|10|0| |400||
+|CSN4	|cornflower blue	|CSN.fasta|CSN4	|CSN.pdb	|D|365,406	|0|10|0|1|400||
+#|CSN4	|cornflower blue	|CSN.fasta|CSN4	|BEADS		| |407,END	|0|10|0| |400||
+
+|CSN5	|light gray 		|CSN.fasta|CSN5	|BEADS		| |1,24		|0|10|0| |500||
+|CSN5	|light gray		|CSN.fasta|CSN5	|CSN.pdb	|E|25,283	|0|10|0|12|500||
+|CSN5	|light gray		|CSN.fasta|CSN5	|BEADS		| |284,295	|0|10|0| |500||
+|CSN5	|light gray		|CSN.fasta|CSN5	|CSN.pdb	|E|296,333	|0|10|0|1|500||
+|CSN5	|light gray		|CSN.fasta|CSN5	|BEADS		| |334,END	|0|10|0| |500||
+
+|CSN6	|turquoise		|CSN.fasta|CSN6	|BEADS		| |1,28		|0|10|0| |600||
+|CSN6	|turquoise		|CSN.fasta|CSN6	|CSN.pdb	|F|29,207	|0|10|0|13|600||
+|CSN6	|turquoise		|CSN.fasta|CSN6	|BEADS		| |208,214	|0|10|0| |600||
+|CSN6	|turquoise		|CSN.fasta|CSN6	|CSN.pdb	|F|215,267	|0|10|0|14|600||
+|CSN6	|turquoise		|CSN.fasta|CSN6	|BEADS		| |268,270	|0|10|0| |600||
+|CSN6	|turquoise		|CSN.fasta|CSN6	|CSN.pdb	|F|271,316	|0|10|0|1|600||
+|CSN6	|turquoise		|CSN.fasta|CSN6	|BEADS		| |317,END	|0|10|0| |600||
+
+|CSN7	|yellow			|CSN.fasta|CSN7B|BEADS		| |1,7		|0|10|0| |700||
+|CSN7	|yellow			|CSN.fasta|CSN7B|CSN7B.pdb	|I|8,158	|0|10|0|15|700||
+|CSN7	|yellow			|CSN.fasta|CSN7B|BEADS		| |159,162	|0|10|0| |700||
+|CSN7	|yellow			|CSN.fasta|CSN7B|CSN7B.pdb	|I|163,212	|0|10|0|1|700||
+|CSN7	|yellow			|CSN.fasta|CSN7B|BEADS		| |213,END	|0|10|0| |700||
+
+|CSN8	|green			|CSN.fasta|CSN8	|BEADS		| |1,10		|0|10|0| |800||
+|CSN8	|green			|CSN.fasta|CSN8	|CSN.pdb	|H|11,164	|0|10|0|16|800||
+|CSN8	|green			|CSN.fasta|CSN8	|BEADS		| |165,193	|0|10|0| |800||
+|CSN8	|green			|CSN.fasta|CSN8	|CSN.pdb	|H|194,209	|0|10|0|1|800||
+
+
+

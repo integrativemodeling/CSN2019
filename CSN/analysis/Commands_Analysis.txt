@@ -1,0 +1,30 @@
+## Extract information for all the frame:
+qsub Get_XL_Satisfaction.sh
+
+## Get average of each 1-Psi after 1.5k equilibration across all 120 job.
+
+##Intramolecular crosslinks
+### awk '{if($5 > 1999) for(i=27; i<=NF; ++i){a[i]+=$i; b[i]++}}END{for(i=27; i<=NF; ++i) printf "%.2f%s", 1-a[i]/b[i], (i==NF?ORS:OFS)}' Scores/Scores_R*.txt 
+
+Thresholds for intra are: (DSS,DHS,BMS) = (0.97, 0.98, 0.96)
+
+##Intermolecular crosslinks
+### awk '{if($5 > 1999) for(i=17; i<=19; ++i){a[i]+=$i; b[i]++}}END{for(i=17; i<=19; ++i) printf "%.2f%s", 1-a[i]/b[i], (i==NF?ORS:OFS)}' Scores/Scores_R*.txt 
+Thresholds for inter are: (DSS,DHS,BMS) = (0.53, 0.54, 0.52)
+
+##Select good scoring models based on XL (Number of Crosslinks(inter,intra): DSS(24,86), DHS(21,51), BMS(96,34))
+awk '{if($14 > 12 && $15 > 11 && $16 > 49 && $24 > 83 && $25 > 49 && $26 > 32) print $0}' Scores/Scores_R*.txt > Good_Scoring_Models.txt
+
+##Get number of Crosslinks per datasets:
+split -d -l 300 ../Good_Scoring_Models.txt GSM_
+for i in `seq 0 9`; do mv GSM_0${i} GSM_${i}; done
+qsub Get_Distances.sh
+
+##For each XLs
+qsub Get_Sats.sh
+for file in `ls XLS/*.txt`; do echo $(echo $file | awk -F'[/.]' '{print $2}') $(awk '{if($2 < 35) sum++;}END{print sum}' $file); done > NumberOfSatisfactionofXls.txt
+
+##Extract good-scoring models from trajectories. 
+split -d -l 500 ../Good_Scoring_Models.txt tmp_
+for i in `seq 0 9`; do mv tmp_0${i} tmp_${i}; done
+qsub RmfSlicer.sh
