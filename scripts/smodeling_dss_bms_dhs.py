@@ -154,7 +154,7 @@ IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     resolution=1.0,
     slope=0.02)
 
-x_dss1.rs.set_weight(5.0)
+x_dss1.rs.set_weight(3.0)
 x_dss1.add_to_model()
 sampleobjects.append(x_dss1)
 outputobjects.append(x_dss1)
@@ -201,7 +201,7 @@ IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     label="BMS_Inter",
     resolution=1.0,
     slope=0.02)
-x_bms1.rs.set_weight(5.0)
+x_bms1.rs.set_weight(3.0)
 x_bms1.add_to_model()
 sampleobjects.append(x_bms1)
 sampleobjects.append(x_bms1)
@@ -251,7 +251,7 @@ IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     label="DHS_Inter",
     resolution=1.0,
     slope=0.02)
-x_dhs1.rs.set_weight(5.0)
+x_dhs1.rs.set_weight(3.0)
 x_dhs1.add_to_model()
 sampleobjects.append(x_dhs1)
 sampleobjects.append(x_dhs1)
