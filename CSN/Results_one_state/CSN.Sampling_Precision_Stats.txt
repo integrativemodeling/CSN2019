@@ -1,4 +1,0 @@
-The sampling precision is defined as the largest allowed RMSD between the cluster centroid and a  CSN model within any cluster in the finest clustering for which each sample contributes models proportionally to its size (considering both significance and magnitude of the difference) and for which a sufficient proportion of all models occur in sufficiently large clusters. The sampling precision for our  CSN  modeling is 36.0926581621  A.
-Sampling precision, P-value, Cramer's V and percentage of clustered models below:
-36.0926581621 0.583130660571 0.00484977116678 98.7193503045
-

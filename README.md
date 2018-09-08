@@ -1,15 +1,13 @@
 # Cop9_Signalosome Complex
 
 These scripts demonstrate the use of [IMP](http://salilab.org/imp) in the modeling of the Cop9 Signalosome (CSN) complex using multi-crosslinking datasets. 
-
 The scripts work with the [IMP](http://salilab.org/imp) (Release 2.8.0).
 
 
 ## List of files and directories:
 
-- `data_MH` contains all relevant data
-- `CSN`			contains the scripts, analysis, and results for one state modeling of the CSN Complex.
-- `scripts`			  
+- `data`   	 contains all relevant data
+- `scripts`	 contains all the modeling scripts version for the different setups. 
 
 ## Information
 
