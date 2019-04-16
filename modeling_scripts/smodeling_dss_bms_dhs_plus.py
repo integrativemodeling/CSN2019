@@ -25,7 +25,7 @@ import IMP.pmi.restraints.crosslinking
 # Define Input Files
 #---------------------------
 datadirectory = "/netapp/sali/ilan/Cop9/data/"
-topology_file = datadirectory + "topology_free.txt"
+topology_file = datadirectory + "topology_free_plus.txt"
 
 #--------------------------
 # Set MC Sampling Parameters
@@ -143,10 +143,9 @@ kw.set_id_score_key(None)
 
 # Medium + High Confidence Intermolecular crosslinks
 DSS1 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
-DSS1.create_set_from_file(datadirectory + 'DSS.Inter.csv')
+DSS1.create_set_from_file(datadirectory + 'DSS.Inter.P.csv')
 
-x_dss1 =
-IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
+x_dss1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
     CrossLinkDataBase=DSS1,
     length=21,
@@ -154,7 +153,7 @@ IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     resolution=1.0,
     slope=0.02)
 
-x_dss1.rs.set_weight(5.0)
+x_dss1.rs.set_weight(3.0)
 x_dss1.add_to_model()
 sampleobjects.append(x_dss1)
 outputobjects.append(x_dss1)
@@ -165,10 +164,9 @@ print "ilan3", sf.evaluate(False)
 
 # Medium + High Confidence Intramolecular crosslinks
 DSS2 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
-DSS2.create_set_from_file(datadirectory + 'DSS.Intra.csv')
+DSS2.create_set_from_file(datadirectory + 'DSS.Intra.P.csv')
 
-x_dss2 =
-IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
+x_dss2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
     CrossLinkDataBase=DSS2,
     length=21,
@@ -191,17 +189,16 @@ dof.get_nuisances_from_restraint(x_dss2)
 
 # Medium + High Confidence Intermolecular crosslinks
 BMS1 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
-BMS1.create_set_from_file(datadirectory + 'BMS.Inter.csv')
+BMS1.create_set_from_file(datadirectory + 'BMS.Inter.P.csv')
 
-x_bms1 =
-IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
+x_bms1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
     CrossLinkDataBase=BMS1,
     length=29,
     label="BMS_Inter",
     resolution=1.0,
     slope=0.02)
-x_bms1.rs.set_weight(5.0)
+x_bms1.rs.set_weight(3.0)
 x_bms1.add_to_model()
 sampleobjects.append(x_bms1)
 sampleobjects.append(x_bms1)
@@ -213,10 +210,9 @@ print "ilan3", sf.evaluate(False)
 
 # Medium + High Confidence Intramolecular crosslinks
 BMS2 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
-BMS2.create_set_from_file(datadirectory + 'BMS.Intra.csv')
+BMS2.create_set_from_file(datadirectory + 'BMS.Intra.P.csv')
 
-x_bms2 =
-IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
+x_bms2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
     CrossLinkDataBase=BMS2,
     length=29,
@@ -232,6 +228,57 @@ dof.get_nuisances_from_restraint(x_bms2)
 
 Sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
 print "ilan3", sf.evaluate(False)
+
+#############
+#############
+#####DHS#####
+#############
+#############
+
+# Medium + High Confidence Intermolecular crosslinks
+DHS1 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
+DHS1.create_set_from_file(datadirectory + 'DHSO.Inter.P.csv')
+
+x_dhs1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
+    root_hier=representation,
+    CrossLinkDataBase=DHS1,
+    length=21,
+    label="DHS_Inter",
+    resolution=1.0,
+    slope=0.02)
+x_dhs1.rs.set_weight(3.0)
+x_dhs1.add_to_model()
+sampleobjects.append(x_dhs1)
+sampleobjects.append(x_dhs1)
+outputobjects.append(x_dhs1)
+dof.get_nuisances_from_restraint(x_dhs1)
+
+sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+print "ilan3", sf.evaluate(False)
+
+# Medium + High Confidence Intramolecular crosslinks
+DHS2 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
+DHS2.create_set_from_file(datadirectory + 'DHSO.Intra.P.csv')
+
+x_dhs2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
+    root_hier=representation,
+    CrossLinkDataBase=DHS2,
+    length=21,
+    label="DHS_Intra",
+    resolution=1.0,
+    slope=0.02)
+
+x_dhs2.rs.set_weight(1.00)
+x_dhs2.add_to_model()
+sampleobjects.append(x_dhs2)
+outputobjects.append(x_dhs2)
+dof.get_nuisances_from_restraint(x_dhs2)
+
+Sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
+print "ilan3", sf.evaluate(False)
+
+
+###Shuffling for random initial conformations 
 IMP.pmi.tools.shuffle_configuration(CSN)
 dof.optimize_flexible_beads(200)
 
@@ -241,8 +288,7 @@ dof.optimize_flexible_beads(200)
 #--------------------------
 # This object defines all components to be sampled as well as the sampling
 # protocol
-mc1 =
-IMP.pmi.macros.ReplicaExchange0(m,
+mc1 = IMP.pmi.macros.ReplicaExchange0(m,
                                 root_hier=representation,
                                 monte_carlo_sample_objects=dof.get_movers(),
                                 output_objects=outputobjects,

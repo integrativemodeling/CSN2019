@@ -1,0 +1,34 @@
+#!/bin/bash
+#$ -S /bin/bash
+#$ -cwd
+#$ -r n
+#$ -j y
+#$ -l mem_free=2G
+#$ -l arch=linux-x64
+#$ -l h_rt=100:00:00
+#$ -R y
+#$ -pe ompi 8
+#$ -l hostname="!opt*"			    #-- anything but opt*
+#$ -l hostname="!idgpu*"			    #-- anything but opt*
+#$ -t 1-70                           #-- specify the number of task
+#$ -N LanRigid
+#########################################
+
+module load SALI
+module load sali-libraries-x86_64
+module load openmpi-1.6-nodlopen
+module load imp/2.8.0
+
+
+i=$(($SGE_TASK_ID - 1))
+DIR=modeling$i
+
+if [ ! -d $DIR ]; then
+    mkdir $DIR
+    cp -pr smodeling_bms_dhs.py $DIR
+fi
+cd $DIR
+mpirun -np $NSLOTS python smodeling_bms_dhs.py 
+
+hostname
+date

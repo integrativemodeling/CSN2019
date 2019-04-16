@@ -25,10 +25,10 @@ DIR=modeling$i
 
 if [ ! -d $DIR ]; then
     mkdir $DIR
-    cp -pr smodeling_dss_bms.py $DIR
+    cp -pr smodeling_0.py $DIR
 fi
 cd $DIR
-mpirun -np $NSLOTS python smodeling_dss_bms.py 
+mpirun -np $NSLOTS python smodeling_0.py 
 
 hostname
 date
