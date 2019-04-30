@@ -1,11 +1,13 @@
 reset
 
-set terminal pngcairo transparent enhanced color font "Arial-Bold, 39" size 1028,1028
+set terminal pngcairo transparent enhanced color font "Arial-Bold, 44" size 1228,1028
 set border lw 5 lc rgb "#484848"
 
 set encoding iso_8859_1
 set palette defined (0.0 "#FFFFFF", 0.2 "#FEF0D9", 0.4 "#FDCC8A", 0.6 "#FC8D59", 0.8 "#E34A33", 1.0 "#B30000")
 #set palette rgb -15,-5,-7
+
+set size 1,1
 
 set cbrange [0:60.0]
 set zrange[0:60.0]
