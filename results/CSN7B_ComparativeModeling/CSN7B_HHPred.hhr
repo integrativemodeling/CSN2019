@@ -1,0 +1,2582 @@
+Query         Fri_Dec_23_02:25:44_+0100_2016
+Match_columns 264
+No_of_seqs    283 out of 1520
+Neff          7.1 
+Searched_HMMs 38502
+Date          Fri Dec 23 02:28:11 2016
+Command       /cluster/toolkit/production/bioprogs/hhsuite/bin/hhsearch -cpu 4 -v 1 -i /cluster/toolkit/production/tmp/production/2696759/2318670.hhm -d /cluster/toolkit/production/databases/hhpred/new_dbs/pdb70_11Dec16/db/pdb.hhm -o /cluster/toolkit/production/tmp/production/2696759/2318670.hhr -p 20 -P 20 -Z 100 -z 1 -b 1 -B 100 -seq 1 -aliw 80 -local -ssm 2 -norealign -sc 1 -dbstrlen 10000 -cs /ebio/toolkit_precise/toolkit/production/bioprogs/hh-suite/data/context_data.lib 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4d10_G COP9 signalosome comple 100.0 5.1E-44 1.3E-48  312.4  20.0  218    1-218     5-222 (222)
+  2 3chm_A COP9 signalosome comple 100.0 8.9E-38 2.3E-42  262.5  12.2  165    5-169     4-169 (169)
+  3 5t0g_a 26S proteasome non-ATPa  99.9 4.4E-25 1.1E-29  206.0  12.8  185   10-195   174-374 (376)
+  4 2mr3_A 26S proteasome regulato  99.9 4.4E-23 1.1E-27  192.7  13.0  185   10-195   190-391 (393)
+  5 5a5t_M Eukaryotic translation   99.9 6.5E-23 1.7E-27  190.8   3.3  166   24-193   201-373 (374)
+  6 3txn_A 26S proteasome regulato  99.7 9.3E-16 2.4E-20  139.4  14.3  162   24-189   220-391 (394)
+  7 3jck_B 26S proteasome regulato  99.6 8.1E-14 2.1E-18  130.4  16.6  163   25-203   259-441 (445)
+  8 5t0g_Y 26S proteasome non-ATPa  99.6 5.3E-14 1.4E-18  131.1  14.3  160   25-189   218-388 (389)
+  9 4d10_B COP9 signalosome comple  99.5 1.2E-13 3.1E-18  129.5  14.8  127   58-192   310-446 (447)
+ 10 5t0g_W 26S proteasome non-ATPa  99.5 2.5E-13 6.5E-18  126.9  16.2  164   25-203   265-454 (456)
+ 11 3jck_C 26S proteasome regulato  99.5 9.2E-13 2.4E-17  123.5  15.0  122   61-186   297-428 (434)
+ 12 4d10_C COP9 signalosome comple  99.4 5.6E-13 1.4E-17  125.8  12.4  169   25-194   222-399 (423)
+ 13 5t0g_V 26S proteasome non-ATPa  99.4 2.4E-13 6.2E-18  132.8   8.8  169   25-200   326-526 (533)
+ 14 3jck_D 26S proteasome regulato  99.4 1.1E-12 2.9E-17  124.2  12.7  160   25-189   248-422 (429)
+ 15 4d10_A COP9 signalosome comple  99.4 9.7E-12 2.5E-16  119.5  17.7  163   25-195   277-453 (480)
+ 16 3jck_A 26S proteasome regulato  99.3 3.3E-11 8.7E-16  114.9  16.8  157   25-193   227-392 (438)
+ 17 4d10_D COP9 signalosome comple  99.3 9.7E-12 2.5E-16  116.8  12.5  166   25-209   228-406 (410)
+ 18 3t5x_A PCI domain-containing p  99.3 1.5E-11   4E-16  104.0   8.2   97   62-159    82-195 (203)
+ 19 5a5t_E Eukaryotic translation   99.2 1.1E-10 2.9E-15  111.1  10.4  125   61-191   291-425 (445)
+ 20 4cr2_S RPN3, 26S proteasome re  99.1 2.4E-10 6.2E-15  111.4  10.4  160   25-196   312-480 (523)
+ 21 4d0p_A COP9 signalosome comple  99.1 2.4E-10 6.1E-15  106.5   9.6  127   25-156   248-387 (387)
+ 22 1ufm_A COP9 complex subunit 4;  99.0 9.2E-10 2.4E-14   81.2   7.8   65   94-159    14-78  (84)
+ 23 3t5v_B Nuclear mRNA export pro  98.9 1.8E-08 4.7E-13   96.4  12.7  128   26-159   267-435 (455)
+ 24 4lct_A COP9 signalosome comple  97.4 0.00027 7.1E-09   64.6   7.0   78   60-138   261-348 (348)
+ 25 5a5t_C Eukaryotic translation   97.0  0.0056 1.4E-07   62.9  12.0  143   42-186   643-805 (843)
+ 26 4u1c_C Eukaryotic translation   96.6    0.01 2.6E-07   58.4   9.8  129   42-176   406-551 (567)
+ 27 1wi9_A Protein C20ORF116 homol  96.5   0.006 1.6E-07   43.8   5.3   54  101-155    12-65  (72)
+ 28 1rz4_A Eukaryotic translation   96.4   0.056 1.4E-06   46.7  11.9  126   10-135    49-177 (226)
+ 29 4uer_c EIF3C; translation init  96.3   0.014 3.6E-07   59.7   9.1  129   42-176   651-796 (812)
+ 30 5a5t_A Eukaryotic translation   96.3    0.15 3.8E-06   55.2  16.7  179   43-223   371-596 (1362)
+ 31 4k51_A Eukaryotic translation   96.2   0.021 5.5E-07   49.8   8.0   80   75-154   134-221 (224)
+ 32 4b0z_A RPN12, 26S proteasome r  96.1   0.059 1.5E-06   46.1  10.8  109   24-132    97-212 (229)
+ 33 3jck_H 26S proteasome regulato  95.4    0.13 3.4E-06   45.3  10.2  102   31-132   110-221 (274)
+ 34 4u1d_C Eukaryotic translation   95.2    0.12 3.2E-06   50.1  10.1   80   75-154   407-494 (497)
+ 35 4d10_H COP9 signalosome comple  95.0    0.28 7.3E-06   41.7  10.9  112   23-135    36-154 (212)
+ 36 4uer_a EIF3A; translation init  94.7    0.17 4.5E-06   52.7  10.1   80   75-154   404-491 (964)
+ 37 5t0g_d 26S proteasome non-ATPa  93.8   0.099 2.6E-06   48.2   5.6  104   31-134   195-304 (349)
+ 38 3t5v_A Nuclear mRNA export pro  91.6     1.1 2.8E-05   40.5   9.2   83   44-134   141-248 (316)
+ 39 4hw0_A DNA-binding protein SSO  85.9     6.1 0.00016   27.9   8.2   85   98-191    14-98  (104)
+ 40 1ub9_A Hypothetical protein PH  84.7     7.3 0.00019   27.3   8.1   82   97-181    17-98  (100)
+ 41 4y66_A MND1; cell cycle; 3.20A  84.7       3 7.8E-05   35.1   6.8  133  104-237    19-156 (203)
+ 42 5eri_A MARR family transcripti  82.8      19 0.00049   28.4  11.2   90   98-188    57-167 (169)
+ 43 3s2w_A Transcriptional regulat  82.0      13 0.00035   28.6   9.3   86   99-185    53-159 (159)
+ 44 4y66_B HOP2, putative tbpip fa  81.5     5.6 0.00015   34.3   7.4  118  104-222    16-141 (231)
+ 45 5jbr_A Uncharacterized protein  81.3      20 0.00051   27.5  13.7  118   97-218    27-149 (149)
+ 46 1lj9_A Transcriptional regulat  80.9      19 0.00049   27.1  11.4   88   98-186    31-139 (144)
+ 47 4rgu_A Repressor protein; stru  80.3      22 0.00056   27.6  10.0   93   98-191    48-161 (162)
+ 48 2oqg_A Possible transcriptiona  79.6      17 0.00045   25.9  12.0   86   97-192    22-107 (114)
+ 49 1sfx_A Conserved hypothetical   79.4      10 0.00026   26.7   7.2   82   97-179    21-103 (109)
+ 50 3bj6_A Transcriptional regulat  79.3      22 0.00058   27.0   9.8   89   98-187    42-151 (152)
+ 51 3r0a_A Putative transcriptiona  79.1      20 0.00053   26.4   9.3   88   97-188    27-118 (123)
+ 52 4mnu_A SLYA-like transcription  78.7      23 0.00061   26.9  10.7   91   98-189    35-146 (153)
+ 53 5e1w_A RDHR-CBDBA1625, transcr  78.3      28 0.00073   27.6  11.3   89   96-185    57-167 (180)
+ 54 3nrv_A Putative transcriptiona  77.7      19 0.00049   27.3   8.7   88   96-184    40-148 (148)
+ 55 3f6o_A Probable transcriptiona  77.7     8.9 0.00023   28.1   6.6  100   97-206    19-118 (118)
+ 56 4hbl_A Transcriptional regulat  77.5      24 0.00063   26.9   9.4   87   98-185    43-147 (149)
+ 57 2kko_A Possible transcriptiona  77.5      16 0.00043   26.0   7.9   74   99-182    28-101 (108)
+ 58 3gpv_A Transcriptional regulat  77.1      27 0.00069   27.3   9.6  109  109-222    15-134 (148)
+ 59 3bja_A Transcriptional regulat  77.0      24 0.00063   26.1  10.0   84   97-181    34-138 (139)
+ 60 2rdp_A Putative transcriptiona  77.0      26 0.00068   26.5   9.7   84   98-182    44-148 (150)
+ 61 5l3t_A Nuclear mRNA export pro  76.9      11 0.00027   41.0   9.1   83   44-134   388-495 (1301)
+ 62 4xrf_A Transcriptional regulat  76.7      25 0.00065   26.2   9.7   84   98-182    35-139 (142)
+ 63 5duk_A Putative DNA binding pr  76.7      11 0.00028   24.8   6.3   59   97-156    10-68  (77)
+ 64 2eth_A Transcriptional regulat  76.5      28 0.00074   26.7  10.2   84   98-182    46-150 (154)
+ 65 4lb6_B Protein kinase containi  76.4      12 0.00032   24.0   6.4   57   97-154    12-68  (72)
+ 66 2d1h_A ST1889, 109AA long hypo  76.0      22 0.00058   25.2   8.4   80   97-181    23-104 (109)
+ 67 3i4p_A Transcriptional regulat  75.7      22 0.00057   27.6   8.7   80   97-177     4-89  (162)
+ 68 1tbx_A ORF F-93, hypothetical   75.3      22 0.00056   25.0   8.0   81   97-183     9-93  (99)
+ 69 2qvo_A Uncharacterized protein  74.9      15  0.0004   25.3   7.0   79   97-181    13-95  (95)
+ 70 3bro_A Transcriptional regulat  74.6      29 0.00075   25.8   9.6   83   97-180    35-140 (141)
+ 71 4rs8_A ASPA; PADR family, DNA   74.6      20 0.00051   23.9   7.3   77   97-179     6-82  (84)
+ 72 2w25_A Probable transcriptiona  74.1      10 0.00027   28.8   6.4   56   99-155    10-74  (150)
+ 73 1s3j_A YUSO protein; structura  74.1      31 0.00081   26.2   9.2   84   98-182    39-143 (155)
+ 74 3kp7_A Transcriptional regulat  73.9      28 0.00074   26.3   8.9   89   98-188    40-151 (151)
+ 75 3bpv_A Transcriptional regulat  73.7      30 0.00078   25.6  11.5   85   98-183    31-136 (138)
+ 76 4kmf_A Interferon-inducible an  73.7     9.2 0.00024   23.5   5.0   57   97-154     6-62  (62)
+ 77 3cjn_A Transcriptional regulat  73.6      35  0.0009   26.3  10.3   83   98-181    54-157 (162)
+ 78 4aik_A Transcriptional regulat  73.6      33 0.00086   26.1  11.1   86   97-183    33-139 (151)
+ 79 1r7j_A Conserved hypothetical   73.5      25 0.00064   24.5  10.6   83   97-192     9-91  (95)
+ 80 3cuo_A Uncharacterized HTH-typ  73.1      24 0.00063   24.2   8.1   75   97-180    25-99  (99)
+ 81 3deu_A Transcriptional regulat  72.5      31 0.00079   27.1   9.0   90   97-187    55-165 (166)
+ 82 1z7u_A Hypothetical protein EF  72.2      29 0.00075   24.8  10.3   88   98-190    24-112 (112)
+ 83 2gxg_A 146AA long hypothetical  72.1      35  0.0009   25.6  11.4   86   96-183    37-143 (146)
+ 84 3oop_A LIN2960 protein; protei  71.8      32 0.00082   25.7   8.6   84   97-181    38-142 (143)
+ 85 4g9y_A PCAV transcriptional re  71.6      38 0.00098   25.9  10.0   84   98-182    40-144 (157)
+ 86 2fbh_A Transcriptional regulat  71.4      36 0.00094   25.5   9.7   85   97-182    39-144 (146)
+ 87 3e6m_A MARR family transcripti  70.1      19 0.00049   27.9   7.1   87   97-184    54-161 (161)
+ 88 3zmd_A ABSC, putative transcri  70.0      47  0.0012   26.3   9.7   87   96-183    63-173 (178)
+ 89 4gcv_A Putative transcription   69.9      43  0.0011   26.8   9.4   79   95-179    23-101 (168)
+ 90 4un1_B Putative transcriptiona  69.1      19  0.0005   28.9   7.1   80   97-177    28-113 (179)
+ 91 2cfx_A HTH-type transcriptiona  68.5      12 0.00032   28.4   5.6   45   99-144     8-52  (144)
+ 92 2ia0_A Putative HTH-type trans  68.2      11 0.00028   30.2   5.4   50   99-149    20-69  (171)
+ 93 1r1t_A Transcriptional repress  68.0      36 0.00095   24.7   8.0   71   97-177    47-117 (122)
+ 94 4asn_A TUBR; transcription, tu  66.9      25 0.00066   24.2   6.7   58   97-155    15-78  (101)
+ 95 4hf0_A HTH-type transcriptiona  66.6      38 0.00098   26.1   8.1   65   88-154     3-67  (141)
+ 96 5f6f_A MARR family regulatory   66.6      52  0.0013   25.5   9.7   85   96-181    53-160 (161)
+ 97 2htj_A P fimbrial regulatory p  66.1      13 0.00034   24.9   4.8   58   97-155     1-58  (81)
+ 98 3pqk_A Biofilm growth-associat  66.1      34  0.0009   23.8   7.3   57   97-155    24-80  (102)
+ 99 4nb5_A DNA binding protein; HE  65.9      54  0.0014   25.5  13.4  115   97-214    36-158 (171)
+100 3ech_A MEXR, multidrug resista  65.8      30 0.00078   25.8   7.3   83   97-180    38-141 (142)
+
+No 1  
+>4d10_G COP9 signalosome complex subunit 7A; signaling protein; 3.80A {Homo sapiens} PDB: 4d18_G
+Probab=100.00  E-value=5.1e-44  Score=312.43  Aligned_cols=218  Identities=60%  Similarity=0.981  Sum_probs=0.0
+
+Q ss_pred             CCCCCCcchhHHHHHHHHhcCCCHHHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHH
+Q Fri_Dec_23_02:    1 MAGEQKPSSNLLEQFILLAKGTSGSALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIA   80 (264)
+Q Consensus         1 ~~~~~~~~~~~le~~~~la~~~~~~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~   80 (264)
+                      |+|+++.+.++||||++++++++++++.++|.+||.+|++|+|+|||.+|+|++|.++++.+|++|+++|.+|++.+|.+
+T Consensus         5 ~~~~~~~~~~~le~~~~~~~~~~~~~a~~li~~al~~p~~~~f~eLl~~p~v~~L~~~~~~~~~~Ll~~f~~g~l~~~~~   84 (222)
+T 4d10_G            5 MSAEVKVTGQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRELAESDFASTFRLLTVFAYGTYADYLA   84 (222)
+T ss_dssp             -------CCHHHHHHHHHHTTCCHHHHHHHHHHHTTSTTCCCCHHHHTCHHHHTTTTSTTHHHHHHHHHHHTCCHHHHHH
+T ss_pred             ccccchhhhhHHHHHHHHhhcCCHHHHHHHHHHHHcCCCeEeHHHHHCChhHHHhcCCCchHHHHHHHHHHcCCHHHHHH
+
+
+Q ss_pred             hHHhChhHHHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCC
+Q Fri_Dec_23_02:   81 NKESLPELSTAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGR  160 (264)
+Q Consensus        81 ~~~~~~~L~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~R  160 (264)
+                      +...+|.+.+.+..|+|+++|++|++.|++|+|++|++.|++++++++|.+|++||+.|+|+|+|||.+++|+|.++.+|
+T Consensus        85 ~~~~~~~l~~~l~~klr~l~l~~l~~~~~~I~~~~ia~~L~l~~~~evE~ll~~~I~~g~i~gkIDq~~~~v~v~~~~~r  164 (222)
+T 4d10_G           85 EARNLPPLTEAQKNKLRHLSVVTLAAKVKCIPYAVLLEALALRNVRQLEDLVIEAVYADVLRGSLDQRNQRLEVDYSIGR  164 (222)
+T ss_dssp             TTTTSCCCCHHHHHHHHHHHHHHHHHHCSEEEHHHHHHHHTCSSHHHHHHHHHHHHHTTSEEEEEETTTTEEEEEEECCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhhcCCcCHHHHHHHhCcCCHHHHHHHHHHHHHcCCcEEEEcCCCCEEEEeeccCC
+
+
+Q ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  161 DIRKKDINNIVKTLHEWCDGCEAVLLGIEQQVLRANQYKENHNRTQQQVEAEVTNIKK  218 (264)
+Q Consensus       161 d~~~~~~~~l~~~L~~W~~~~~~vl~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  218 (264)
+                      ++++++|..+.+.|..|+.+|..++..|+..+..++++++.+.++++++++++++++|
+T Consensus       165 ~~~~~~~~~l~~~L~~W~~~v~~l~~~l~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~  222 (222)
+T 4d10_G          165 DIQRQDLSAIARTLQEWCVGCEVVLSGIEEQVSRANQHKEQQLGLKQQIESEVANLKK  222 (222)
+T ss_dssp             CCCSSTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSSCC---
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhC
+
+
+No 2  
+>3chm_A COP9 signalosome complex subunit 7; heat/ARM repeats, winged helix motif, developmental protein, phosphoprotein; 1.50A {Arabidopsis thaliana}
+Probab=100.00  E-value=8.9e-38  Score=262.49  Aligned_cols=165  Identities=40%  Similarity=0.696  Sum_probs=0.0
+
+Q ss_pred             CCcchhHHHHHHHHhcCCCHHHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHh
+Q Fri_Dec_23_02:    5 QKPSSNLLEQFILLAKGTSGSALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKES   84 (264)
+Q Consensus         5 ~~~~~~~le~~~~la~~~~~~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~   84 (264)
+                      ..++.+.||||+++|++++++++.++|.+||.+|++|+|||||.+|+|++|+++++.+|++|+++|.+||+.+|.+....
+T Consensus         4 ~~~~~~~le~~~~~~~~~~~~~a~~~i~~al~~p~~~~F~eLl~~p~v~~L~~~~~~~~~~Ll~af~~g~~~~~~~~~~~   83 (169)
+T 3chm_A            4 EQKQAEIIDQLVKRASTCKSEALGPLIIEATSHPSLFAFSEILALPNVAQLEGTTDSVYLDLLRLFAHGTWGDYKCNATR   83 (169)
+T ss_dssp             CCCHHHHHHHHHHHHTTSCGGGHHHHHHHHHHCTTCCCCHHHHTCHHHHTTTTSTTHHHHHHHHHHHHCCHHHHHHHGGG
+T ss_pred             hhhhHHHHHHHHHHhhcCCHHHHHHHHHHHHcCCCeEeHHHHHCChHHHHhcCCCchHHHHHHHHHHcCCHHHHHHHHHH
+
+
+Q ss_pred             ChhHHHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHH-HHHHCCCcEEEEeCCCCEEEEEeecCCCCC
+Q Fri_Dec_23_02:   85 LPELSTAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLII-EAVYTDIIQGKLDQRNQLLEVDFCIGRDIR  163 (264)
+Q Consensus        85 ~~~L~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII-~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~  163 (264)
+                      +|+|.+.+..|||++++++|+.++++|+|++|++.|+++++++||.||+ +||+.|+|+|+|||.+++|+|.++.+|+|+
+T Consensus        84 ~~~L~~~~~~klr~l~l~~l~~~~~~is~~~Ia~~L~l~~~~evE~lvi~~aI~~glI~gkIDq~~~~v~v~~~~~R~~~  163 (169)
+T 3chm_A           84 LPHLSPDQILKLKQLTVLTLAESNKVLPYDTLMVELDVSNVRELEDFLINECMYAGIVRGKLDQLKRCFEVPFAAGRDLR  163 (169)
+T ss_dssp             SCCCCHHHHHHHHHHHHHHHHHHCSEEEHHHHHHHHTCCSHHHHHHHCCCCCCHHTSEEEEEETTTTEEEEEEECCTTCC
+T ss_pred             HHHhHHHHHHHHHHHHHHHHhccCCcccHHHHHHHcCCCCHHHHHHHHHHHHHHcCCeEEEEcCCCCEEEEeeccCCCCC
+
+
+Q ss_pred             HHHHHH
+Q Fri_Dec_23_02:  164 KKDINN  169 (264)
+Q Consensus       164 ~~~~~~  169 (264)
+                      +++|..
+T Consensus       164 ~~qi~~  169 (169)
+T 3chm_A          164 PGQLGN  169 (169)
+T ss_dssp             C-----
+T ss_pred             HhhcCC
+
+
+No 3  
+>5t0g_a 26S proteasome non-ATPase regulatory subunit 13; ubiquitin-proteasome system, AAA-ATPase, hydrolase; HET: ATP; 4.40A {Homo sapiens} PDB: 5l4k_O 5gjq_O* 5t0h_a* 5t0i_a* 5t0j_a*
+Probab=99.92  E-value=4.4e-25  Score=206.01  Aligned_cols=185  Identities=18%  Similarity=0.305  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHhcCCC------HHHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHH
+Q Fri_Dec_23_02:   10 NLLEQFILLAKGTS------GSALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKE   83 (264)
+Q Consensus        10 ~~le~~~~la~~~~------~~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~   83 (264)
+                      ..+..|+..+.+..      ...+..+|..+|.+|++|+||+|+.+|.++.+.+++..++++|+++|.+|++.+|.+...
+T Consensus       174 ~~l~~~l~~~~~~~l~~~~~~~~~~~~i~~~Ll~~~~~~f~~ll~~p~~~~l~~~~~~~~~~Ll~af~~g~l~~f~~~l~  253 (376)
+T 5t0g_a          174 KDALRFLGCVDIKDLPVSEQQERAFTLGLAGLLGEGVFNFGELLMHPVLESLRNTDRQWLIDTLYAFNSGNVERFQTLKT  253 (376)
+T ss_dssp             HHHHHHHHHCSCCCSCHHHHHHHHHHHHHHHHHCSSCSCCTTGGGCHHHHHHHHHSCHHHHHHHHHHHTCCCCTTHHHHH
+T ss_pred             HHHHHHHhhCCcccCChHHHHHHHHHHHHHHhCCCCCccHHHHhCChHHHHhccCCcHHHHHHHHHHHCCCHHHHHHHHh
+
+
+Q ss_pred             ---hChhH---HHHHHHHHHHHHHHHHH----hcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEE
+Q Fri_Dec_23_02:   84 ---SLPEL---STAQQNKLKHLTIVSLA----SRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLE  153 (264)
+Q Consensus        84 ---~~~~L---~~~~~~KLr~LtL~sLa----~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~  153 (264)
+                         ..|.+   ...+.+|+|.+++++++    .+|++|+|++|++.|+++. +++|.+|++||+.|+|+|+|||.+++|+
+T Consensus       254 ~~~~d~~l~~~~~~l~~klr~l~l~~l~~~~~~~y~~isl~~ia~~l~l~~-~evE~~l~~~I~~g~i~g~IDq~~~~v~  332 (376)
+T 5t0g_a          254 AWGQQPDLAANEAQLLRKIQLLCLMEMTFTRPANHRQLTFEEIAKSAKITV-NEVELLVMKALSVGLVKGSIDEVDKRVH  332 (376)
+T ss_dssp             HHHCCTTTTTTHHHHHHHHHHHHHHHHHHHSCCSCCEECHHHHHHHSCCCG-GGHHHHHHHHHHHTSCCCCBCBSSCCEE
+T ss_pred             hhccCchhhhhHHHHHHHHHHHHHHHHHhhcCCCCCcCcHHHHHHHhCcCH-HHHHHHHHHHHHcCCeEEEEcccCCEEE
+
+
+Q ss_pred             EEeecCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  154 VDFCIGRDIRKKDINNIVKTLHEWCDGCEAVLLGIEQQVLRA  195 (264)
+Q Consensus       154 v~~~~~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l~~~~~~~  195 (264)
+                      |.+..+|++++++|..+.+.|..|++++..+.+.++..+..+
+T Consensus       333 ~~~~~~r~~~~~~~~~l~~~L~~W~~~v~~~~~~~~~~~~~i  374 (376)
+T 5t0g_a          333 MTWVQPRVLDLQQIKGMKDRLEFWCTDVKSMEMLVEHQAHDI  374 (376)
+T ss_dssp             CCSCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSTT
+T ss_pred             EeeccCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 4  
+>2mr3_A 26S proteasome regulatory subunit RPN9; hydrolase; NMR {Saccharomyces cerevisiae S288C} PDB: 3jck_F 4cr2_O 4cr3_O 4cr4_O 5a5b_O* 2mri_A 3j47_O
+Probab=99.89  E-value=4.4e-23  Score=192.67  Aligned_cols=185  Identities=19%  Similarity=0.314  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHhcCCC-------HHHHHHHHHHHHhCCCeeeHHHHHhcHHHHHH-hcCCCHHHHHHHHHHHhCCHHHHHHh
+Q Fri_Dec_23_02:   10 NLLEQFILLAKGTS-------GSALTALISQVLEAPGVYVFGELLELANVQEL-AEGANAAYLQLLNLFAYGTYPDYIAN   81 (264)
+Q Consensus        10 ~~le~~~~la~~~~-------~~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l-~~~~~~~~~~LL~lF~~G~~~dy~~~   81 (264)
+                      ..+..|+.......       ..++..+|..+|.+|++|.|++|+..|.++.+ .+++..+|++++++|..|++.+|.+.
+T Consensus       190 ~~~~~~l~~~~~~~~l~~~~~~~~l~~~il~~Ll~~~~~~~~~ll~~~~~~~l~~~~~~~~~~~ll~af~~g~~~~f~~~  269 (393)
+T 2mr3_A          190 YTSLLYLSTLEPSTSITLAERQQLAYDLSISALLGDKIYNFGELLHHPIMETIVNDSNYDWLFQLLNALTVGDFDKFDSL  269 (393)
+T ss_dssp             HHHHHHHHHCSSCTTCCHHHHHHHHHHHHHHHHTCTTCCCCHHHHHSGGGGGGGGTCTTHHHHHHHHHHHHTCHHHHHHH
+T ss_pred             HHHHHHHhcCCcccccChhHHHHHHHHHHHHHHCCCCCccHHHHHcChHHHHhhcCCchHHHHHHHHHHhCCCHHHHHHH
+
+
+Q ss_pred             HH----hChhH---HHHHHHHHHHHHHHHHHhc--CCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEE
+Q Fri_Dec_23_02:   82 KE----SLPEL---STAQQNKLKHLTIVSLASR--MKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLL  152 (264)
+Q Consensus        82 ~~----~~~~L---~~~~~~KLr~LtL~sLa~~--~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v  152 (264)
+                      ..    ..|.|   ...+.+|+|.+++++++.+  |++|+|++|++.|+++. +++|.+|++||..|.|+|+|||.+++|
+T Consensus       270 l~~~~~~d~~l~~~~~~l~~klr~~~l~~l~~~~~y~~i~l~~ia~~l~l~~-~evE~~l~~~I~~g~i~g~IDq~~~~v  348 (393)
+T 2mr3_A          270 IKVQISKIPILAQHESFLRQKICLMTLIETVFVKNIRMLSFEDISKATHLPK-DNVEHLVMRAISLGLLKGSIDQVNELV  348 (393)
+T ss_dssp             CCCCCHHCHHHHHTHHHHHHHHHHHHHHHHHHHTTCSEEEHHHHHHHHCCCT-TTHHHHHHHHHHHTSCCCEEEGGGTEE
+T ss_pred             HHhhhccCchhhhhHHHHHHHHHHHHHHHHHhhccCCCccHHHHHHHhCcCH-HHHHHHHHHHHHcCCeEEEEcCCCCEE
+
+
+Q ss_pred             EEEeecCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  153 EVDFCIGRDIRKKDINNIVKTLHEWCDGCEAVLLGIEQQVLRA  195 (264)
+Q Consensus       153 ~v~~~~~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l~~~~~~~  195 (264)
+                      +|.+..+|++++++|..+.+.|..|+.++..++..++.....+
+T Consensus       349 ~~~~~~~r~~~~~~~~~l~~~L~~W~~~v~~~~~~l~~~~~~i  391 (393)
+T 2mr3_A          349 TISWVQPRIISGDQITKMKDRLVEWNDQVEKLGKKMEARGQSI  391 (393)
+T ss_dssp             ECCCCCCC-----------------------------------
+T ss_pred             EEEeeeCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 5  
+>5a5t_M Eukaryotic translation initiation factor 3 subuni; hydrolase, EIF3, eukaryotic initiation factor 3, preinitiati complex, PCI/MPN core; 6.00A {Oryctolagus cuniculus} PDB: 3j8b_M 3j8c_M
+Probab=99.86  E-value=6.5e-23  Score=190.82  Aligned_cols=166  Identities=21%  Similarity=0.347  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhChhH-------HHHHHHHH
+Q Fri_Dec_23_02:   24 GSALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESLPEL-------STAQQNKL   96 (264)
+Q Consensus        24 ~~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~~~L-------~~~~~~KL   96 (264)
+                      ...+..+|..+|..|++|.|++|+..|.++.+..   ++|++|+++|.+|++.+|.+....++.+       ...+.+|+
+T Consensus       201 ~~~~~~~i~~~L~~~~~~~~~~ll~~~~~~~l~~---~~~~~ll~~f~~g~~~~~~~~l~~~~~~~~d~~l~~~~l~~kl  277 (374)
+T 5a5t_M          201 RVDAHRCIVRALKDPNAFLFDHLLTLKPVKFLEG---ELIHDLLTIFVSAKLASYVKFYQNNKDFIDSLGLLHEQNMAKM  277 (374)
+T ss_dssp             HHHHHHHHHHHHHCTTSTTTHHHHHSSGGGTSCS---SSSSCHHHHHHHHHTTSHHHHHHHCCHHHHHHTTHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHcCCCccCHHHHhCChHHHHhcc---chHHHHHHHHHcCCHHHHHHHHHhCHHHHhhccCCHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      |.+++++|+.+|++|+|++|++.|+++. +++|.+|+++|+.|.|+|+|||.+++|+|.+..+|++++++|..+...|..
+T Consensus       278 r~~~l~~l~~~y~~I~l~~ia~~l~~~~-~evE~~l~~~I~~g~i~g~ID~~~~~v~~~~~~~r~~~~~~~~~l~~~L~~  356 (374)
+T 5a5t_M          278 RLLTFMGMAVENKEISFDTMQQELQIGA-DDVEAFVIDAVRTKMVYCKIDQTQRKVVVSHSTHRTFGKQQWQQLYDTLNA  356 (374)
+T ss_dssp             HHHHHHHHHHHCSSCCHHHHHHHHTSCH-HHHHHHHHHHHHHTSSCSCBCSSSSCSCSCCCSCCTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhhCCcccHHHHHHHhCcCH-HHHHHHHHHHHHcCCeEEEEcCCCCEEEEeeccCCCCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  177 WCDGCEAVLLGIEQQVL  193 (264)
+Q Consensus       177 W~~~~~~vl~~l~~~~~  193 (264)
+                      |+.++..++..++....
+T Consensus       357 W~~~v~~~~~~l~~~~~  373 (374)
+T 5a5t_M          357 WKQNLNKVKNSLLSLSD  373 (374)
+T ss_dssp             HHHHHHHHHHTTCC---
+T ss_pred             HHHHHHHHHHHHHHHhc
+
+
+No 6  
+>3txn_A 26S proteasome regulatory complex subunit P42B; PCI domain, alpha solenoid, regulatory PART LID, hydrolase, protein binding; 2.50A {Drosophila melanogaster} PDB: 3txm_A
+Probab=99.67  E-value=9.3e-16  Score=139.37  Aligned_cols=162  Identities=9%  Similarity=0.046  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhCh----------hHHHHHH
+Q Fri_Dec_23_02:   24 GSALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESLP----------ELSTAQQ   93 (264)
+Q Consensus        24 ~~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~~----------~L~~~~~   93 (264)
+                      ...+..++.-++..++...+..++..+.+..+.++..+++..++++|..|++.+|......+.          .+...+.
+T Consensus       220 ~~~l~~~~~~~ll~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~l~~~~~~~~~d~~l~~~~~~l~  299 (394)
+T 3txn_A          220 LTSLKYMLLCKIMLGQSDDVNQLVSGKLAITYSGRDIDAMKSVAEASHKRSLADFQAALKEYKKELAEDVIVQAHLGTLY  299 (394)
+T ss_dssp             HHHHHHHHHHHHHTTCGGGHHHHHHSHHHHTTCSHHHHHHHHHHHHHHTTCHHHHHHHHHHSTTTTTTSHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHcCCHHHHHHHhcChhhhhccchhHHHHHHHHHHHHcCCHHHHHHHHHHhhhhhhcCHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHH
+Q Fri_Dec_23_02:   94 NKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKT  173 (264)
+Q Consensus        94 ~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~  173 (264)
+                      .++|.+.+..++..|++|+++.|++.++++. +++|.+|+++|..|.|+|+||+.+++|.|.+..+|   +..|..+.+.
+T Consensus       300 ~~~~~~~l~~l~~~y~~i~l~~la~~l~~~~-~~ve~~l~~~I~~g~i~~~Id~~~~~v~~~~~~~~---~~~~~~~~~~  375 (394)
+T 3txn_A          300 DTMLEQNLCRIIEPYSRVQVAHVAESIQLPM-PQVEKKLSQMILDKKFSGILDQGEGVLIVFEETPV---DKTYERVLET  375 (394)
+T ss_dssp             HHHHHHHHHHHHTTCSEEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSSCEEEETTTTEEEECCC----------------
+T ss_pred             HHHHHHHHHHhCcCcceeeHHHHHHHhCCCH-HHHHHHHHHHHhCCCcceEEcCCCCEEEEecCCcc---chHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  174 LHEWCDGCEAVLLGIE  189 (264)
+Q Consensus       174 L~~W~~~~~~vl~~l~  189 (264)
+                      ++.|...++.++..+.
+T Consensus       376 ~~~~~~~~~~~~~~~~  391 (394)
+T 3txn_A          376 IQSMGKVVDTLYQKAK  391 (394)
+T ss_dssp             ----------------
+T ss_pred             HHHHHHHHHHHHHHHH
+
+
+No 7  
+>3jck_B 26S proteasome regulatory subunit RPN5; deubiquitinase, RPN11, protein homeostasis, HYDR; 3.50A {Saccharomyces cerevisiae S288C} PDB: 4cr2_P 4cr3_P 4cr4_P 5a5b_P* 3j47_P
+Probab=99.56  E-value=8.1e-14  Score=130.44  Aligned_cols=163  Identities=15%  Similarity=0.173  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhc----CCCHHHHHHHHHHHhC------CHHH-HHHhHHhChhH-----
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAE----GANAAYLQLLNLFAYG------TYPD-YIANKESLPEL-----   88 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~----~~~~~~~~LL~lF~~G------~~~d-y~~~~~~~~~L-----   88 (264)
+                      ..+..+|..++..|..+...+|+     +.+..    ...++|..|+.+|..|      ++.. |......++..     
+T Consensus       259 ~~l~~~vl~~ll~~~~~~~~~ll-----~~l~~~~~~~~~~~~~~l~~af~~~~l~~~~~~~~~~~~~l~~~~~~~~~~~  333 (445)
+T 3jck_B          259 PVLSHIVYFLVLSPYGNLQNDLI-----HKIQNDNNLKKLESQESLVKLFTTNELMRWPIVQKTYEPVLNEDDLAFGGEA  333 (445)
+T ss_dssp             HHHHHHHHHHHHSCSSHHHHHHH-----HHHHHCGGGGTCSHHHHHHHHHHSCSCCCHHHHHHHHHHHHHHCTTTSCSSS
+T ss_pred             HHHHHHHHHHHcCCCchhHHHHH-----HHHHhccccccCchHHHHHHHhcccccCCcHHHHHHHHHHHhccccccccch
+
+
+Q ss_pred             ----HHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCH
+Q Fri_Dec_23_02:   89 ----STAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRK  164 (264)
+Q Consensus        89 ----~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~  164 (264)
+                          .+.+...++...|..++..|++|+++.|++.|+++. ++||.+|++||..|.|.|+||+.+++|.|.+..+|    
+T Consensus       334 ~~~~~~~l~~~~~~~~l~~~~~~y~~I~l~~ia~~l~~~~-~evE~~l~~~I~~g~i~~~ID~~~~~v~~~~~~~~----  408 (445)
+T 3jck_B          334 NKHHWEDLQKRVIEHNLRVISEYYSRITLLRLNELLDLTE-SQTETYISDLVNQGIIYAKVNRPAKIVNFEKPKNS----  408 (445)
+T ss_dssp             STTHHHHHHHHHHHHHHHHHHHHEEEEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSSCCEEETTTTEEECCCCCCH----
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcceeHHHHHHHHCCCH-HHHHHHHHHHHHcCCeEEEEcCCCCEEEeCCCCCc----
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  165 KDINNIVKTLHEWCDGCEAVLLGIEQQVLRANQYKENHN  203 (264)
+Q Consensus       165 ~~~~~l~~~L~~W~~~~~~vl~~l~~~~~~~~~~~~~~~  203 (264)
+                            .+.|..|..++..+++.++.....+.++...+.
+T Consensus       409 ------~~~l~~W~~~i~~~~~~v~~~~~~i~~e~~~~~  441 (445)
+T 3jck_B          409 ------SQLLNEWSHNVDELLEHIETIGHLITKEEIMHG  441 (445)
+T ss_dssp             ------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             ------hHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 8  
+>5t0g_Y 26S proteasome non-ATPase regulatory subunit 6; ubiquitin-proteasome system, AAA-ATPase, hydrolase; HET: ATP; 4.40A {Homo sapiens} PDB: 5l4k_R 5gjq_R* 5t0h_Y* 5t0i_Y* 5t0j_Y*
+Probab=99.55  E-value=5.3e-14  Score=131.14  Aligned_cols=160  Identities=9%  Similarity=0.058  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHH-HHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhC----------hhHHHHHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFG-ELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESL----------PELSTAQQ   93 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~-eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~----------~~L~~~~~   93 (264)
+                      ..+.-++..++..++.+.+. .++..|.+..+.+ ..+++.+++++|..|++.+|.+....+          ......+.
+T Consensus       218 ~~a~y~vl~al~~~~r~~l~~~l~~~~~~~~~l~-~~~~~~~ll~af~~~~~~~~~~~l~~~~~~~~~d~~l~~~~~~l~  296 (389)
+T 5t0g_Y          218 TFVTYTVYVSMIALERPDLREKVIKGAEILEVLH-SLPAVRQYLFSLYECRYSVFFQSLAVVEQEMKKDWLFAPHYRYYV  296 (389)
+T ss_dssp             HHHHHHHHHHTTSSCHHHHHHHHTTCSHHHHHHH-HCHHHHHHHHHHHHTCSSHHHHHHHHHHHHHHHSSSHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHcCCHHHHHHHHhCCHHHHHHHh-cCHHHHHHHHHHHhcCHHHHHHHHHHHHHHHHhChHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHH
+Q Fri_Dec_23_02:   94 NKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKT  173 (264)
+Q Consensus        94 ~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~  173 (264)
+                      .++|.+.+.+++..|++|+++.|++.|+++. +++|.+|+++|..|.|+|+||+.+++|.|.+..+|   ......+.+.
+T Consensus       297 ~~ir~~~l~~~~~~y~~Isl~~la~~l~l~~-~~vE~~l~~~I~~g~i~a~ID~~~~~v~~~~~~~r---~~~~~~~i~~  372 (389)
+T 5t0g_Y          297 REMRIHAYSQLLESYRSLTLGYMAEAFGVGV-EFIDQELSRFIAAGRLHCKIDKVNEIVETNRPDSK---NWQYQETIKK  372 (389)
+T ss_dssp             HHHHHHHHHHHHTTBSEECHHHHHHHHSSCS-SHHHHHHHHHHHTTSSCCEEETTTTEEECCCCTTT---HHHHHHHHHH
+T ss_pred             HHHHHHHHHHhCCCceEeeHHHHHHHhCCCH-HHHHHHHHHHHHcCCeeEEEeCCCCEEEEcCCCch---hHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  174 LHEWCDGCEAVLLGIE  189 (264)
+Q Consensus       174 L~~W~~~~~~vl~~l~  189 (264)
+                      +..+..++..+...|+
+T Consensus       373 ~~~l~~r~~~l~~~~~  388 (389)
+T 5t0g_Y          373 GDLLLNRVQKLSRVIN  388 (389)
+T ss_dssp             HHHHHHHHHHHHHHSC
+T ss_pred             HHHHHHHHHHHHhhhc
+
+
+No 9  
+>4d10_B COP9 signalosome complex subunit 2; signaling protein; 3.80A {Homo sapiens} PDB: 4d18_B
+Probab=99.53  E-value=1.2e-13  Score=129.49  Aligned_cols=127  Identities=17%  Similarity=0.289  Sum_probs=0.0
+
+Q ss_pred             CCCHHHHHHHHHHHhCCHHHHHHhHHhCh----------hHHHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHH
+Q Fri_Dec_23_02:   58 GANAAYLQLLNLFAYGTYPDYIANKESLP----------ELSTAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRE  127 (264)
+Q Consensus        58 ~~~~~~~~LL~lF~~G~~~dy~~~~~~~~----------~L~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~e  127 (264)
+                      +...++.+|+.+|..|++..|......+.          .....+..++|.++|++++.+|++|+++.|++.|+++. ++
+T Consensus       310 p~~~~~~~l~~a~~~~~~~~~~~~l~~~~~~~~~d~~l~~~~~~l~~~ir~~~l~~l~~~y~~i~l~~la~~l~~~~-~~  388 (447)
+T 4d10_B          310 PEILAMTNLVSAYQNNDITEFEKILKTNHSNIMDDPFIREHIEELLRNIRTQVLIKLIKPYTRIHIPFISKELNIDV-AD  388 (447)
+T ss_dssp             TTTHHHHHHHHHHHHTCHHHHHHHHHHTHHHHHTSHHHHTTHHHHHHHHHHHHHHHHHTTEEEEEHHHHHHHTTCCH-HH
+T ss_pred             chhHHHHHHHHHHHcCCHHHHHHHHHHhHHhhhcCHHHHHHHHHHHHHHHHHHHHHHhcccceecHHHHHHHcCcCH-HH
+
+
+Q ss_pred             HHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  128 LEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEWCDGCEAVLLGIEQQV  192 (264)
+Q Consensus       128 lE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l~~~~  192 (264)
+                      ||.+|+++|..|.|.|+||+.+++|.|.+..   ..    ..+...|..|..++..+...|+.++
+T Consensus       389 vE~~l~~~I~~g~i~~~ID~~~~~v~~~~~~---~~----~~~~~~l~~w~~~i~~~~~~~~~~~  446 (447)
+T 4d10_B          389 VESLLVQCILDNTIHGRIDQVNQLLELDHQK---RG----GARYTALDKWTNQLNSLNQAVVSKL  446 (447)
+T ss_dssp             HHHHHHHHHHTTSSCEEEETTTTEEEESCCC---CC----HHHHHHHHHHHHHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHCCCccEEEeCCCCEEEEeccc---cc----HHHHHHHHHHHHHHHHHHHHHHhhc
+
+
+No 10 
+>5t0g_W 26S proteasome non-ATPase regulatory subunit 12; ubiquitin-proteasome system, AAA-ATPase, hydrolase; HET: ATP; 4.40A {Homo sapiens} PDB: 5l4k_P 5gjq_P* 5t0h_W* 5t0i_W* 5t0j_W*
+Probab=99.52  E-value=2.5e-13  Score=126.94  Aligned_cols=164  Identities=16%  Similarity=0.177  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhc---CCCHHHHHHHHHHHhCCHHHHHHhHHhC----------------
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAE---GANAAYLQLLNLFAYGTYPDYIANKESL----------------   85 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~---~~~~~~~~LL~lF~~G~~~dy~~~~~~~----------------   85 (264)
+                      ..+..+|..+|.+|..+...+|+.    .-..+   ...+++.+|+++|..|++..|..+...+                
+T Consensus       265 ~~l~~~v~~~ll~~~~~~~~~ll~----~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~d~  340 (456)
+T 5t0g_W          265 QALKSVVLYVILAPFDNEQSDLVH----RISGDKKLEEIPKYKDLLKLFTTMELMRWSTLVEDYGMELRKGSLESPATDV  340 (456)
+T ss_dssp             HHHHHHHTHHHHSCCCHHHHHHHH----HHTTCTTGGGSSHHHHHHHHHTTCCCCCHHHHHHHHTGGGTCCSCCHHHHHH
+T ss_pred             HHHHHHHHHHHhCCCchhHHHHHH----HHHhccccccChHHHHHHHHHHHhccCCchHHHHHHHHHHhccccccccccc
+
+
+Q ss_pred             -------hhHHHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec
+Q Fri_Dec_23_02:   86 -------PELSTAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI  158 (264)
+Q Consensus        86 -------~~L~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~  158 (264)
+                             ......+..+++...|..++..|++|+|+.|++.|+++. +++|.+|+++|..|.|+|+||+.+++|.|.+..
+T Consensus       341 f~~~~~~~~~~~~l~~~~~~~~l~~~~~~y~~i~l~~ia~~l~~~~-~~vE~~l~~~I~~g~i~~~ID~~~~~v~~~~~~  419 (456)
+T 5t0g_W          341 FGSTEEGEKRWKDLKNRVVEHNIRIMAKYYTRITMKRMAQLLDLSV-DESEAFLSNLVVNKTIFAKVDRLAGIINFQRPK  419 (456)
+T ss_dssp             TTSHHHHHHHHHHHHHHHHHHHHHHHHHHCSCEEHHHHHHHHTSCH-HHHHHHHHHHHHTTSSCEEECSSSCEEEECCCC
+T ss_pred             ccccchHHHHHHHHHHHHHHHHHHHHHHHcCeeeHHHHHHHHCcCH-HHHHHHHHHHHhCCCceEEEeCCCCEEEEecCC
+
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 GRDIRKKDINNIVKTLHEWCDGCEAVLLGIEQQVLRANQYKENHN  203 (264)
+Q Consensus       159 ~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l~~~~~~~~~~~~~~~  203 (264)
+                      +|          .+.|..|..++..++..++.....+.++...+.
+T Consensus       420 ~~----------~~~l~~w~~~i~~~~~~~~~~~~~i~~e~~~~~  454 (456)
+T 5t0g_W          420 DP----------NNLLNDWSQKLNSLMSLVNKTTHLIAKEEMIHN  454 (456)
+T ss_dssp             CC----------SHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             Cc----------hHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHhh
+
+
+No 11 
+>3jck_C 26S proteasome regulatory subunit RPN6; deubiquitinase, RPN11, protein homeostasis, HYDR; 3.50A {Saccharomyces cerevisiae S288C} PDB: 4cr2_Q 4cr3_Q 4cr4_Q 5a5b_Q* 3j47_Q
+Probab=99.47  E-value=9.2e-13  Score=123.52  Aligned_cols=122  Identities=13%  Similarity=0.168  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCHHHHHHhHHhC-------hhH---HHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHH
+Q Fri_Dec_23_02:   61 AAYLQLLNLFAYGTYPDYIANKESL-------PEL---STAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELED  130 (264)
+Q Consensus        61 ~~~~~LL~lF~~G~~~dy~~~~~~~-------~~L---~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~  130 (264)
+                      .++..|+.+|..|++..|......+       +.+   ...+..++|...|+.++.+|++|++++|++.|+++ ++++|.
+T Consensus       297 ~~~~~l~~a~~~~~~~~f~~~l~~~~~~~~~d~~l~~~~~~l~~~i~~~~l~~l~~~y~~i~l~~ia~~l~~~-~~~vE~  375 (434)
+T 3jck_C          297 DAMKAVAEAYNNRSLLDFNTALKQYEKELMGDELTRSHFNALYDTLLESNLCKIIEPFECVEISHISKIIGLD-TQQVEG  375 (434)
+T ss_dssp             HHHHHHHHHHHHTCHHHHHHTTTTTHHHHTTCHHHHHHHHHHHHHHHHHHHHHHHTTEESCCHHHHHHHHTSC-HHHHHH
+T ss_pred             HHHHHHHHHHHhcCHHHHHHHHHHHHHHHhcCHHHHHHHHHHHHHHHHHHHHHhCcCceeeeHHHHHHHhCcC-HHHHHH
+
+
+Q ss_pred             HHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  131 LIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEWCDGCEAVLL  186 (264)
+Q Consensus       131 lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W~~~~~~vl~  186 (264)
+                      +|..+|..|.|+|+||+.+++|.|.+..+|   .+.+..+.+.|..|...++.+..
+T Consensus       376 ~l~~~I~~g~i~~~ID~~~~~v~~~~~~~~---~~~~~~~~~~l~~w~~~v~~l~~  428 (434)
+T 3jck_C          376 KLSQMILDKIFYGVLDQGNGWLYVYETPNQ---DATYDSALELVGQLNKVVDQLFE  428 (434)
+T ss_dssp             HHHHHHHTTSSCEEEETTTTEEEECSSCCB---CHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHcCCeeEEEeCCCCEEEEcCCCcc---hhHHHHHHHHHHHHHHHHHHHHH
+
+
+No 12 
+>4d10_C COP9 signalosome complex subunit 3; signaling protein; 3.80A {Homo sapiens} PDB: 4d18_C
+Probab=99.45  E-value=5.6e-13  Score=125.78  Aligned_cols=169  Identities=12%  Similarity=0.101  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhC---------hhHHHHHHHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESL---------PELSTAQQNK   95 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~---------~~L~~~~~~K   95 (264)
+                      .+...+|..++..++.+.+.+.+..|.+...-.+...+|..|+++|..|++.+|.+..+.+         ..+...+..+
+T Consensus       222 ~~~k~~il~~LL~~~~~~~~~~l~~~~~~~~l~~~~~~y~~L~~af~~g~l~~f~~~l~~~~~~~~~d~~~~~~~~l~~~  301 (423)
+T 4d10_C          222 ESYKKYILVSLILLGKVQQLPKYTSQIVGRFIKPLSNAYHELAQVYSTNNPSELRNLVNKHSETFTRDNNMGLVKQCLSS  301 (423)
+T ss_dssp             HHHHHHHHHHHHHSSSCCCCCTTSCHHCCCCCHHHTHHHHHHHHHHTTTCHHHHHHHHHHSHHHHHHTTCTTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHcCCCCCCcccccHHHHHHHHhccHHHHHHHHHHhcCCHHHHHHHHHHhHHHHhhCCcHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHH
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLH  175 (264)
+Q Consensus        96 Lr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~  175 (264)
+                      ++...+..++..|++|+|++|++.++++..+++|.+|++||..|.|+|+||+.+++|.|.+..+..-+.+....+...+.
+T Consensus       302 i~~~~l~~l~~~y~~Isl~~ia~~l~l~~~~evE~~l~~~I~~g~I~g~ID~~~~~v~~~~~~~~~~~~~~~~~~~~~i~  381 (423)
+T 4d10_C          302 LYKKNIQRLTKTFLTLSLQDMASRVQLSGPQEAEKYVLHMIEDGEIFASINQKDGMVSFHDNPEKYNNPAMLHNIDQEML  381 (423)
+T ss_dssp             HHHHHHHTTTTTEEEEEHHHHHHHHTCSSHHHHHHHHHHHHHTTSCCEEEETTTTEEEECCCCCCSCSHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhheeeHHHHHHHhCCCCHHHHHHHHHHHHHcCCeeEEEeCCCCEEEECCCccccccHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  176 EWCDGCEAVLLGIEQQVLR  194 (264)
+Q Consensus       176 ~W~~~~~~vl~~l~~~~~~  194 (264)
+                       .+..+.+.+..++..+..
+T Consensus       382 -~~~~l~~~~~~~~~~l~~  399 (423)
+T 4d10_C          382 -KCIELDERLKAMDQEITV  399 (423)
+T ss_dssp             -HHHHHHHHHHHHHHHHHH
+T ss_pred             -HHHHHHHHHHHHHHHHhc
+
+
+No 13 
+>5t0g_V 26S proteasome non-ATPase regulatory subunit 3; ubiquitin-proteasome system, AAA-ATPase, hydrolase; HET: ATP; 4.40A {Homo sapiens} PDB: 5t0h_V* 5t0i_V* 5t0j_V* 5gjq_S* 5l4k_S
+Probab=99.43  E-value=2.4e-13  Score=132.79  Aligned_cols=169  Identities=11%  Similarity=0.108  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHh---------ChhHHHHHHHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKES---------LPELSTAQQNK   95 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~---------~~~L~~~~~~K   95 (264)
+                      .++..+|.-+|.. +.+.+.+++..|.+..    ...+|..|+++|..|++..|......         +..+...+...
+T Consensus       326 ~~lk~lIl~aLL~-g~~p~~~ll~~~~l~~----~l~~y~~Ll~af~~gdl~~f~~~l~~~~~~l~~d~~~~ll~klr~~  400 (533)
+T 5t0g_V          326 TVHKLLIVVELLL-GEIPDRLQFRQPSLKR----SLMPYFLLTQAVRTGNLAKFNQVLDQFGEKFQADGTYTLIIRLRHN  400 (533)
+T ss_dssp             HHHHHHHHHHHHH-SCCCCGGGGCCHHHHH----HHHHHHHHHHHHHSSCHHHHHHHHHHHHHHHHHHTTHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHc-CCCCChhhhhhhhHHH----hHHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHHcCcHhHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhcCCcccHHHHHHHcCCC-CHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCC-------------
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRMKCIPYSVLLKDLEMR-NLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRD-------------  161 (264)
+Q Consensus        96 Lr~LtL~sLa~~~~~I~y~~I~~~L~i~-~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd-------------  161 (264)
+                      +....|..++..|++|+|++|++.|+++ . +++|.+|++||..|.|+|+||+.+++|. .+..+|.             
+T Consensus       401 v~~~~i~~i~~~Ys~Isl~~Ia~~L~l~~~-~evE~~l~~mI~~G~I~g~IDq~~~~V~-f~~~~~~~~~~e~~~~~~~~  478 (533)
+T 5t0g_V          401 VIKTGVRMISLSYSRISLADIAQKLQLDSP-EDAEFIVAKAIRDGVIEASINHEKGYVQ-SKEMIDIYSTREPQLAFHQR  478 (533)
+T ss_dssp             HHHHHHHHHHHHCSEECHHHHTTTTTCCSS-HHHHHHHHHHHHTTSCCCCEETTTTEEE-CCCCCSSGGGHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhcceeeHHHHHHHhCCCCH-HHHHHHHHHHHHcCCeEEEEECCCCEEE-ECCCcccccchhHHHHHHHH
+
+
+Q ss_pred             ------CCHHHHHHHHHHHHHHHHHHHHHHHHHH---HHHHHHHHHHH
+Q Fri_Dec_23_02:  162 ------IRKKDINNIVKTLHEWCDGCEAVLLGIE---QQVLRANQYKE  200 (264)
+Q Consensus       162 ------~~~~~~~~l~~~L~~W~~~~~~vl~~l~---~~~~~~~~~~~  200 (264)
+                            +..++|..|...|..|+..+..+.+..+   .....+....+
+T Consensus       479 I~~~~~L~~~~v~~m~~~l~~w~~~~~~~~~~~~~~~~~~~~~~~~~~  526 (533)
+T 5t0g_V          479 ISFCLDIHNMSVKAMRFPPKSYNKDLESAEERREREQQDLEFAKEMAE  526 (533)
+T ss_dssp             HHHHHHHHHHHHHHHSCC------------------------------
+T ss_pred             HHHHHHHHHHHHHHHhchhhccccccccHHHHHHHHHHHHHHHHHHhh
+
+
+No 14 
+>3jck_D 26S proteasome regulatory subunit RPN7; deubiquitinase, RPN11, protein homeostasis, HYDR; 3.50A {Saccharomyces cerevisiae S288C} PDB: 4cr2_R 4cr3_R 4cr4_R 5a5b_R* 3j47_R
+Probab=99.43  E-value=1.1e-12  Score=124.16  Aligned_cols=160  Identities=10%  Similarity=0.036  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHH-HHHhcHHHHHHhcCCCH---HHHHHHHHHHhCCHHHHHHhHHhCh-----------hHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFG-ELLELANVQELAEGANA---AYLQLLNLFAYGTYPDYIANKESLP-----------ELS   89 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~-eLL~lp~v~~l~~~~~~---~~~~LL~lF~~G~~~dy~~~~~~~~-----------~L~   89 (264)
+                      ..+.-++..++..++...+. .++..|.+....+ ..+   ++.+|+.+|..|++..|......+.           ...
+T Consensus       248 ~~a~y~vl~aLl~~~r~~l~~~l~~~~~~~~~l~-~~pe~~~~~~ll~af~~~d~~~f~~~L~~~~~~~~~~d~~l~~~~  326 (429)
+T 3jck_D          248 SIATYASVTGLFTLERTDLKSKVIDSPELLSLIS-TTAALQSISSLTISLYASDYASYFPYLLETYANVLIPCKYLNRHA  326 (429)
+T ss_dssp             HHHHHHHHHHHHHCCHHHHCCCCCSCTTHHHHGG-GSSSHHHHHHHHHHHHTTCHHHHHHHHHHHCCCCCTTCTTTGGGH
+T ss_pred             HHHHHHHHHHHHcCCHHHHHHHhhCcHHHHHHHh-cCCcHHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHhhChhHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHH
+Q Fri_Dec_23_02:   90 TAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINN  169 (264)
+Q Consensus        90 ~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~  169 (264)
+                      ..+..++|.+.+..++..|++|+++.|++.|+++. +++|.+|.++|..|.|+|+||+.+++|.|.+..+|   ......
+T Consensus       327 ~~l~~~ir~~~l~~l~~~y~~Isl~~la~~l~l~~-~evE~~l~~mI~~g~I~a~ID~~~~~v~~~~~~~r---~~~~~~  402 (429)
+T 3jck_D          327 DFFVREMRRKVYAQLLESYKTLSLKSMASAFGVSV-AFLDNDLGKFIPNKQLNCVIDRVNGIVETNRPDNK---NAQYHL  402 (429)
+T ss_dssp             HHHHHHHHHHHHHHHHTTEEEEEHHHHHHHHTCCH-HHHHHHHHHHGGGTSSCEEEETTTTEEEECCSCBH---HHHHHH
+T ss_pred             HHHHHHHHHHHHHHhCCCccEeeHHHHHHHhCCCH-HHHHHHHHHHHHCCCceEEEeCCCCEEEeCCCCcc---hHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  170 IVKTLHEWCDGCEAVLLGIE  189 (264)
+Q Consensus       170 l~~~L~~W~~~~~~vl~~l~  189 (264)
+                      +.+....+..++..+...++
+T Consensus       403 ~~~~~~~l~~r~q~l~~~~~  422 (429)
+T 3jck_D          403 LVKQGDGLLTKLQKYGAAVR  422 (429)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhc
+
+
+No 15 
+>4d10_A COP9 signalosome complex subunit 1; signaling protein; 3.80A {Homo sapiens} PDB: 4d18_A
+Probab=99.40  E-value=9.7e-12  Score=119.49  Aligned_cols=163  Identities=11%  Similarity=0.081  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHh----cHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHh----------ChhHHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLE----LANVQELAEGANAAYLQLLNLFAYGTYPDYIANKES----------LPELST   90 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~----lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~----------~~~L~~   90 (264)
+                      ..+.-++..+|..+.   ..+|+.    .|.+..+.+. .+++.+++++|..|+|.+|.+....          +.....
+T Consensus       277 ~~~~y~vl~aLl~~~---r~~l~~~l~~~~~~~~~l~~-~p~~~~ll~af~~~d~~~~~~~L~~~~~~l~~D~~L~~~~~  352 (480)
+T 4d10_A          277 NVAIYGGLCALATFD---RQELQRNVISSSSFKLFLEL-EPQVRDIIFKFYESKYASCLKMLDEMKDNLLLDMYLAPHVR  352 (480)
+T ss_dssp             HHHHHHHHHHHHHCC---HHHHCCCCCSCHHHHHHHHH-CHHHHHHHHHHHTTCHHHHHHHHHHHHHHHTTCTTTGGGHH
+T ss_pred             HHHHHHHHHHHHhCC---HHHHHHHHhCCHHHHHHHcc-HHHHHHHHHHHHcCCHHHHHHHHHHHHHHHhcCHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHH
+Q Fri_Dec_23_02:   91 AQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNI  170 (264)
+Q Consensus        91 ~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l  170 (264)
+                      .+..++|.+.+..++..|++|+++.|++.|+++. +++|.+|+++|..|.|+|+||+.+++|.|.+..+|   ......+
+T Consensus       353 ~l~~~ir~~~l~~~~~~y~~Isl~~lA~~l~l~~-~evE~~l~~mI~~g~l~akIDq~~g~V~~~~~~~r---~~~~~~~  428 (480)
+T 4d10_A          353 TLYTQIRNRALIQYFSPYVSADMHRMAAAFNTTV-AALEDELTQLILEGLISARVDSHSKILYARDVDQR---STTFEKS  428 (480)
+T ss_dssp             HHHHHHHHHHHHHHHTTEEEEEHHHHHHHTTSCH-HHHHHHHHHHHHTSSCCEEEETTTTEEEECCCCHH---HHHHHHH
+T ss_pred             HHHHHHHHHHHHHHccCceeeeHHHHHHHhCCCH-HHHHHHHHHHHHcCCeeEEEECCCCEEEEecCccc---chHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  171 VKTLHEWCDGCEAVLLGIEQQVLRA  195 (264)
+Q Consensus       171 ~~~L~~W~~~~~~vl~~l~~~~~~~  195 (264)
+                      .+.+..|...+..+..........+
+T Consensus       429 l~~~~~~~~~~~~L~~r~~~l~~~l  453 (480)
+T 4d10_A          429 LLMGKEFQRRAKAMMLRAAVLRNQI  453 (480)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhcCe
+
+
+No 16 
+>3jck_A 26S proteasome regulatory subunit RPN3; deubiquitinase, RPN11, protein homeostasis, HYDR; 3.50A {Saccharomyces cerevisiae S288C} PDB: 3j47_S
+Probab=99.34  E-value=3.3e-11  Score=114.86  Aligned_cols=157  Identities=11%  Similarity=0.102  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhC---------hhHHHHHHHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESL---------PELSTAQQNK   95 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~---------~~L~~~~~~K   95 (264)
+                      .+...+|.-+|..+. +.+..++..|.+..    ...+|..|+++|..|++..|.+....+         ..+...+...
+T Consensus       227 ~alk~lil~aLL~g~-~p~~~~l~~~~~~~----~l~~y~~Ll~af~~gdl~~f~~~l~~~~~~~~~D~~~~lv~kL~~~  301 (438)
+T 3jck_A          227 QSNKLHCCIQLLMGD-IPELSFFHQSNMQK----SLLPYYHLTKAVKLGDLKKFTSTITKYKQLLLKDDTYQLCVRLRSN  301 (438)
+T ss_dssp             HHHHHHHHHHHHTTC-CCCHHHHSSSGGGG----TSHHHHHHHHHHHHTCHHHHHHHHHHHHHHHHSSTHHHHHTTTHHH
+T ss_pred             HHHHHHHHHHHhCCC-CCChHhhhChhhHH----hHHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHhCCcHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHH
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLH  175 (264)
+Q Consensus        96 Lr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~  175 (264)
+                      ++...+..++..|++|+|++|++.|++++++++|.+|++||..|.|+|+||+.+++|. ....++.+...+.      +.
+T Consensus       302 v~~~~i~~i~~~Ys~Isl~~Ia~~L~l~~~eevE~~l~~mI~~G~I~a~IDq~~~~V~-f~~~~~~y~~~~~------~~  374 (438)
+T 3jck_A          302 VIKTGIRIISLTYKKISLRDICLKLNLDSEQTVEYMVSRAIRDGVIEAKINHEDGFIE-TTELLNIYDSEDP------QQ  374 (438)
+T ss_dssp             HHHHHHHHHHHTCSEEEHHHHHHHTCCSCHHHHHHHHHHHHHTTSSCEEEETTTTEEE-ECCCCCCTTSSHH------HH
+T ss_pred             HHHHHHHHHHHhcceeeHHHHHHHhcCCCHHHHHHHHHHHHHcCceEEEEECCCCEEE-ecCCcccccchhH------HH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  176 EWCDGCEAVLLGIEQQVL  193 (264)
+Q Consensus       176 ~W~~~~~~vl~~l~~~~~  193 (264)
+                      .|..++..++...++.+.
+T Consensus       375 ~~~~~i~~~~~l~~~~v~  392 (438)
+T 3jck_A          375 VFDERIKFANQLHDEYLV  392 (438)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+
+
+No 17 
+>4d10_D COP9 signalosome complex subunit 4; signaling protein; 3.80A {Homo sapiens} PDB: 4d18_D
+Probab=99.33  E-value=9.7e-12  Score=116.83  Aligned_cols=166  Identities=13%  Similarity=0.152  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcC---CCHHHHHHHHHHHh-----CCHHHHHHhHHhC--hhH---HHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAEG---ANAAYLQLLNLFAY-----GTYPDYIANKESL--PEL---STA   91 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~---~~~~~~~LL~lF~~-----G~~~dy~~~~~~~--~~L---~~~   91 (264)
+                      ..+..+|..++.+|..+.+.+|+...    +.++   ..++|..|..+|..     |++..|......+  +.+   ...
+T Consensus       228 ~~lk~~vl~~lL~~~~~~r~~Ll~~l----~~~~~~~~~~~~~~L~~~f~~~~~~~~~l~~f~~~L~~~~~~~~~~~~~~  303 (410)
+T 4d10_D          228 EALKHALHCTILASAGQQRSRMLATL----FKDERCQQLAAYGILEKMYLDRIIRGNQLQEFAAMLMPHQKATTADGSSI  303 (410)
+T ss_dssp             HHHHHHHHHHHHSCSSHHHHHHHHHH----HHCGGGGGSTTHHHHHHHHTTCCCCHHHHHHHHHTSCGGGGCBCSSSSBH
+T ss_pred             HHHHHHHHHHHhcCCCchHHHHHHHH----HcCcchhcchhHHHHHHHHHHhhcChHHHHHHHHHHHhhhhhhhhchHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHH
+Q Fri_Dec_23_02:   92 QQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIV  171 (264)
+Q Consensus        92 ~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~  171 (264)
+                      +...++...|..++..|++|++++|++.|+++. +++|.+|.+||..|.|+|+||+.+++|.|.+..             
+T Consensus       304 L~~~v~~~~l~~~~~~Y~~Isl~~la~~l~l~~-~evE~~l~~mI~~g~I~a~ID~~~~~v~f~~~~-------------  369 (410)
+T 4d10_D          304 LDRAVIEHNLLSASKLYNNITFEELGALLEIPA-AKAEKIASQMITEGRMNGFIDQIDGIVHFETRE-------------  369 (410)
+T ss_dssp             HHHHHHHHHHHHHHTTEEEEEHHHHHHHHTSCH-HHHHHHHHHHHHHTSSCEEEETTTTEEEECCCC-------------
+T ss_pred             HHHHHHHHHHHHHhhccceeeHHHHHHHhCcCH-HHHHHHHHHHHHcCCeeEEEcCCCCEEEEcCcc-------------
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  172 KTLHEWCDGCEAVLLGIEQQVLRANQYKENHNRTQQQV  209 (264)
+Q Consensus       172 ~~L~~W~~~~~~vl~~l~~~~~~~~~~~~~~~~~~~~~  209 (264)
+                       .+..|..++..++..++.....+.++.-.........
+T Consensus       370 -~l~~w~~~i~~l~~~~~~~~~~i~~~~~~~~~~~~~~  406 (410)
+T 4d10_D          370 -ALPTWDKQIQSLCFQVNNLLEKISQTAPEWTAQAMEA  406 (410)
+T ss_dssp             -SHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHH
+T ss_pred             -hHHHHHHHHHHHHHHHHHHHHHHHHhChHHHHHhhcc
+
+
+No 18 
+>3t5x_A PCI domain-containing protein 2; PCI, mRNA nuclear export, transcription; 2.12A {Homo sapiens}
+Probab=99.25  E-value=1.5e-11  Score=104.01  Aligned_cols=97  Identities=14%  Similarity=0.172  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhCCHHHHHHhHHhChhH-----HHHHHHHHHHHHHHHHHhc----C--CcccHHHHHHHcCC------CC
+Q Fri_Dec_23_02:   62 AYLQLLNLFAYGTYPDYIANKESLPEL-----STAQQNKLKHLTIVSLASR----M--KCIPYSVLLKDLEM------RN  124 (264)
+Q Consensus        62 ~~~~LL~lF~~G~~~dy~~~~~~~~~L-----~~~~~~KLr~LtL~sLa~~----~--~~I~y~~I~~~L~i------~~  124 (264)
+                      +|.+|+++|..|++.+|.+..+.+...     ...++.++|.+.+.+++..    +  ++|+|++|++.+++      +.
+T Consensus        82 ~~~~l~~a~~~g~~~~~~~~l~~~~~~~~~~~~~~l~~~lr~~~~~~l~~~~~~~y~~~~i~l~~ia~~l~~~~~~~~~~  161 (203)
+T 3t5x_A           82 QFAEVTRAVSEGNLLLLHEALAKHEAFFIRCGIFLILEKLKIITYRNLFKKVYLLLKTHQLSLDAFLVALKFMQVEDVDI  161 (203)
+T ss_dssp             GGHHHHHHHHHTCHHHHHHHHHHTHHHHHHHTCHHHHHTHHHHHHHHHHHHHHHHHCCSEEEHHHHHHHHHHTTCTTCCH
+T ss_pred             HHHHHHHHHHccCHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHHHHHhCCCCccHHHHHHHHHHcCCCCCCH
+
+
+Q ss_pred             HHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecC
+Q Fri_Dec_23_02:  125 LRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIG  159 (264)
+Q Consensus       125 ~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~  159 (264)
+                       +++|.+|+++|..|.|+|+||+.+++|.|.+..+
+T Consensus       162 -~evE~~l~~lI~~g~i~g~Id~~~~~v~~~~~~p  195 (203)
+T 3t5x_A          162 -DEVQCILANLIYMGHVKGYISHQHQKLVVSKQNP  195 (203)
+T ss_dssp             -HHHHHHHHHHHHHTSSCEEEETTTTEEEECSSCS
+T ss_pred             -HHHHHHHHHHHHcCCceEEEecCccEEEEeCCCC
+
+
+No 19 
+>5a5t_E Eukaryotic translation initiation factor 3 subuni; hydrolase, EIF3, eukaryotic initiation factor 3, preinitiati complex, PCI/MPN core; 6.00A {Oryctolagus cuniculus} PDB: 3j8b_E 3j8c_E
+Probab=99.17  E-value=1.1e-10  Score=111.06  Aligned_cols=125  Identities=10%  Similarity=0.124  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCHHHHHHhHHhCh----------hHHHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHH
+Q Fri_Dec_23_02:   61 AAYLQLLNLFAYGTYPDYIANKESLP----------ELSTAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELED  130 (264)
+Q Consensus        61 ~~~~~LL~lF~~G~~~dy~~~~~~~~----------~L~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~  130 (264)
+                      +.+..++.+|..|++..|.+....+.          .....+..++|.+.+..++.+|++|+++.|++.|+++. +++|.
+T Consensus       291 p~~~~l~~~~~~~d~~~f~~~L~~~~~~l~~D~~l~~~~~~l~~~ir~~~l~~l~~~y~~I~l~~ia~~l~~~~-~evE~  369 (445)
+T 5a5t_E          291 PITEFVECLYVNFDFDGAQKKLRECESVLVNDFFLVACLEDFIENARLFIFETFCRIHQCISINMLADKLNMTP-EEAER  369 (445)
+T ss_dssp             HHHHHHHHHHHHTCSSSHHHHHHHHHHHHTTCCSCCSCHHHHHHHHHHHHHHHHHTTBSEEEHHHHHHHHTCCH-HHHHH
+T ss_pred             hHHHHHHHHHHhcCHHHHHHHHHHHHHHHhcCccHHHHHHHHHHHHHHHHHHHHhhhhccccHHHHHHHHCcCH-HHHHH
+
+
+Q ss_pred             HHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  131 LIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEWCDGCEAVLLGIEQQ  191 (264)
+Q Consensus       131 lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l~~~  191 (264)
+                      +|.++|..|.|+|+||+.+++|.|.+.....     +....+.+..+..+++.+...|...
+T Consensus       370 ~l~~lI~~g~i~a~ID~~~~~v~~~~~~~~~-----~~~~~~~~~~l~~r~~~l~~~i~~~  425 (445)
+T 5a5t_E          370 WIVNLIRNARLDAKIDSKLGHVVMGNNAVSP-----YQQVIEKTKSLSFRSQMLAMNIEKK  425 (445)
+T ss_dssp             HHHHHHHTTSCCCEECTTTCEEECCCCCCCC-----HHHHHHHHHHHHHHHHHHHTTC---
+T ss_pred             HHHHHHHcCCceEEEecCCCEEEECCCCCcH-----HHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 20 
+>4cr2_S RPN3, 26S proteasome regulatory subunit RPN3; hydrolase, AAA-ATPase, ATP-analog, classification; 7.70A {Saccharomyces cerevisiae} PDB: 4cr3_S 4cr4_S 5a5b_S*
+Probab=99.12  E-value=2.4e-10  Score=111.39  Aligned_cols=160  Identities=10%  Similarity=0.094  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhC---------hhHHHHHHHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESL---------PELSTAQQNK   95 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~---------~~L~~~~~~K   95 (264)
+                      .++..+|.-+|..+.+.....+.....-..+     .+|..|+.+|..|++..|......+         ..+...+...
+T Consensus       312 ~~lk~lil~aLL~g~~p~~~~l~~~~~~~~l-----~~y~~Ll~af~~gdl~~f~~~L~~~~~~l~~D~~~~lv~kL~~~  386 (523)
+T 4cr2_S          312 QSNKLHCCIQLLMGDIPELSFFHQSNMQKSL-----LPYYHLTKAVKLGDLKKFTSTITKYKQLLLKDDTYQLCVRLRSN  386 (523)
+T ss_dssp             HHHHHHHHHHHHHSCCCCTTSGGGSSCHHHH-----HHHHHHHHHHHHCCHHHHHHHHHHTHHHHHHHTCTTHHHHHHHH
+T ss_pred             HHHHHHHHHHHhCCCCCCHHHHhCchhhhhH-----HHHHHHHHHHHhCCHHHHHHHHHHHHHHHHHCCcHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHH
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLH  175 (264)
+Q Consensus        96 Lr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~  175 (264)
+                      ++...+..++..|++|+|++|++.|+++..+++|.+|+++|..|.|+|+||+.+++|. .+..++.....+.      +.
+T Consensus       387 v~~~~i~~i~~~Ys~IsL~~IA~~L~ls~~eevE~~L~~lI~~G~I~a~IDq~~~~V~-f~~~~~~y~~~e~------~~  459 (523)
+T 4cr2_S          387 VIKTGIRIISLTYKKISLRDICLKLNLDSEQTVEYMVSRAIRDGVIEAKINHEDGFIE-TTELLNIYDSEDP------QQ  459 (523)
+T ss_dssp             HHHHHHHHSCCCSSEEEHHHHHHHHHHHCSSCHHHHHHHHHHHTSCCEEEETTTTEEE-ECCSSSCCCSSHH------HH
+T ss_pred             HHHHHHHHHhhhcceeeHHHHHHHhcCCCHHHHHHHHHHHHHcCeeEEEEeCCCCEEE-ecCCCccccchHH------HH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  176 EWCDGCEAVLLGIEQQVLRAN  196 (264)
+Q Consensus       176 ~W~~~~~~vl~~l~~~~~~~~  196 (264)
+                      .|..++..++...++.+..++
+T Consensus       460 ~~~~~i~~~~~L~n~~v~~m~  480 (523)
+T 4cr2_S          460 VFDERIKFANQLHDEYLVSMR  480 (523)
+T ss_dssp             HHHHHHHHHHHHHHHHHHC--
+T ss_pred             HHHHHHHHHHHHHHHHHHHhc
+
+
+No 21 
+>4d0p_A COP9 signalosome complex subunit 4; signaling protein, PCI; HET: EDO; 1.60A {Homo sapiens}
+Probab=99.11  E-value=2.4e-10  Score=106.52  Aligned_cols=127  Identities=15%  Similarity=0.147  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhc---CCCHHHHHHHHHHHh-----CCHHHHHHhHHhC-----hhHHHH
+Q Fri_Dec_23_02:   25 SALTALISQVLEAPGVYVFGELLELANVQELAE---GANAAYLQLLNLFAY-----GTYPDYIANKESL-----PELSTA   91 (264)
+Q Consensus        25 ~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~---~~~~~~~~LL~lF~~-----G~~~dy~~~~~~~-----~~L~~~   91 (264)
+                      .+...+|..++.+|..+.+++|+..    -+.+   ...++|..|+.+|..     |++..|......+     ......
+T Consensus       248 ~~l~~~vl~~lL~~~~~~~~~ll~~----~~~~~~l~~~~~~~~L~~~f~~~~~~~~~l~~f~~~L~~~~~~~~~~~~~~  323 (387)
+T 4d0p_A          248 EALKHALHCTILASAGQQRSRMLAT----LFKDERCQQLAAYGILEKMYLDRIIRGNQLQEFAAMLMPHQKATTADGSSI  323 (387)
+T ss_dssp             HHHHHHHHHHHHSCSSHHHHHHHHH----HHHCGGGGGSTTHHHHHHHHTTCCCCGGGGHHHHHTSCGGGGCBCTTSCBH
+T ss_pred             HHHHHHHHHHHcCCCChhHHHHHHH----HHhCcccccchHHHHHHHHHHHhhcCHHHHHHHHHHHHhchhhhhcchhHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEe
+Q Fri_Dec_23_02:   92 QQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDF  156 (264)
+Q Consensus        92 ~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~  156 (264)
+                      +..++|...|+.++..|++|++++|++.|+++. +++|.+|++||..|.|+|+|||.+++|.|..
+T Consensus       324 L~~~i~~~~l~~l~~~y~~Isl~~ia~~l~l~~-~evE~~l~~mI~~g~i~g~IDq~~~~v~f~~  387 (387)
+T 4d0p_A          324 LDRAVIEHNLLSASKLYNNITFEELGALLEIPA-AKAEKIASQMITEGRMNGFIDQIDGIVHFET  387 (387)
+T ss_dssp             HHHHHHHHHHHHHHHHCSEEEHHHHHHHHTSCH-HHHHHHHHHHHHTTSSCEEEETTTTEEEEC-
+T ss_pred             HHHHHHHHHHHHHhhccccccHHHHHHHcCCCH-HHHHHHHHHHHHcCCeEEEEcCCCCEEeeCC
+
+
+No 22 
+>1ufm_A COP9 complex subunit 4; helix-turn-helix, structural genomics, riken structural genomics/proteomics initiative, RSGI, signaling protein; NMR {Mus musculus} SCOP: a.4.5.47 l.1.1.1 l.1.1.1
+Probab=99.03  E-value=9.2e-10  Score=81.24  Aligned_cols=65  Identities=14%  Similarity=0.175  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecC
+Q Fri_Dec_23_02:   94 NKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIG  159 (264)
+Q Consensus        94 ~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~  159 (264)
+                      .++|...|..++..|++|++++|++.|+++. +++|.+|++||..|.|.|+||+.+++|.|.+...
+T Consensus        14 ~~i~~~~l~~~~~~Y~~isl~~la~~l~~~~-~~vE~~l~~~I~~g~l~a~ID~~~~~v~f~~~~~   78 (84)
+T 1ufm_A           14 RAVIEHNLLSASKLYNNITFEELGALLEIPA-AKAEKIASQMITEGRMNGFIDQIDGIVHFETREA   78 (84)
+T ss_dssp             HHHHHHHHHHHHHSCSEEEHHHHHHHTTSCH-HHHHHHHHHHHHTTSSCEEEETTTTEEEECCSSC
+T ss_pred             HHHHHHHHHHHHHHcCeeeHHHHHHHHCcCH-HHHHHHHHHHHHcCCeEEEEECCCCEEEEccCCC
+
+
+No 23 
+>3t5v_B Nuclear mRNA export protein THP1; PCI, mRNA nuclear export, mRNA, nuclear, transcription; 2.90A {Saccharomyces cerevisiae} PDB: 4trq_B
+Probab=98.88  E-value=1.8e-08  Score=96.39  Aligned_cols=128  Identities=16%  Similarity=0.131  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhChhH-----HHHHH-HHHHHH
+Q Fri_Dec_23_02:   26 ALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESLPEL-----STAQQ-NKLKHL   99 (264)
+Q Consensus        26 ~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~~~L-----~~~~~-~KLr~L   99 (264)
+                      .+.-+|.-.+....+..| +++..+....+.    .+|..|+++|..|++..|.+..+.+...     +..++ .|+|.+
+T Consensus       267 iL~yLI~~~lL~g~~p~~-~ll~~~~~~~L~----~~y~~L~~a~~~Gdl~~f~~~L~~~~~~f~~~~~~~ll~~rlr~~  341 (455)
+T 3t5v_B          267 ILNYMIPTGLILGKMVKW-GPLRPFLSQETI----DNWSVLYKHVRYGNIQGVSLWLRQNERHLCARQLLIVLLEKLPMV  341 (455)
+T ss_dssp             HHHHHHHHHHHTTCCBCH-HHHGGGSCHHHH----HHHHHHHHHHHHTCHHHHHHHHHHTHHHHHHTTCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhcCCCCCH-HHHhccccccHH----HHHHHHHHHHHcCCHHHHHHHHHHHHHHHHHCCcHHHHHHHhHHH
+
+
+Q ss_pred             HHHHHHh----------cCCcccHHHHHHHcCC---------------------CCHHHHHHHHHHHHHCCCcEEEEeCC
+Q Fri_Dec_23_02:  100 TIVSLAS----------RMKCIPYSVLLKDLEM---------------------RNLRELEDLIIEAVYTDIIQGKLDQR  148 (264)
+Q Consensus       100 tL~sLa~----------~~~~I~y~~I~~~L~i---------------------~~~~elE~lII~aI~~glI~gkIDq~  148 (264)
+                      .+.++..          ++++|++++|+..+++                     +. +++|.+|..||..|.|+|+||+.
+T Consensus       342 ~~r~lir~l~k~~~~~~~~~~I~l~~ia~~l~l~~~~~~~~~~~~~~~~~~~~~~~-~evE~~l~~lI~~G~I~G~Id~~  420 (455)
+T 3t5v_B          342 TYRNLIKTVIKSWTTEWGQNKLPYSLIERVLQLSIGPTFEDPGAQEITIYNGIHSP-KNVENVLVTLINLGLLRANCFPQ  420 (455)
+T ss_dssp             HHHHHHHHHHCCCCCCTCCCEEEHHHHHHHHHHHHCCCTTSTTCCCCCTTTSSCCS-SCHHHHHHHHHHHTSCCEEEETT
+T ss_pred             HHHHHHHhhhhheeecCCCCeeEHHHHHHHHHHHhcccccCCcccccccccCCCCH-HHHHHHHHHHHHCCCceEEEecC
+
+
+Q ss_pred             CCEEEEEee----cC
+Q Fri_Dec_23_02:  149 NQLLEVDFC----IG  159 (264)
+Q Consensus       149 ~~~v~v~~~----~~  159 (264)
+                      +++|.|...    .+
+T Consensus       421 ~~~lv~sk~~~~~~~  435 (455)
+T 3t5v_B          421 LQLCVVKKTTMIQEI  435 (455)
+T ss_dssp             TTEEEECCCSCGGGT
+T ss_pred             CcEEEEeCCCcccCC
+
+
+No 24 
+>4lct_A COP9 signalosome complex subunit 1; signaling protein; 2.70A {Arabidopsis thaliana}
+Probab=97.45  E-value=0.00027  Score=64.56  Aligned_cols=78  Identities=12%  Similarity=0.158  Sum_probs=0.0
+
+Q ss_pred             CHHHHHHHHHHHhCCHHHHHHhHHh----------ChhHHHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHH
+Q Fri_Dec_23_02:   60 NAAYLQLLNLFAYGTYPDYIANKES----------LPELSTAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELE  129 (264)
+Q Consensus        60 ~~~~~~LL~lF~~G~~~dy~~~~~~----------~~~L~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE  129 (264)
+                      .+.+.+++.+|..+++.+|......          +......+...+|...+..++.+|++|+++.|++.|+++. +++|
+T Consensus       261 ~p~~~~l~~a~~~~~~~~~~~~L~~~~~~l~~D~~l~~~~~~l~~~ir~~~i~~~~~~Y~~I~l~~la~~l~l~~-~~~E  339 (348)
+T 4lct_A          261 VPDVRELINDFYSSRYASCLEYLASLKSNLLLDIHLHDHVDTLYDQIRKKALIQYTLPFVSVDLSRMADAFKTSV-SGLE  339 (348)
+T ss_dssp             CHHHHHHHHHHHTTCHHHHHHHHHHHHHHHHTCTTTGGGHHHHHHHHHHHHHHHHHCC----------------------
+T ss_pred             CHHHHHHHHHHHhCcHHHHHHHHHHHHHHHhcChhhhhhHHHHHHHHHHHHHHHHhccchhccHHHHHHHhCCCH-HHHH
+
+
+Q ss_pred             HHHHHHHHC
+Q Fri_Dec_23_02:  130 DLIIEAVYT  138 (264)
+Q Consensus       130 ~lII~aI~~  138 (264)
+                      .+|.++|.+
+T Consensus       340 ~~l~~lI~d  348 (348)
+T 4lct_A          340 KELEALITD  348 (348)
+T ss_dssp             ---------
+T ss_pred             HHHHHHHhC
+
+
+No 25 
+>5a5t_C Eukaryotic translation initiation factor 3 subuni; hydrolase, EIF3, eukaryotic initiation factor 3, preinitiati complex, PCI/MPN core; 6.00A {Oryctolagus cuniculus} PDB: 3j8b_C 3j8c_C
+Probab=97.04  E-value=0.0056  Score=62.93  Aligned_cols=143  Identities=14%  Similarity=0.146  Sum_probs=0.0
+
+Q ss_pred             eHHHHHhcHHHHHHhcCC---CHHHHHHHHHHHhCCHHHHHHhHH----h------Chh---HHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   42 VFGELLELANVQELAEGA---NAAYLQLLNLFAYGTYPDYIANKE----S------LPE---LSTAQQNKLKHLTIVSLA  105 (264)
+Q Consensus        42 ~F~eLL~lp~v~~l~~~~---~~~~~~LL~lF~~G~~~dy~~~~~----~------~~~---L~~~~~~KLr~LtL~sLa  105 (264)
+                      .|--+|+.-.-+.+.++|   -.-+..-..++..|||.....++.    +      +|.   ...-+..|++.-+|.+++
+T Consensus       643 ~f~r~l~~~erq~f~gpPe~~Rd~v~aA~kal~~Gdw~~~~~~i~~~~~~~~vW~l~p~~~~v~~~l~~kikeeaLrtyl  722 (843)
+T 5a5t_C          643 QFHHQLRVGERQPLLGPPESMREHVVAASKAMKMGDWKTCHSFIINEKMNGKVWDLFPEADKVRTMLVRKIQEESLRTYL  722 (843)
+T ss_dssp             SHHHHHHHHHTCTTCCSCCSHHHHHHHHHHHHHHTCHHHHHHHHHHHHHHTTCSTTCTTHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhcccCcccCCCCchHHHHHHHHHHHHhCCHHHHHHHHhcccccchHHHhCCCHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             hc----CCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  106 SR----MKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEWCDGC  181 (264)
+Q Consensus       106 ~~----~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W~~~~  181 (264)
+                      ++    |.+|+++.|+..++++. ..|-.+|-.||..+-|.|.+|+.+++|.|+.+.+-.+ ..-.-.+.+.+..-..+.
+T Consensus       723 fty~~~y~s~S~~~La~~F~L~~-~~V~siiskmi~~~el~As~D~~~~~i~~~~~e~t~l-Q~la~~l~ek~~~l~e~n  800 (843)
+T 5a5t_C          723 FTYSSVYDSISMETLSDMFELDL-PTVHSIISKMIINEELMASLDQPTQTVVMHRTEPTAQ-QNLALQLAEKLGSLVENN  800 (843)
+T ss_dssp             HHHTTTCSEEEHHHHHHHTTCCH-HHHHHHHHHHHHHHTCCCEEETTTTEEECCCCCSHHH-HHHHHHHHHHHHHHHHHH
+T ss_pred             HHcccccccCCHHHHHHHcCCCH-HHHHHHHHHHHhcCCcceeeeCCCCeEEEeCCCCCHH-HHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHH
+Q Fri_Dec_23_02:  182 EAVLL  186 (264)
+Q Consensus       182 ~~vl~  186 (264)
+                      +.+++
+T Consensus       801 Er~~~  805 (843)
+T 5a5t_C          801 ERVFD  805 (843)
+T ss_dssp             HHHHH
+T ss_pred             HHHHh
+
+
+No 26 
+>4u1c_C Eukaryotic translation initiation factor 3 subuni; EIF3 complex, PCI-domains; 3.50A {Saccharomyces cerevisiae}
+Probab=96.63  E-value=0.01  Score=58.45  Aligned_cols=129  Identities=10%  Similarity=0.132  Sum_probs=0.0
+
+Q ss_pred             eHHHHHhcHHHHHHhcCC---CHHHHHHHHHHHhCCHHHHHHhHHh------Chh---HHHHHHHHHHHHHHHHHHhc--
+Q Fri_Dec_23_02:   42 VFGELLELANVQELAEGA---NAAYLQLLNLFAYGTYPDYIANKES------LPE---LSTAQQNKLKHLTIVSLASR--  107 (264)
+Q Consensus        42 ~F~eLL~lp~v~~l~~~~---~~~~~~LL~lF~~G~~~dy~~~~~~------~~~---L~~~~~~KLr~LtL~sLa~~--  107 (264)
+                      .|--+|+.-.-+.+.++|   -.-...-..++..|||.....++.+      +|.   ..+-+..|++.-+|.+++.+  
+T Consensus       406 ~frr~l~~~erq~f~gpPE~~Rd~v~aA~kaL~~Gdw~~~~~~i~~i~iW~l~p~~~~v~~ml~~kikeeaLrtylfty~  485 (567)
+T 4u1c_C          406 SIRRSLEHYDKLSFQGPPETLRDYVLFAAKSMQKGNWRDSVKYLREIKSWALLPNMETVLNSLTERVQVESLKTYFFSFK  485 (567)
+T ss_dssp             CHHHHHHHHHTCSCCCSCCSHHHHHHHHHHHHHHTCHHHHHHHHHTCGGGGGCTTHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHhhccCcccCCCCchHHHHHHHHHHHHcCCHHHHHHHHhcccHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHcc
+
+
+Q ss_pred             --CCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEE-EeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  108 --MKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEV-DFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus       108 --~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v-~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                        |.+++.+.|++.++++. .+|-.+|-+||..+-+.|.+|+.+++|.| +.     ..+..+..+.-.|.+
+T Consensus       486 ~~y~slS~~~La~~F~L~~-~~V~siiskmI~~~el~As~D~~~~~i~~~~~-----~e~t~LQ~la~~l~e  551 (567)
+T 4u1c_C          486 RFYSSFSVAKLAELFDLPE-NKVVEVLQSVIAELEIPAKLNDEKTIFVVEKG-----DEITKLEEAMVKLNK  551 (567)
+T ss_dssp             TTBSEEEHHHHHHHHTCCH-HHHHHHHHHHHHHHTCSCEEETTTTEEECCSC-----CSHHHHHHHHHHC--
+T ss_pred             cccccCCHHHHHHHcCCCH-HHHHHHHHHHHhcCccceEEeCCCCEEEEecC-----CCCCHHHHHHHHHHH
+
+
+No 27 
+>1wi9_A Protein C20ORF116 homolog; helix-turn-helix motif, structural genomics, riken structural genomics/proteomics initiative, RSGI, unknown function; NMR {Mus musculus} SCOP: a.4.5.47 l.1.1.1 l.1.1.1
+Probab=96.47  E-value=0.006  Score=43.84  Aligned_cols=54  Identities=13%  Similarity=0.300  Sum_probs=0.0
+
+Q ss_pred             HHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEE
+Q Fri_Dec_23_02:  101 IVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVD  155 (264)
+Q Consensus       101 L~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~  155 (264)
+                      ++++.+..+.+++++||..+++.. .++-+-|-++...|.|.|.||...+.|+++
+T Consensus        12 fi~yIk~~kvV~ledLA~~f~L~t-~~~i~RI~~L~~~G~ltGv~DdrGkfIyis   65 (72)
+T 1wi9_A           12 FINYIKKSKVVLLEDLAFQMGLRT-QDAINRIQDLLTEGTLTGVIDDRGKFIYIT   65 (72)
+T ss_dssp             HHHHHHHCSEECHHHHHHHHCSCH-HHHHHHHHHHHHHSSSCEEECTTCCEEECC
+T ss_pred             HHHHHHHcCeeeHHHHHHHcCCcH-HHHHHHHHHHHHCCCeEEEEcCCCCEEEec
+
+
+No 28 
+>1rz4_A Eukaryotic translation initiation factor 3 subuni; heat analogous motif, winged-helix, biosynthetic protein; 2.10A {Homo sapiens} SCOP: a.4.5.53 a.118.1.18 PDB: 5a5t_K 3j8b_K 3j8c_K
+Probab=96.37  E-value=0.056  Score=46.70  Aligned_cols=126  Identities=10%  Similarity=0.038  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHhcCCCHHHHHHHHHHHHhCCCeeeHHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhChhH-
+Q Fri_Dec_23_02:   10 NLLEQFILLAKGTSGSALTALISQVLEAPGVYVFGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESLPEL-   88 (264)
+Q Consensus        10 ~~le~~~~la~~~~~~~~~~lI~~al~~p~vy~F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~~~L-   88 (264)
+                      ..|..|-..-.+...+.+.-.+..+|.....-.|.-.+.+=.-....+........|-.++..|+|..|.+.....|.+ 
+T Consensus        49 a~Lklyy~~~~~~~~e~~~~~LL~~L~~~~~~df~~~l~lLp~~~~~~~~i~~~~~L~~~L~~g~y~~f~~~~~~~~~~~  128 (226)
+T 1rz4_A           49 AVLKLYQFNPAFFQTTVTAQILLKALTNLPHTDFTLCKCMIDQAHQEERPIRQILYLGDLLETCHFQAFWQALDENMDLL  128 (226)
+T ss_dssp             HHHHHHHHSGGGCCHHHHHHHHHHHHHTTTSTHHHHHHHTSCHHHHTSTTHHHHHHHHHHHHTTCHHHHHHHSCTTCHHH
+T ss_pred             HHHHHhccCccccCHhHHHHHHHHHHhcCCHHHHHHHHHhCCccccccHHHHHHHHHHHHHHhCCHHHHHHHhccchHHH
+
+
+Q ss_pred             --HHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHH
+Q Fri_Dec_23_02:   89 --STAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEA  135 (264)
+Q Consensus        89 --~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~a  135 (264)
+                        .+.....+|...+..+++.|++|+.+.+++.|++++.++++.++.+.
+T Consensus       129 ~~~~~f~~~iR~~i~~~i~~aY~~I~~~~l~~~Lg~~~~~el~~f~~~~  177 (226)
+T 1rz4_A          129 EGITGFEDSVRKFICHVVGITYQHIDRWLLAEMLGDLSDSQLKVWMSKY  177 (226)
+T ss_dssp             HTSTTHHHHHHHHHHHHHHHHCSEECHHHHHHHTTSCCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhCCHHHHHHHHCCCCHHHHHHHHHHc
+
+
+No 29 
+>4uer_c EIF3C; translation initiation, translation; 6.47A {Lachancea kluyveri}
+Probab=96.35  E-value=0.014  Score=59.70  Aligned_cols=129  Identities=10%  Similarity=0.132  Sum_probs=0.0
+
+Q ss_pred             eHHHHHhcHHHHHHhcCC---CHHHHHHHHHHHhCCHHHHHHhHHh------Chh---HHHHHHHHHHHHHHHHHHhc--
+Q Fri_Dec_23_02:   42 VFGELLELANVQELAEGA---NAAYLQLLNLFAYGTYPDYIANKES------LPE---LSTAQQNKLKHLTIVSLASR--  107 (264)
+Q Consensus        42 ~F~eLL~lp~v~~l~~~~---~~~~~~LL~lF~~G~~~dy~~~~~~------~~~---L~~~~~~KLr~LtL~sLa~~--  107 (264)
+                      .|--+|+.-.-+.+.++|   -.-+..-..++..|||.....++..      +|.   ..+-+..|++.-+|.+++.+  
+T Consensus       651 ~frr~l~~~erq~f~GpPE~~Rd~v~aA~kaL~~GdW~~~~~~i~~i~iW~l~p~~~~v~~ml~~kikeeaLrtylfty~  730 (812)
+T 4uer_c          651 SIRRSLEHYDKLSFQGPPETLRDYVLFAAKSMQKGNWRDSVKYLREIKSWALLPNMETVLNSLTERVQVESLKTYFFSFK  730 (812)
+T ss_dssp             CHHHHHHHHHTCSCCCSCCSHHHHHHHHHHHHHHTCHHHHHHHHHTCGGGGGCTTHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHhhccCcccCCCCchHHHHHHHHHHHHhCCHHHHHHHHhcccHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHcc
+
+
+Q ss_pred             --CCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEE-EeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  108 --MKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEV-DFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus       108 --~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v-~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                        |.+++++.|++.++++. ..|-.+|-.||..+-|.|.+||.+++|.| +.     ..+..+..+.-.|..
+T Consensus       731 ~~y~slS~~~La~~F~L~~-~~V~sivskmI~~~el~As~D~~~~~iv~~~~-----~e~trLQ~la~~l~e  796 (812)
+T 4uer_c          731 RFYSSFSVAKLAELFDLPE-NKVVEVLQSVIAELEIPAKLNDEKTIFVVEKG-----DEITKLEEAMVKLNK  796 (812)
+T ss_dssp             TTEEEEEHHHHHHHHTCCH-HHHHHHHHHHHHHHTCSCEEETTTTEEECCSC-----CSHHHHHHHHHHC--
+T ss_pred             cccccCCHHHHHHHcCCCH-HHHHHHHHHHHhcCccceEEeCCCCEEEEecC-----CCCCHHHHHHHHHHH
+
+
+No 30 
+>5a5t_A Eukaryotic translation initiation factor 3 subuni; hydrolase, EIF3, eukaryotic initiation factor 3, preinitiati complex, PCI/MPN core; 6.00A {Oryctolagus cuniculus} PDB: 3j8b_A 3j8c_A
+Probab=96.29  E-value=0.15  Score=55.22  Aligned_cols=179  Identities=12%  Similarity=0.103  Sum_probs=0.0
+
+Q ss_pred             HHHHHhcHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHh-------------ChhHHHHHHHHHHHHHHHHHHhcCC
+Q Fri_Dec_23_02:   43 FGELLELANVQELAEGANAAYLQLLNLFAYGTYPDYIANKES-------------LPELSTAQQNKLKHLTIVSLASRMK  109 (264)
+Q Consensus        43 F~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~-------------~~~L~~~~~~KLr~LtL~sLa~~~~  109 (264)
+                      +.+++.+..++ ...++...+|++|+.. +.-+.-+..+..-             +..+++.+..-+-..-|..++..|.
+T Consensus       371 l~dl~~~~Vl~-~a~pev~~LY~lLE~~-F~PL~l~~~v~plL~~l~~~~~k~~~L~qYv~~Lq~Vil~RLlqQlSqVY~  448 (1362)
+T 5a5t_A          371 INDMVRFNVLQ-YVVPEVKDLYNWLEVE-FNPLKLCERVTKVLNWVREQPEKEPELQQYVPQLQSNTILRLLQQVAQIYQ  448 (1362)
+T ss_dssp             HHHHHHSTHHH-HSCHHHHHHHHHHHTS-CCTTTHHHHHHHHHHHTTCCSSSCHHHHHHHHHHHHHHHHHHHHHHHHHBS
+T ss_pred             HHHHHHCChhh-hcCHHHHHHHHHHHcc-cCHHHHHHHHHHHHHHHHhccccchhHHHHHHHHHHHHHHHHHHHccchhc
+
+
+Q ss_pred             cccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCC-----------------CCCHHHHHHHHH
+Q Fri_Dec_23_02:  110 CIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGR-----------------DIRKKDINNIVK  172 (264)
+Q Consensus       110 ~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~R-----------------d~~~~~~~~l~~  172 (264)
+                      +|+++.|...+-+.+...+|.+|++++..|.|.++||...++|.|....--                 ..-..++..|..
+T Consensus       449 tI~i~~L~kL~pf~~~~~iEk~iVda~k~~~l~irIDH~s~~I~F~~dl~~s~~~~~~~~~~lq~s~se~iR~qLs~La~  528 (1362)
+T 5a5t_A          449 SIEFSRLTSLVPFVDAFQLERAIVDAARHCDLQVRIDHTSRTLSFGSDLNYATREDAPIGPHLQSMPSEQIRNQLTAMSS  528 (1362)
+T ss_dssp             EEEHHHHHHHSCCSCHHHHHHHHHHHHHHTSSCCBCCCTTCEEECCSSSCTTHHHHTTTSCSSSSCCCCCCCTTHHHHHH
+T ss_pred             eeeHHHHHHHccccCHHHHHHHHHHHHhcccceeeechhcCeeeeecchhhhhhhccccccccccChHHHHHHHHHHHHH
+
+
+Q ss_pred             HH-----------------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Fri_Dec_23_02:  173 TL-----------------HEWCDGCEAVLLGIEQQVLRANQYKENHNRTQQQVEAEVTNIKKTLKAT  223 (264)
+Q Consensus       173 ~L-----------------~~W~~~~~~vl~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  223 (264)
+                      .|                 ..=...+..++..++.....+...+..-.+.++.++.....-.+.-...
+T Consensus       529 ~L~~~~~~i~p~~~~~~~e~~r~~~~~~~~e~~e~EheriL~Rr~~IE~RKEe~Er~~~erekeEae~  596 (1362)
+T 5a5t_A          529 VLAKALEVIKPAHILQEKEEQHQLAVTAYLKNSRKEHQRILARRQTIEERKERLESLNIQREKEELEQ  596 (1362)
+T ss_dssp             HHHHHHHHHTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhcCchhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 31 
+>4k51_A Eukaryotic translation initiation factor 3 subuni; EIF3, PCI domain, biosynthetic prote; 2.65A {Saccharomyces cerevisiae}
+Probab=96.15  E-value=0.021  Score=49.84  Aligned_cols=80  Identities=11%  Similarity=0.186  Sum_probs=0.0
+
+Q ss_pred             HHHHHHhHHhChhH---HHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCC-----CHHHHHHHHHHHHHCCCcEEEEe
+Q Fri_Dec_23_02:   75 YPDYIANKESLPEL---STAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMR-----NLRELEDLIIEAVYTDIIQGKLD  146 (264)
+Q Consensus        75 ~~dy~~~~~~~~~L---~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~-----~~~elE~lII~aI~~glI~gkID  146 (264)
+                      +......+...|.+   .+.+.+-+-..-+..++.-|.+|+++.+.+.+-+.     +..++|.+|++|+..|.+..+||
+T Consensus       134 v~plL~~l~~~~~l~~Yv~~L~~vi~~Rll~QlSqvY~ti~i~~l~~l~~f~~~~~~~~~~iE~~iv~a~~~~~l~vrID  213 (224)
+T 4k51_A          134 LENLLVKLSSKTYFSQYIAPLRDVIMRRVFVAASQKFTTVSQSELYKLATLPAPLDLSAWDIEKSLLQAAVEDYVSITID  213 (224)
+T ss_dssp             HHHHHHHHTTCSSSGGGHHHHHHHHHHHHHHHHHHHCSEEEHHHHHHHHCCSGGGCCCHHHHHHHHHHHHHTTSCCCCCC
+T ss_pred             HHHHHHHHhcCchHHHHHHHHHHHHHHHHHHHHHHHhceeeHHHHHHhCCCcccccCCHHHHHHHHHHHHHcCCCeEEEe
+
+
+Q ss_pred             CCCCEEEE
+Q Fri_Dec_23_02:  147 QRNQLLEV  154 (264)
+Q Consensus       147 q~~~~v~v  154 (264)
+                      ..+++|.|
+T Consensus       214 H~~~~i~F  221 (224)
+T 4k51_A          214 HESAKVTF  221 (224)
+T ss_dssp             CTTSEEEC
+T ss_pred             cCCCeEEe
+
+
+No 32 
+>4b0z_A RPN12, 26S proteasome regulatory subunit RPN12; protein binding, proteasome ubitquitin; HET: SGM GOL; 1.58A {Schizosaccharomyces pombe}
+Probab=96.14  E-value=0.059  Score=46.11  Aligned_cols=109  Identities=15%  Similarity=0.055  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhCCCeeeHHHHHh-cHH-HHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhChh-----HHHHHHHHH
+Q Fri_Dec_23_02:   24 GSALTALISQVLEAPGVYVFGELLE-LAN-VQELAEGANAAYLQLLNLFAYGTYPDYIANKESLPE-----LSTAQQNKL   96 (264)
+Q Consensus        24 ~~~~~~lI~~al~~p~vy~F~eLL~-lp~-v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~~~-----L~~~~~~KL   96 (264)
+                      .+...-.+...+...+.-.|..++. +|. -....++......++..++..|+|..|.......|.     +.+....++
+T Consensus        97 ~ef~ay~LL~~L~~~~~~~~~~~l~~l~~~~~~~~~~~v~~a~~l~~al~~~ny~~ff~l~~~~~~~~~~~l~~~~~~~v  176 (229)
+T 4b0z_A           97 GLVTGLNLLYLLSENRIAEFHTALESVPDKSLFERDPYVEWVISLEQNVMEGAFDKVASMIRSCNFPEFSYFMKIVMSMV  176 (229)
+T ss_dssp             HHHHHHHHHHHHHTTCHHHHHHHHHHCSCTTHHHHCHHHHHHHHHHHHHHTTCHHHHHHHHHTCCCGGGHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHhCCHHHHHHHHHhCCchhhhccChHHHHHHHHHHHHHhCCHHHHHHHHhcCCcHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLI  132 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lI  132 (264)
+                      |..++..+++.|+.||.+.+++.|++++.++++.++
+T Consensus       177 R~~al~~i~~aY~~i~l~~l~~~L~~~~~~e~~~f~  212 (229)
+T 4b0z_A          177 RNEIATCAEKVYSEIPLSNATSLLYLENTKETEKLA  212 (229)
+T ss_dssp             HHHHHHHHHHHCSEEEHHHHHHHTTCSSHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhcCCHHHHHHHhCCCCHHHHHHHH
+
+
+No 33 
+>3jck_H 26S proteasome regulatory subunit RPN12; deubiquitinase, RPN11, protein homeostasis, HYDR; 3.50A {Saccharomyces cerevisiae S288C} PDB: 4cr2_T 4cr3_T 4cr4_T 5a5b_T*
+Probab=95.39  E-value=0.13  Score=45.30  Aligned_cols=102  Identities=13%  Similarity=0.105  Sum_probs=0.0
+
+Q ss_pred             HHHHHhCCCeeeHHHHHhcHHH---HHHhcCCCHHHHHHHHHHHhCCHHHHHHhHH--hCh-----hHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   31 ISQVLEAPGVYVFGELLELANV---QELAEGANAAYLQLLNLFAYGTYPDYIANKE--SLP-----ELSTAQQNKLKHLT  100 (264)
+Q Consensus        31 I~~al~~p~vy~F~eLL~lp~v---~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~--~~~-----~L~~~~~~KLr~Lt  100 (264)
+                      +...|...+.-.|..++..=.-   ....++.......+..++..|+|..|.....  ..|     .+.+....++|..+
+T Consensus       110 LL~~L~~~~~~~~~~~l~~lp~~~~~~~~~~~v~~a~~l~~al~~~ny~~ff~l~~~~~~p~~~~~~l~~~~~~~vR~~a  189 (274)
+T 3jck_H          110 LLNLLSQNNTTKFHSELQYLDKHIKNLEDDSLLSYPIKLDRWLMEGSYQKAWDLLQSGSQNISEFDSFTDILKSAIRDEI  189 (274)
+T ss_dssp             HHHHHHTTCHHHHHHHHHHHHHHHTTCCTTTTTHHHHHHHHHHHHTCHHHHHHHHHHTSTTCCTTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHhCCHHHHHHHHHHCCchhhhhccCHHHhHHHHHHHHHHHCCHHHHHHHhcccCCChHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhcCCcccHHHHHHHcCCCCHHHHHHHH
+Q Fri_Dec_23_02:  101 IVSLASRMKCIPYSVLLKDLEMRNLRELEDLI  132 (264)
+Q Consensus       101 L~sLa~~~~~I~y~~I~~~L~i~~~~elE~lI  132 (264)
+                      +..++..|+.||.+.+++.|++++.+++..++
+T Consensus       190 l~~i~~aY~~i~l~~l~~~L~f~~~~e~~~f~  221 (274)
+T 3jck_H          190 AKNTELSYDFLPLSNIKALLFFNNEKETEKFA  221 (274)
+T ss_dssp             HHHHHHHCSEEEHHHHHHHHTCSCSHHHHHHH
+T ss_pred             HHHHHHHcCCCCHHHHHHHhCCCCHHHHHHHH
+
+
+No 34 
+>4u1d_C Eukaryotic translation initiation factor 3 subuni; EIF3 complex, PCI domain; 3.30A {Saccharomyces cerevisiae} PDB: 4u1c_A
+Probab=95.22  E-value=0.12  Score=50.14  Aligned_cols=80  Identities=11%  Similarity=0.186  Sum_probs=0.0
+
+Q ss_pred             HHHHHHhHHhChhH---HHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCC-----CHHHHHHHHHHHHHCCCcEEEEe
+Q Fri_Dec_23_02:   75 YPDYIANKESLPEL---STAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMR-----NLRELEDLIIEAVYTDIIQGKLD  146 (264)
+Q Consensus        75 ~~dy~~~~~~~~~L---~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~-----~~~elE~lII~aI~~glI~gkID  146 (264)
+                      +....+.+...|.+   .+.+..-+-..-+..++..|.+|+++.+.+..-+.     +..++|.+|++++..|.|..+||
+T Consensus       407 ~~pll~~l~~~~~l~~Y~~~L~~vi~~rll~qlSqvY~ti~i~~l~~l~~f~~~~~~~~~~iE~~iv~a~~~~~l~vrID  486 (497)
+T 4u1d_C          407 LENLLVKLSSKTYFSQYIAPLRDVIMRRVFVAASQKFTTVSQSELYKLATLPAPLDLSAWDIEKSLLQAAVEDYVSITID  486 (497)
+T ss_dssp             HHHHHHHHTTSTGGGGGHHHHHHHHHHHHHHHHHHHCSEEEHHHHHHHTCCCTTSCCCHHHHHHHHHHHHHTTSCCCEEE
+T ss_pred             HHHHHHHHhcCchHHHHHHHHHHHHHHHHHHHHHHHhceeeHHHHHhhCCCcccccCCHHHHHHHHHHHHHcCCceEEEe
+
+
+Q ss_pred             CCCCEEEE
+Q Fri_Dec_23_02:  147 QRNQLLEV  154 (264)
+Q Consensus       147 q~~~~v~v  154 (264)
+                      ..+++|.|
+T Consensus       487 h~~~~i~F  494 (497)
+T 4u1d_C          487 HESAKVTF  494 (497)
+T ss_dssp             TTTTEEEC
+T ss_pred             cCCCEEEe
+
+
+No 35 
+>4d10_H COP9 signalosome complex subunit 8; signaling protein; 3.80A {Homo sapiens} PDB: 4d18_H
+Probab=95.04  E-value=0.28  Score=41.74  Aligned_cols=112  Identities=9%  Similarity=0.040  Sum_probs=0.0
+
+Q ss_pred             CHHHHHHHHHHHHhCCCeeeHHHHHh-cHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHH------hChhHHHHHHHH
+Q Fri_Dec_23_02:   23 SGSALTALISQVLEAPGVYVFGELLE-LANVQELAEGANAAYLQLLNLFAYGTYPDYIANKE------SLPELSTAQQNK   95 (264)
+Q Consensus        23 ~~~~~~~lI~~al~~p~vy~F~eLL~-lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~------~~~~L~~~~~~K   95 (264)
+                      ..+-..-.+..-|..+++-.|-.++. +|.-..-.+........+..++..|+|..|.....      .+..+.+.....
+T Consensus        36 ~~ef~a~~LL~~L~~~d~~~a~~l~~rlp~~~~~~~~~i~~~~~l~~aL~~~ny~~f~~~~~~~~~~~~~~~l~~~~~~~  115 (212)
+T 4d10_H           36 TPPVYGQLLALYLLHNDMNNARYLWKRIPPAIKSANSELGGIWSVGQRIWQRDFPGIYTTINAHQWSETVQPIMEALRDA  115 (212)
+T ss_dssp             CHHHHHHHHHHHHHTTCHHHHHHHHTTSCHHHHHHCHHHHHHHHHHHHHHHTCHHHHHHHHTTCCCTTTTHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHhCCHHHHHHHHHHCCHHhhccCHHHHHHHHHHHHHHcccHHHHHHHHhcCCCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHH
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEA  135 (264)
+Q Consensus        96 Lr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~a  135 (264)
+                      +|..++..++..|++|+.+.+++.|++++ ++++.++...
+T Consensus       116 iR~~al~~i~~AY~~I~l~~l~~~Lg~~~-~el~~f~~~~  154 (212)
+T 4d10_H          116 TRRRAFALVSQAYTSIIADDFAAFVGLPV-EEAVKGILEQ  154 (212)
+T ss_dssp             HHHHHHHHHHHHEEEEEHHHHHHHHSSCH-HHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhhcCHHHHHHHcCCCH-HHHHHHHHhC
+
+
+No 36 
+>4uer_a EIF3A; translation initiation, translation; 6.47A {Lachancea kluyveri}
+Probab=94.72  E-value=0.17  Score=52.69  Aligned_cols=80  Identities=11%  Similarity=0.182  Sum_probs=0.0
+
+Q ss_pred             HHHHHHhHHhChhH---HHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCC-----HHHHHHHHHHHHHCCCcEEEEe
+Q Fri_Dec_23_02:   75 YPDYIANKESLPEL---STAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRN-----LRELEDLIIEAVYTDIIQGKLD  146 (264)
+Q Consensus        75 ~~dy~~~~~~~~~L---~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~-----~~elE~lII~aI~~glI~gkID  146 (264)
+                      +......+...|.+   ++.+..-+-..-|..++.-|.+|+++.+.+.+-+++     ..++|.+|++|+..|.|..+||
+T Consensus       404 v~plL~~l~~~~~l~qYv~~L~~vil~Rll~QlSqVY~tI~i~~l~~L~pF~~p~~~~~~~iEk~iv~a~k~~~l~irID  483 (964)
+T 4uer_a          404 LENLLVKLSSKTYFSQYIAPLRDVIMRRVFVAASQKFTTVSQSELYKLATLPAPLDLSAWDIEKSLLQAAVEDYVSITID  483 (964)
+T ss_dssp             HHHHHHHHTTSTGGGGGHHHHHHHHHHHHHHHHHHHCSEEEHHHHHHHTCCCTTSCCCHHHHHHHHHHHHHTTSCCCEEE
+T ss_pred             HHHHHHHHhcCchHHHHHHHHHHHHHHHHHHHHHHHHheeeHHHHHHhCCCCCccCCCHHHHHHHHHHHHHcCCceEEEe
+
+
+Q ss_pred             CCCCEEEE
+Q Fri_Dec_23_02:  147 QRNQLLEV  154 (264)
+Q Consensus       147 q~~~~v~v  154 (264)
+                      ..+++|.|
+T Consensus       484 H~~~~I~F  491 (964)
+T 4uer_a          484 HESAKVTF  491 (964)
+T ss_dssp             TTTTEEEC
+T ss_pred             ccCCeEEe
+
+
+No 37 
+>5t0g_d 26S proteasome non-ATPase regulatory subunit 8; ubiquitin-proteasome system, AAA-ATPase, hydrolase; HET: ATP; 4.40A {Homo sapiens} PDB: 5t0h_d* 5t0i_d* 5t0j_d* 5gjq_T* 5l4k_T
+Probab=93.79  E-value=0.099  Score=48.21  Aligned_cols=104  Identities=13%  Similarity=0.129  Sum_probs=0.0
+
+Q ss_pred             HHHHHhCCCeeeHHHHHh-cHHHHHHhcCCCHHHHHHHHHHHhCCHHHHHHhHHhChh-----HHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   31 ISQVLEAPGVYVFGELLE-LANVQELAEGANAAYLQLLNLFAYGTYPDYIANKESLPE-----LSTAQQNKLKHLTIVSL  104 (264)
+Q Consensus        31 I~~al~~p~vy~F~eLL~-lp~v~~l~~~~~~~~~~LL~lF~~G~~~dy~~~~~~~~~-----L~~~~~~KLr~LtL~sL  104 (264)
+                      |...|...+.-.|..++. +|.-....+........+..++..|+|..|.......|.     +.+....++|..++..+
+T Consensus       195 LL~~L~~~~~~d~~~~l~~Lp~~~~~~~~~I~~al~l~~al~~gny~~Ff~l~~~~p~~~~~~lm~~~~~~vR~~al~~i  274 (349)
+T 5t0g_d          195 LLFLLSQNRVAEFHTELERLPAKDIQTNVYIKHPVSLEQYLMEGSYNKVFLAKGNIPAESYTFFIDILLDTIRDEIAGCI  274 (349)
+T ss_dssp             HHHHHHHTCHHHHHHHGGGCHHHHHHSCHHHHHHHHHHHHHTTTCSHHHHHHSSCCCCSSTHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHcCCHHHHHHHHHHCCHHhhhcCHHHHHHHHHHHHHHcCCHHHHHHHHhhCcHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HhcCCcccHHHHHHHcCCCCHHHHHHHHHH
+Q Fri_Dec_23_02:  105 ASRMKCIPYSVLLKDLEMRNLRELEDLIIE  134 (264)
+Q Consensus       105 a~~~~~I~y~~I~~~L~i~~~~elE~lII~  134 (264)
+                      +..|+.|+.+.+++.|++++.++++.++..
+T Consensus       275 ~kAY~~i~l~~L~~~Lgf~~~~e~~~f~~~  304 (349)
+T 5t0g_d          275 EKAYEKILFTEATRILFFNTPKKMTDYAKK  304 (349)
+T ss_dssp             CSSBSCCCHHHHHHHHCSSSCSHHHHHHHH
+T ss_pred             HHHcCCCCHHHHHHHhCCCCHHHHHHHHHH
+
+
+No 38 
+>3t5v_A Nuclear mRNA export protein SAC3; PCI, mRNA nuclear export, mRNA, nuclear, transcription; 2.90A {Saccharomyces cerevisiae} PDB: 4trq_A
+Probab=91.63  E-value=1.1  Score=40.46  Aligned_cols=83  Identities=19%  Similarity=0.270  Sum_probs=0.0
+
+Q ss_pred             HHHHhcHHHHHHhcCCCHHHHHHHHHHHhCC---------------HHHHHHhHHh--ChhH----HHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   44 GELLELANVQELAEGANAAYLQLLNLFAYGT---------------YPDYIANKES--LPEL----STAQQNKLKHLTIV  102 (264)
+Q Consensus        44 ~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~---------------~~dy~~~~~~--~~~L----~~~~~~KLr~LtL~  102 (264)
+                      .++...|.|+        ...++..++..|+               |..|......  .|.+    .+....++|..++.
+T Consensus       141 ~~i~~~~~V~--------~Al~l~~al~~~n~~~~~~~~~~~~~~~y~rFf~l~~~~~~~~l~acl~~~~~~~vR~~aL~  212 (316)
+T 3t5v_A          141 KHIFQDKLVQ--------MALCFRRVISNSAYTERGFVKTENCLNFYARFFQLMQSPSLPLLMGFFLQMHLTDIRFYALR  212 (316)
+T ss_dssp             HHHHTSHHHH--------HHHHHHHHHCCTTCCCTTCCCCSSCCCCHHHHHHHHTCTTSCHHHHHHHGGGHHHHHHHHHH
+T ss_pred             HHHhcCHHHH--------HHHHHHHHHHccCccccccccchhhhhhHHHHHHHHcccCCcHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHhcC----CcccHHHHHHHcCCCCHHHHHHHHHH
+Q Fri_Dec_23_02:  103 SLASRM----KCIPYSVLLKDLEMRNLRELEDLIIE  134 (264)
+Q Consensus       103 sLa~~~----~~I~y~~I~~~L~i~~~~elE~lII~  134 (264)
+                      .++..|    ..||.+.|++.|++++.+++++++..
+T Consensus       213 ~i~~AY~~~~~~ipl~~L~~~L~f~~~~e~~~f~~~  248 (316)
+T 3t5v_A          213 ALSHTLNKKHKPIPFIYLENMLLFNNRQEIIEFCNY  248 (316)
+T ss_dssp             HHHHHSCTTCCCEEHHHHHHHTTCSSHHHHHHHHHH
+T ss_pred             HHHHHhCCCCCCcCHHHHHHHhCCCCHHHHHHHHHH
+
+
+No 39 
+>4hw0_A DNA-binding protein SSO10A-2; winged-helix, DNA-binding domain, two-stranded antiparallel coil, DNA/RNA-binding 3-helical bundle; 2.00A {Sulfolobus solfataricus} SCOP: a.4.5.0
+Probab=85.92  E-value=6.1  Score=27.93  Aligned_cols=85  Identities=6%  Similarity=0.013  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEW  177 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W  177 (264)
+                      .+.|+.+..  ..++..+|++.++++. ..+-..|-.+...|+|.-.-+..+..+.++..      -.++......+..|
+T Consensus        14 ~~~il~~l~--~~~~~~~la~~~~~~~-~~v~~~l~~L~~~gli~~~~~~~~~~~~lt~~------g~~~~~~~~~~~~~   84 (104)
+T 4hw0_A           14 MFDILRNCE--PKCGITRVIYGAGINY-VVAQKYLDQLVKVGALNIKTENDRKIYEITEK------GKLLRTHIEEFIKI   84 (104)
+T ss_dssp             HHHHHTTCS--SEECHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEECHH------HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHH--CCCCHHHHHHHHCcCH-HHHHHHHHHHHHCCCeEEeeCCCCcEEEECcc------HHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  178 CDGCEAVLLGIEQQ  191 (264)
+Q Consensus       178 ~~~~~~vl~~l~~~  191 (264)
+                      ...+..+...+.+.
+T Consensus        85 ~~~~~~~~~~l~~~   98 (104)
+T 4hw0_A           85 RENLYSAKEKVSEL   98 (104)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+
+
+No 40 
+>1ub9_A Hypothetical protein PH1061; helix-turn-helix motif, winged helix motif, structural genom transcription; 2.05A {Pyrococcus horikoshii} SCOP: a.4.5.28
+Probab=84.71  E-value=7.3  Score=27.27  Aligned_cols=82  Identities=15%  Similarity=0.156  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      ..+.|+.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++  ........+-+...+..+...+..
+T Consensus        17 ~~~~il~~l~~~~~~~~~~l~~~l~~s~-~~v~~~l~~L~~~gli~~~~~~~~~--r~~~~~lt~~g~~~~~~~~~~~~~   93 (100)
+T 1ub9_A           17 VRLGIMIFLLPRRKAPFSQIQKVLDLTP-GNLDSHIRVLERNGLVKTYKVIADR--PRTVVEITDFGMEEAKRFLSSLKA   93 (100)
+T ss_dssp             HHHHHHHHHHHHSEEEHHHHHHHTTCCH-HHHHHHHHHHHHTTSEEEEEECSSS--CEEEEEECHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCcCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEEEEcCCCC--ceEEEEECHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHH
+Q Fri_Dec_23_02:  177 WCDGC  181 (264)
+Q Consensus       177 W~~~~  181 (264)
+                      |....
+T Consensus        94 ~~~~~   98 (100)
+T 1ub9_A           94 VIDGL   98 (100)
+T ss_dssp             HHHHH
+T ss_pred             HHhhc
+
+
+No 41 
+>4y66_A MND1; cell cycle; 3.20A {Giardia lamblia atcc 50803}
+Probab=84.68  E-value=3  Score=35.12  Aligned_cols=133  Identities=7%  Similarity=0.057  Sum_probs=0.0
+
+Q ss_pred             HHhcCCcccHHHHHHHc---CCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  104 LASRMKCIPYSVLLKDL---EMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEWCDG  180 (264)
+Q Consensus       104 La~~~~~I~y~~I~~~L---~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W~~~  180 (264)
+                      +...++..+..+|...+   +++. ..|.+.|-.++..|+|..+--+...++...........+.++..|...+..-...
+T Consensus        19 ~~~~~~p~s~~ei~~~l~~~~i~k-~~v~k~L~~Lv~~g~i~~kk~Gk~~~y~~~~~~~~~~~~~~l~~l~~~i~~l~~~   97 (203)
+T 4y66_A           19 MLKRGEIYSNKTIETLSKPTGISS-MVIKNVLQALVNEDLVDTDKIGASTYYWCFASKRSQAARTELARLQKALEEQTNF   97 (203)
+T ss_dssp             ----------------------------------------------------------CHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHcCCCccHHHHHHhccccCccH-HHHHHHHHHHHHCCCeeeeeecceeEEEECcchhhHhhHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHH--HHHHHHHHHHHHHHHHHHHHHHHHHHHHhccccHHHHHHHHHh
+Q Fri_Dec_23_02:  181 CEAVLLGIEQQVLR--ANQYKENHNRTQQQVEAEVTNIKKTLKATASSSAQEMEQQLAE  237 (264)
+Q Consensus       181 ~~~vl~~l~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  237 (264)
+                      +..+-..+...-..  ...........-+++++++..++..+..-........+.+...
+T Consensus        98 ~~~l~~~~~~~~~~l~~~~~~~~l~~~~~~l~~e~~~l~~~L~~l~~~dp~~~~~~~~~  156 (203)
+T 4y66_A           98 IDKATARIEELKVGREETEERSSLLKEKLALQVKLEEQRGTFRDLLKNDPDVAQKLRNY  156 (203)
+T ss_dssp             HHHHHHHHHHHTTTCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhhcccChhHHHHHHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHHHH
+
+
+No 42 
+>5eri_A MARR family transcriptional regulator; transcription factor, DNA- transcription; 2.30A {Peptoclostridium difficile}
+Probab=82.76  E-value=19  Score=28.36  Aligned_cols=90  Identities=11%  Similarity=0.053  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                   
+T Consensus        57 ~~~iL~~l~~~~~~t~~ela~~l~~s~-~tvs~~l~~L~~~Glv~r~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~~~~~  135 (169)
+T 5eri_A           57 QFTFLTRICENPGINLVELSNMLKVDK-ATTTKAIQKLIKAGYVDKKQDKFDKRGYNLTPTDKSLEVYELIIEEENRSIE  135 (169)
+T ss_dssp             HHHHHHHHHHSTTEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECSSSTTCEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCCCHHHHHHHHCCCH-hHHHHHHHHHHHCCCEEeecCCCCCCeeEEEECHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCEAVLLGI  188 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l  188 (264)
+                        ...++++++..+...|......+......+
+T Consensus       136 ~~~~~l~~~e~~~l~~~l~~l~~~l~~~~~~~  167 (169)
+T 5eri_A          136 ICFDNFTDEEKQVVTKLLEKMSKNVENEWFKV  167 (169)
+T ss_dssp             HHHTTCCHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 43 
+>3s2w_A Transcriptional regulator, MARR family; structural genomics, PSI-biology, protein structure initiati midwest center for structural genomics; 2.45A {Methanosarcina mazei}
+Probab=82.01  E-value=13  Score=28.64  Aligned_cols=86  Identities=12%  Similarity=0.077  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec--------------------
+Q Fri_Dec_23_02:   99 LTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI--------------------  158 (264)
+Q Consensus        99 LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~--------------------  158 (264)
+                      ..++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                    
+T Consensus        53 ~~iL~~l~~~~~~t~~ela~~l~~s~-~tvs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~~~  131 (159)
+T 3s2w_A           53 FPFLMRLYREDGINQESLSDYLKIDK-GTTARAIQKLVDEGYVFRQRDEKDRRSYRVFLTEKGKKLEPDMKKIASEWGEI  131 (159)
+T ss_dssp             HHHHHHHHHSCSEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECC---CCEEEEECHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCCEEeecCCCCCceEEEEECchHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             -CCCCCHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 -GRDIRKKDINNIVKTLHEWCDGCEAVL  185 (264)
+Q Consensus       159 -~Rd~~~~~~~~l~~~L~~W~~~~~~vl  185 (264)
+                       ...+++++...+...|......+..++
+T Consensus       132 ~~~~l~~~e~~~l~~~l~~l~~~~~~~~  159 (159)
+T 3s2w_A          132 LFSSFDDRQRREITNSLEIMFENGLKIM  159 (159)
+T ss_dssp             HHTTCCHHHHHHHHHHHHHHHHHHHHTC
+T ss_pred             HHhcCCHHHHHHHHHHHHHHHHHHHhcC
+
+
+No 44 
+>4y66_B HOP2, putative tbpip family protein; cell cycle; 3.20A {Giardia lamblia}
+Probab=81.49  E-value=5.6  Score=34.27  Aligned_cols=118  Identities=8%  Similarity=0.098  Sum_probs=0.0
+
+Q ss_pred             HHhcCCcccHHHHHHHc--CCCCHHHHHHHHHHHHHCCC-cEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  104 LASRMKCIPYSVLLKDL--EMRNLRELEDLIIEAVYTDI-IQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEWCDG  180 (264)
+Q Consensus       104 La~~~~~I~y~~I~~~L--~i~~~~elE~lII~aI~~gl-I~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W~~~  180 (264)
+                      +-..++..+..+|...|  +++. ..|.+.|-.++..|. |.++--+...++...-......+++++..+...+......
+T Consensus        16 ~~~~nrpys~~dl~~~l~~~i~k-~~v~k~L~~Lv~~g~~i~~k~~Gk~~iYw~~q~~~~~~~~~el~~l~~~i~~L~~~   94 (231)
+T 4y66_B           16 MQTSNKPQNVQTAINNTGSKYGK-TTVQKALDELVAQNLCIYTEIGKTGKLYLWNQNLLEVLSDAQLMEVNAQINDLKAQ   94 (231)
+T ss_dssp             ----------------------------------------------------------------CCTHHHHHHHHHHHHH
+T ss_pred             HHHcCCCCCHHHHHHHHhhhcCH-HHHHHHHHHHHHCCCceEEeecCCEEEEEeccccCCCCCHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHH-----HHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  181 CEAVLLGIEQQVLRANQYKE-----NHNRTQQQVEAEVTNIKKTLKA  222 (264)
+Q Consensus       181 ~~~vl~~l~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~  222 (264)
+                      +..+-..+...-..+.....     .....-.++++++..++..+..
+T Consensus        95 ~~~l~~~~~~l~~el~~l~~~~~~~el~~~i~~L~~e~~~l~~~L~~  141 (231)
+T 4y66_B           95 VEKLTQQGETLRITQRNLEAAPITEVLKQEVDELRQQVSANDEKLRL  141 (231)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTSCCTTHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 45 
+>5jbr_A Uncharacterized protein BCAV_2135; structural genomics, PSI-biology, midwest center for structu genomics, MCSG, unknown function; 1.65A {Beutenbergia cavernae}
+Probab=81.33  E-value=20  Score=27.52  Aligned_cols=118  Identities=8%  Similarity=-0.025  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      +...+.-|......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++...+-..   +-+..-+..+...+..
+T Consensus        27 ~~~il~~l~~~~~~~t~~ela~~l~~s~-~tvs~~l~~L~~~glv~r~~~~~drR~~~~~l---~~g~~~~~~~~~~~~~  102 (149)
+T 5jbr_A           27 TGRTYGYLLLQSEATSFQEIGADLGLSP-GAVSTSVRELVAWGLARTIPQPGSRRLLVEAA---GGFEQLLAASHERSRA  102 (149)
+T ss_dssp             HHHHHHHHHTCSSCEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEEEEC---SCTHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCCCCHHHHHHHHCcCH-HHHHHHHHHHHHCCCeEeecCCCchHHHHhhh---hHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHH-----HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  177 WCDGCEAVLLGIE-----QQVLRANQYKENHNRTQQQVEAEVTNIKK  218 (264)
+Q Consensus       177 W~~~~~~vl~~l~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  218 (264)
+                      |...+...++.+.     +.+..+...-..-...-.++..+....++
+T Consensus       103 ~~~~~~~~l~~l~~~~~~~~~~~l~~~l~~l~~~~~~~~~~~~~~~~  149 (149)
+T 5jbr_A          103 FIRTLRSGQALADDDRVATRLVDLTDLFEAYVEAGEQMLRRRHEAGG  149 (149)
+T ss_dssp             HHHHHHHHHHHCCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHhcCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcC
+
+
+No 46 
+>1lj9_A Transcriptional regulator SLYA; HTH DNA binding protein, structural genomics, PSI, protein structure initiative; 1.60A {Enterococcus faecalis} SCOP: a.4.5.28
+Probab=80.87  E-value=19  Score=27.05  Aligned_cols=88  Identities=8%  Similarity=0.020  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++........++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                   
+T Consensus        31 ~~~iL~~l~~~~~~t~~~la~~l~~s~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~g~~~~~~~~~~~~~~~~  109 (144)
+T 1lj9_A           31 QYLYLVRVCENPGIIQEKIAELIKVDR-TTAARAIKRLEEQGFIYRQEDASNKKIKRIYATEKGKNVYPIIVRENQHSNQ  109 (144)
+T ss_dssp             HHHHHHHHHHSTTEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECSSCTTCEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCcCHHHHHHHHCcCH-HHHHHHHHHHHHCCCeeeccCccccccceeeECHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCEAVLL  186 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~~vl~  186 (264)
+                        ...++++++..+...|..+...+.....
+T Consensus       110 ~~~~~l~~~e~~~l~~~l~~~~~~~~~~~~  139 (144)
+T 1lj9_A          110 VALQGLSEVEISQLADYLVRMRKNVSEDWE  139 (144)
+T ss_dssp             HHTTTCCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHHhhhc
+
+
+No 47 
+>4rgu_A Repressor protein; structural genomics, PSI-biology, midwest center for structu genomics, MCSG, winged helix-turn-helix, transcription; HET: FER; 1.89A {Acinetobacter SP} PDB: 3k0l_A* 4rgs_A* 4rgr_A* 4rgx_A* 5bmz_A*
+Probab=80.32  E-value=22  Score=27.58  Aligned_cols=93  Identities=8%  Similarity=-0.021  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                   
+T Consensus        48 ~~~iL~~l~~~~~~t~~ela~~l~~s~-~tvs~~l~~L~~~Glv~r~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~~~~~  126 (162)
+T 4rgu_A           48 QFTALSVLAAKPNLSNAKLAERSFIKP-QSANKILQDLLANGWIEKAPDPTHGRRILVTVTPSGLDKLNQCNQVVQQLEA  126 (162)
+T ss_dssp             HHHHHHHHHHCSSCCHHHHHHHHTSCG-GGHHHHHHHHHHTTSEEEEECSCC--CEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHCCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCCEeecCCCCCCCeeeeEECHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCEAVLLGIEQQ  191 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l~~~  191 (264)
+                        ...+++++...+...|......+.......+..
+T Consensus       127 ~~~~~l~~~e~~~l~~~l~~l~~~~~~~~~~~~~~  161 (162)
+T 4rgu_A          127 QMLQGVDINLAFLIRNNLELMVKNLSTFSSLDQSK  161 (162)
+T ss_dssp             HHTTTSCHHHHHHHHHHHHHHHHHTHHHHC-----
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHHhccchhccC
+
+
+No 48 
+>2oqg_A Possible transcriptional regulator, ARSR family P; winged-helix-turn-helix, structural genomics, PSI-2, protein structure initiative; 1.54A {Rhodococcus SP}
+Probab=79.65  E-value=17  Score=25.92  Aligned_cols=86  Identities=12%  Similarity=0.085  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      ..+.|+.+.. ...++..+|++.++++. ..+-..|-.+...|+|.-.-+  .+...+.-.      +..+..+...+..
+T Consensus        22 ~~~~il~~l~-~~~~~~~ela~~l~~~~-~~v~~~l~~L~~~glv~~~~~--~r~~~~~l~------~~~~~~~~~~~~~   91 (114)
+T 2oqg_A           22 TRWEILTELG-RADQSASSLATRLPVSR-QAIAKHLNALQACGLVESVKV--GREIRYRAL------GAELNKTARTLER   91 (114)
+T ss_dssp             HHHHHHHHHH-HSCBCHHHHHHHSSSCH-HHHHHHHHHHHHTTSEEEEEE--TTEEEEEEC------SHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHh-cCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCCeEEEec--CCEEEEeeC------hHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  177 WCDGCEAVLLGIEQQV  192 (264)
+Q Consensus       177 W~~~~~~vl~~l~~~~  192 (264)
+                      |.......+..+...+
+T Consensus        92 ~~~~~~~~~~~l~~~~  107 (114)
+T 2oqg_A           92 IGAEWDRRLAAIKQIA  107 (114)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+
+
+No 49 
+>1sfx_A Conserved hypothetical protein AF2008; structural genomics, HTH MOT protein structure initiative, midwest center for structural genomics; 1.55A {Archaeoglobus fulgidus} SCOP: a.4.5.50 l.1.1.1 l.1.1.1
+Probab=79.37  E-value=10  Score=26.71  Aligned_cols=82  Identities=11%  Similarity=0.081  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCC-EEEEEeecCCCCCHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQ-LLEVDFCIGRDIRKKDINNIVKTLH  175 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~-~v~v~~~~~Rd~~~~~~~~l~~~L~  175 (264)
+                      ..+.|+.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+...+ ...+....+..+...-...+...+.
+T Consensus        21 ~~~~il~~l~~~~~~~~~ela~~l~~~~-~tv~~~l~~L~~~gli~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   99 (109)
+T 1sfx_A           21 SDVRIYSLLLERGGMRVSEIARELDLSA-RFVRDRLKVLLKRGFVRREIVEKGWVGYIYSAEKPEKVLKEFKSSILGEIE   99 (109)
+T ss_dssp             HHHHHHHHHHHHCCBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEEESSSEEEEEEECCHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHcCCCCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEeeccCCCccceeeeeCCHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Fri_Dec_23_02:  176 EWCD  179 (264)
+Q Consensus       176 ~W~~  179 (264)
+                      .|..
+T Consensus       100 ~~~~  103 (109)
+T 1sfx_A          100 RIEK  103 (109)
+T ss_dssp             HHHT
+T ss_pred             HHHH
+
+
+No 50 
+>3bj6_A Transcriptional regulator, MARR family; helix-turn-helix, trasnscription regulator, STR genomics, PSI-2, protein structure initiative; 2.01A {Silicibacter pomeroyi dss-3}
+Probab=79.30  E-value=22  Score=26.97  Aligned_cols=89  Identities=9%  Similarity=0.035  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++....-...                   
+T Consensus        42 ~~~iL~~l~~~~~~~~~~la~~l~~s~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~~  120 (152)
+T 3bj6_A           42 QRAILEGLSLTPGATAPQLGAALQMKR-QYISRILQEVQRAGLIERRTNPEHARSHRYWLTPRGEAIITAIRADEMAKLA  120 (152)
+T ss_dssp             HHHHHHHHHHSTTEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEECCSSSTTSCEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCCeeeccCCCCccceeeeECccHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCEAVLLG  187 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~  187 (264)
+                        ...++++++..+...|..+...+......
+T Consensus       121 ~~~~~l~~~e~~~l~~~l~~~~~~~~~~~~~  151 (152)
+T 3bj6_A          121 LFSEGFSSVELTAYHKVQLALTRFFADLAKE  151 (152)
+T ss_dssp             HHHTTSCHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHHhhhcc
+
+
+No 51 
+>3r0a_A Putative transcriptional regulator; structural genomics, PSI-biology, midwest center for structu genomics, MCSG; 2.31A {Methanosarcina mazei}
+Probab=79.11  E-value=20  Score=26.39  Aligned_cols=88  Identities=15%  Similarity=0.131  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCc--ccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCC--EEEEEeecCCCCCHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKC--IPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQ--LLEVDFCIGRDIRKKDINNIVK  172 (264)
+Q Consensus        97 r~LtL~sLa~~~~~--I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~--~v~v~~~~~Rd~~~~~~~~l~~  172 (264)
+                      ....++.+......  ++..+|++.++++. ..+-..|-.+...|+|.-.-+..++  ...+......   ..-...+..
+T Consensus        27 ~~~~il~~l~~~~~~~~t~~ela~~l~is~-~tv~r~l~~L~~~Gli~~~~~~~d~~~~~~~~~~~~~---~~~~~~~~~  102 (123)
+T 3r0a_A           27 ADLNVMKSFLNEPDRWIDTDALSKSLKLDV-STVQRSVKKLHEKEILQRSQQNLDGGGYVYIYKIYSK---NQIRNIIQK  102 (123)
+T ss_dssp             HHHHHHHHHHHSTTCCEEHHHHHHHHTSCH-HHHHHHHHHHHHTTSEEEEEEECTTSCEEEEEEECCH---HHHHHHHHH
+T ss_pred             HHHHHHHHHHhCCCCCcCHHHHHHHhCcCH-HHHHHHHHHHHHCCCEEEEeeecCCCceEEEEecCCH---HHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  173 TLHEWCDGCEAVLLGI  188 (264)
+Q Consensus       173 ~L~~W~~~~~~vl~~l  188 (264)
+                      .+..|...+...++.+
+T Consensus       103 ~~~~~~~~~~~~l~~~  118 (123)
+T 3r0a_A          103 IVQSWADRLGQELKEW  118 (123)
+T ss_dssp             HHHHHHHHHHHTTTTT
+T ss_pred             HHHHHHHHHHHHHHHH
+
+
+No 52 
+>4mnu_A SLYA-like transcription regulator; structural genomics, PSI-biology, midwest center for structu genomics, MCSG, MARR transcription factor; 1.90A {Listeria monocytogenes}
+Probab=78.72  E-value=23  Score=26.88  Aligned_cols=91  Identities=13%  Similarity=0.106  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++........++..+|++.++++. ..+-..|-.+...|+|.-.-+..++........                   
+T Consensus        35 ~~~iL~~l~~~~~~~~~ela~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~g~~~~~~~~~~~~~~~~  113 (153)
+T 4mnu_A           35 QFIYLVRICENQGIIQEKLVDILKIDR-TTASRAIKNLEKNGLIIKKQNKNNKKNKLLFPTEKGQQLYPLIIRENEYSNA  113 (153)
+T ss_dssp             HHHHHHHHHHSTTEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEECCTTCTTSCEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCcCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEeecCCCCCCeeEeEECHhHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCEAVLLGIE  189 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l~  189 (264)
+                        ...+++++...+...|......+......+.
+T Consensus       114 ~~~~~l~~~e~~~l~~~l~~l~~~~~~~~~~~~  146 (153)
+T 4mnu_A          114 VALKGFTEAEINMLTDALKKVKENIADDWLYVK  146 (153)
+T ss_dssp             HHTTTCCHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 53 
+>5e1w_A RDHR-CBDBA1625, transcriptional regulator, MARR family; MARR transcriptional regulator, organohalide binding, DNA BI transcription; 1.39A {Dehalococcoides SP} PDB: 5e1x_A 5e1z_B* 5e20_A
+Probab=78.34  E-value=28  Score=27.60  Aligned_cols=89  Identities=9%  Similarity=0.013  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhc-CCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec----------------
+Q Fri_Dec_23_02:   96 LKHLTIVSLASR-MKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI----------------  158 (264)
+Q Consensus        96 Lr~LtL~sLa~~-~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~----------------  158 (264)
+                      ...+.++.+... ...++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                
+T Consensus        57 ~~~~~iL~~l~~~~~~~t~~ela~~l~~s~-~tvs~~l~~L~~~GlI~r~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~~  135 (180)
+T 5e1w_A           57 TEKFAILHELMCLGGESTPHTLARRIVFEP-HSVSAIVSRMEKDGLIIKTKDLDKKHMVRIKLSEKAIDTFYQALEISNR  135 (180)
+T ss_dssp             HHHHHHHHHHHHTTTEECHHHHHHHSSSCH-HHHHHHHHHHHHTTSEEEEECC-CTTCEEEEECHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHcCCCcCHHHHHHHHCCCH-hHHHHHHHHHHHCCCEEeecCCCCCCeEEEEECHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             -----CCCCCHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 -----GRDIRKKDINNIVKTLHEWCDGCEAVL  185 (264)
+Q Consensus       159 -----~Rd~~~~~~~~l~~~L~~W~~~~~~vl  185 (264)
+                           ...++++++..+...|..+...+....
+T Consensus       136 ~~~~~~~~l~~~e~~~l~~~l~~l~~~~~~~~  167 (180)
+T 5e1w_A          136 VYKQMMASITREEKVELSKTLTKLRNHTLPLT  167 (180)
+T ss_dssp             HHHHHTTTSCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHhcCCHHHHHHHHHHHHHHHHHHHhhc
+
+
+No 54 
+>3nrv_A Putative transcriptional regulator (MARR/EMRR FAM; PSI-2, protein structure initiati structural genomics; HET: MSE; 2.00A {Acinetobacter SP}
+Probab=77.70  E-value=19  Score=27.34  Aligned_cols=88  Identities=7%  Similarity=0.031  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-----------------
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-----------------  158 (264)
+Q Consensus        96 Lr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-----------------  158 (264)
+                      ...+.++........++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                 
+T Consensus        40 ~~~~~iL~~l~~~~~~~~~ela~~l~~~~-~tvs~~l~~L~~~gli~r~~~~~d~r~~~~~lT~~g~~~~~~~~~~~~~~  118 (148)
+T 3nrv_A           40 MTEWRIISVLSSASDCSVQKISDILGLDK-AAVSRTVKKLEEKKYIEVNGHSEDKRTYAINLTEMGQELYEVASDFAIER  118 (148)
+T ss_dssp             HHHHHHHHHHHHSSSBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEC---------CCBEECHHHHHHHHHHHHHTHHH
+T ss_pred             HHHHHHHHHHHhCCCCCHHHHHHHHCCCH-HHHHHHHHHHHHCCCeeeccCccccceeeeeEChhHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ----CCCCCHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ----GRDIRKKDINNIVKTLHEWCDGCEAV  184 (264)
+Q Consensus       159 ----~Rd~~~~~~~~l~~~L~~W~~~~~~v  184 (264)
+                          ...++++++..+...|..+...+..+
+T Consensus       119 ~~~~~~~l~~~e~~~l~~~l~~~~~~~~~~  148 (148)
+T 3nrv_A          119 EKQLLEEFEEAEKDQLFILLKKLRNKVDQM  148 (148)
+T ss_dssp             HHHHTTTCCHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHhCCHHHHHHHHHHHHHHHHHhhcC
+
+
+No 55 
+>3f6o_A Probable transcriptional regulator, ARSR family protein; transcriptional regulator,RHA00566,MCSG, structural genomics, PSI-2; 1.90A {Rhodococcus SP}
+Probab=77.67  E-value=8.9  Score=28.07  Aligned_cols=100  Identities=15%  Similarity=0.005  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      ..+.|+.+.. ...++..+|++.++++. ..+-..|-.+...|+|.-.-|.....+.++..        .+..+...+..
+T Consensus        19 ~~~~il~~l~-~~~~~~~ela~~l~~s~-~tv~~~l~~L~~~glv~~~~~~r~~~~~lt~~--------~~~~~~~~~~~   88 (118)
+T 3f6o_A           19 TRRAVLGRLS-RGPATVSELAKPFDMAL-PSFMKHIHFLEDSGWIRTHKQGRVRTCAIEKE--------PFTAVEAWLAE   88 (118)
+T ss_dssp             HHHHHHHHHH-TCCEEHHHHHTTCCSCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEECSH--------HHHHHHHHHHH
+T ss_pred             HHHHHHHHHH-hCCccHHHHHHHhCCCH-HHHHHHHHHHHHCCCeEEEecCCeEEEEeCHH--------HHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  177 WCDGCEAVLLGIEQQVLRANQYKENHNRTQ  206 (264)
+Q Consensus       177 W~~~~~~vl~~l~~~~~~~~~~~~~~~~~~  206 (264)
+                      +.......+..+..................
+T Consensus        89 ~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~  118 (118)
+T 3f6o_A           89 QQELWESRTDRLEQFVTEHTVTAHAKATPQ  118 (118)
+T ss_dssp             HHHHHHTCC---------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHhhccCccccCCC
+
+
+No 56 
+>4hbl_A Transcriptional regulator, MARR family; HTH, transcription factor, DNA binding; 2.50A {Staphylococcus epidermidis} SCOP: a.4.5.0 l.1.1.1
+Probab=77.52  E-value=24  Score=26.85  Aligned_cols=87  Identities=5%  Similarity=0.051  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec------------------C
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI------------------G  159 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~------------------~  159 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                  .
+T Consensus        43 ~~~iL~~l~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~~  121 (149)
+T 4hbl_A           43 QYLVMLTLWEENPQTLNSIGRHLDLSS-NTLTPMLKRLEQSGWVKRERQQSDKRQLIITLTDNGQQQQEAVFEAISSCLP  121 (149)
+T ss_dssp             HHHHHHHHHHSSSEEHHHHHHHHTCCH-HHHHHHHHHHHHHTSEEC---------CEEEECSHHHHHHHHHHHHHHTTSC
+T ss_pred             HHHHHHHHHHCCCcCHHHHHHHHCCCh-hhHHHHHHHHHHCCCEEeecCCCCcceeEeEECHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             CCCCHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  160 RDIRKKDINNIVKTLHEWCDGCEAVL  185 (264)
+Q Consensus       160 Rd~~~~~~~~l~~~L~~W~~~~~~vl  185 (264)
+                      ..++++++..+...|..+...+....
+T Consensus       122 ~~l~~~e~~~l~~~l~~l~~~~~~~~  147 (149)
+T 4hbl_A          122 QEFDTTEYDETKYVFEELEQTLKHLI  147 (149)
+T ss_dssp             TTCCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 57 
+>2kko_A Possible transcriptional regulatory protein (possibly ARSR-family); NESG, DNA-binding, transcription regulation, WHTH, homodimer; NMR {Mycobacterium bovis} SCOP: a.4.5.0 l.1.1.1 PDB: 3gw2_A
+Probab=77.48  E-value=16  Score=26.03  Aligned_cols=74  Identities=9%  Similarity=0.074  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   99 LTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHEWC  178 (264)
+Q Consensus        99 LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~W~  178 (264)
+                      +.|+.+... ..++..+|++.++++. ..+-..|-.+...|+|.-.-+.....+.+...        ....+...+..|.
+T Consensus        28 ~~il~~l~~-~~~t~~ela~~l~~s~-~tv~~~l~~L~~~gli~~~~~~~~~~y~l~~~--------~~~~~~~~~~~~~   97 (108)
+T 2kko_A           28 LQILDLLAQ-GERAVEAIATATGMNL-TTASANLQALKSGGLVEARREGTRQYYRIAGE--------DVARLFALVQVVA   97 (108)
+T ss_dssp             HHHHHHHTT-CCEEHHHHHHHHTCCH-HHHHHHHHHHHHHTSEEEEEETTEEEEEESCH--------HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHc-CCcCHHHHHHHHCcCH-HHHHHHHHHHHHCCCeEEEeECCEEEEEECcH--------HHHHHHHHHHHHh
+
+
+Q ss_pred             HHHH
+Q Fri_Dec_23_02:  179 DGCE  182 (264)
+Q Consensus       179 ~~~~  182 (264)
+                      ....
+T Consensus        98 ~~~~  101 (108)
+T 2kko_A           98 DEHL  101 (108)
+T ss_dssp             HHHH
+T ss_pred             ccch
+
+
+No 58 
+>3gpv_A Transcriptional regulator, MERR family; protein structure initiative II(PSI II), NYSGXRC, structural genomics; 1.90A {Bacillus thuringiensis serovarkonkukian}
+Probab=77.06  E-value=27  Score=27.31  Aligned_cols=109  Identities=6%  Similarity=-0.002  Sum_probs=0.0
+
+Q ss_pred             CcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-----------CCCCCHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  109 KCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-----------GRDIRKKDINNIVKTLHEW  177 (264)
+Q Consensus       109 ~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-----------~Rd~~~~~~~~l~~~L~~W  177 (264)
+                      ..+++.++++.+|++ ...+..|    ...|++.......++...++...           .-.++.+++..+......-
+T Consensus        15 ~~~ti~e~a~~~gvs-~~tlr~y----~~~Gll~p~~~~~~g~r~y~~~dl~~l~~i~~l~~~g~sl~~i~~~l~~~~~~   89 (148)
+T 3gpv_A           15 MYYTIGQVAKMQHLT-ISQIRYY----DKQGLFPFLQRNEKGDRIFNEEALKYLEMILCLKNTGMPIQKIKQFIDWSMEG   89 (148)
+T ss_dssp             CCBCHHHHHHHTTCC-HHHHHHH----HHTTCCTTCEECTTCCEEBCHHHHHHHHHHHHHHTTTCCHHHHHHHHHHHHHC
+T ss_pred             CceeHHHHHHHHCcC-HHHHHHH----HHCCCCCCCeeCCCCCEEECHHHHHHHHHHHHHHHCCCCHHHHHHHHHhhccC
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  178 CDGCEAVLLGIEQQVLRANQYKENHNRTQQQVEAEVTNIKKTLKA  222 (264)
+Q Consensus       178 ~~~~~~vl~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  222 (264)
+                      ...+......+..+...+......-....+.++..+......+..
+T Consensus        90 ~~~~~~~~~~l~~~~~~l~~~i~~l~~~~~~l~~~~~~~~~~~~~  134 (148)
+T 3gpv_A           90 DSTILHRLKLMKQQEANVLQLIQDTEKNLKKIQQKIAKYEDEISS  134 (148)
+T ss_dssp             GGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC------
+T ss_pred             CccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+
+
+No 59 
+>3bja_A Transcriptional regulator, MARR family, putative; NP_978771.1, putative MARR-like transcription regulator, MAR structural genomics; 2.38A {Bacillus cereus} SCOP: a.4.5.0 l.1.1.1
+Probab=76.97  E-value=24  Score=26.14  Aligned_cols=84  Identities=8%  Similarity=0.141  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec------------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI------------------  158 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~------------------  158 (264)
+                      ..+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++....-...                  
+T Consensus        34 ~~~~iL~~l~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~g~~~~~~~~~~~~~~~  112 (139)
+T 3bja_A           34 VQFGVIQVLAKSGKVSMSKLIENMGCVP-SNMTTMIQRMKRDGYVMTEKNPNDQRETLVYLTKKGEETKKQVDVQYSDFL  112 (139)
+T ss_dssp             HHHHHHHHHHHSCSEEHHHHHHHCSSCC-TTHHHHHHHHHHTTSEEEEECSSCTTCEEEEECHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhcCCcCHHHHHHHHCCCc-hhHHHHHHHHHHCCCEEeecCCCCcceEEEEECHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---CCCCCHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ---GRDIRKKDINNIVKTLHEWCDGC  181 (264)
+Q Consensus       159 ---~Rd~~~~~~~~l~~~L~~W~~~~  181 (264)
+                         ...+++++...+...|..+...+
+T Consensus       113 ~~~~~~l~~~e~~~l~~~l~~~~~~l  138 (139)
+T 3bja_A          113 KENCGCFTKEEEGILEDLLLKWKKHL  138 (139)
+T ss_dssp             HHHHCCSCHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhcCCHHHHHHHHHHHHHHHHhh
+
+
+No 60 
+>2rdp_A Putative transcriptional regulator MARR; PFAM PF01047, winged-helix binding motif, structural genomics, PSI-2; 2.30A {Geobacillus stearothermophilus}
+Probab=76.95  E-value=26  Score=26.49  Aligned_cols=84  Identities=7%  Similarity=0.036  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                   
+T Consensus        44 ~~~iL~~l~~~~~~~~~ela~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~~  122 (150)
+T 2rdp_A           44 QFVALQWLLEEGDLTVGELSNKMYLAC-STTTDLVDRMERNGLVARVRDEHDRRVVRIRLLEKGERIIEEVIEKRQRDLA  122 (150)
+T ss_dssp             HHHHHHHHHHHCSBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECCC---CEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCCHHHHHHHhCCCh-hhHHHHHHHHHHCCCEEeccCCCCcceEEEEeChhHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCE  182 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~  182 (264)
+                        ...+++++...+...|..+...+.
+T Consensus       123 ~~~~~l~~~e~~~l~~~l~~~~~~~~  148 (150)
+T 2rdp_A          123 NVLESFSDEEIVVFERCLRKLHQEMT  148 (150)
+T ss_dssp             HHGGGSCHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHh
+
+
+No 61 
+>5l3t_A Nuclear mRNA export protein SAC3; nuclear export, TREX-2 complex, THP1, transport protei; 4.93A {Saccharomyces cerevisiae}
+Probab=76.90  E-value=11  Score=41.05  Aligned_cols=83  Identities=19%  Similarity=0.270  Sum_probs=0.0
+
+Q ss_pred             HHHHhcHHHHHHhcCCCHHHHHHHHHHHhCC---------------HHHHHHhHHh--ChhH----HHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   44 GELLELANVQELAEGANAAYLQLLNLFAYGT---------------YPDYIANKES--LPEL----STAQQNKLKHLTIV  102 (264)
+Q Consensus        44 ~eLL~lp~v~~l~~~~~~~~~~LL~lF~~G~---------------~~dy~~~~~~--~~~L----~~~~~~KLr~LtL~  102 (264)
+                      .++...|.|+        ..+.+..++..|+               |..|......  .|.+    .+....++|..+|.
+T Consensus       388 ~~i~~sp~Vq--------~AL~L~~al~~gN~~~~~~~~~~~~~nnY~rFFrL~ks~~~pyL~acLme~~f~~vR~~AL~  459 (1301)
+T 5l3t_A          388 KHIFQDKLVQ--------MALCFRRVISNSAYTERGFVKTENCLNFYARFFQLMQSPSLPLLMGFFLQMHLTDIRFYALR  459 (1301)
+T ss_dssp             HHHHTSHHHH--------HHHHHHHHHCCTTCCCTTCCCCTTCCCCHHHHHHHHTCTTSCHHHHHHHGGGHHHHHHHHHH
+T ss_pred             HhhhcCHHHH--------HHHHHHHHHHccCcccccccchhhhhhhHHHHHHHHhcCCCCHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHhcC----CcccHHHHHHHcCCCCHHHHHHHHHH
+Q Fri_Dec_23_02:  103 SLASRM----KCIPYSVLLKDLEMRNLRELEDLIIE  134 (264)
+Q Consensus       103 sLa~~~----~~I~y~~I~~~L~i~~~~elE~lII~  134 (264)
+                      .++..|    ..||++.|++.|++.+.+++.+++..
+T Consensus       460 ~I~kAY~~k~~~IpL~~L~~lLgFds~eEa~eF~~~  495 (1301)
+T 5l3t_A          460 ALSHTLNKKHKPIPFIYLENMLLFNNRQEIIEFCNY  495 (1301)
+T ss_dssp             HHHTTSCTTCCCEEHHHHHHHHTCSSHHHHHHHHHH
+T ss_pred             HHHHHhCCCCCcCcHHHHHHHhCCCCHHHHHHHHHH
+
+
+No 62 
+>4xrf_A Transcriptional regulator, MARR family; winged helix turn helix transcription factor; HET: ISQ DAO; 2.16A {Bacillus cereus}
+Probab=76.73  E-value=25  Score=26.18  Aligned_cols=84  Identities=6%  Similarity=0.090  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++....-...                   
+T Consensus        35 ~~~iL~~l~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~g~~~~~~~~~~~~~~~~  113 (142)
+T 4xrf_A           35 QFYILKILDHYGASRATTLAKKMYVKP-SAITVMIDRLIDQELVERYHDKDDRRVVIIELTKKGKARVEEAMTARNEHIA  113 (142)
+T ss_dssp             HHHHHHHHHHHCSEEHHHHHHHHTSCH-HHHHHHHHHHHHTTCEEEEECSSCTTCEEEEECHHHHHHHHHHHHTCCHHHH
+T ss_pred             HHHHHHHHHHcCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCCeeeCCCccccCeeeeEECHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCE  182 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~  182 (264)
+                        ...++++++..+...|..+...+.
+T Consensus       114 ~~~~~l~~~e~~~l~~~l~~~~~~~~  139 (142)
+T 4xrf_A          114 KYFSHLELQEREDLLRLFEKLETIIC  139 (142)
+T ss_dssp             HHHTTSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHh
+
+
+No 63 
+>5duk_A Putative DNA binding protein; structural genomics, PSI-biology, midwest center for structu genomics, MCSG; 2.35A {Thermoplasmatales archaeon scgc ab-539organism_taxid}
+Probab=76.72  E-value=11  Score=24.83  Aligned_cols=59  Identities=15%  Similarity=0.026  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEe
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDF  156 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~  156 (264)
+                      ....|+.+......++..+|++.++++. ..+-..+-.+...|+|.-.-+.......+..
+T Consensus        10 ~~~~il~~l~~~~~~~~~~l~~~~~~s~-~tv~~~l~~L~~~g~i~~~~~~~~~~y~~~~   68 (77)
+T 5duk_A           10 TRREIYKHIVKSPGLHERQLAKELDVPL-STLVYHLHYLERRELIMMKSDERYARYYATK   68 (77)
+T ss_dssp             HHHHHHHHHHHSTTBCHHHHHHHTTCCH-HHHHHHHHHHHHTTSEEEECCGGGCEEEECC
+T ss_pred             hHHHHHHHHHHCCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCEEEEEeCCCceEEEeCC
+
+
+No 64 
+>2eth_A Transcriptional regulator, putative, MAR family; MARR family, structural genomics, joint center for structura genomics, JCSG; 2.30A {Thermotoga maritima} SCOP: a.4.5.28 l.1.1.1
+Probab=76.47  E-value=28  Score=26.66  Aligned_cols=84  Identities=5%  Similarity=0.025  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++...+....                   
+T Consensus        46 ~~~iL~~l~~~~~~t~~ela~~l~~s~-~tvs~~l~~L~~~Gli~~~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~~~~~  124 (154)
+T 2eth_A           46 ELYAFLYVALFGPKKMKEIAEFLSTTK-SNVTNVVDSLEKRGLVVREMDPVDRRTYRVVLTEKGKEIFGEILSNFESLLK  124 (154)
+T ss_dssp             HHHHHHHHHHHCCBCHHHHHHHTTSCH-HHHHHHHHHHHHTTSEEEEECTTTSSCEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCCHHHHHHHhCCCH-hHHHHHHHHHHHCCCEEeeCCCCCCCeEEEEEChhHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCE  182 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~  182 (264)
+                        ...+++++...+...|......+.
+T Consensus       125 ~~~~~l~~~e~~~l~~~l~~~~~~~~  150 (154)
+T 2eth_A          125 SVLEKFSEEDFKVVSEGFNRMVEALS  150 (154)
+T ss_dssp             HHHTTCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHH
+
+
+No 65 
+>4lb6_B Protein kinase containing Z-DNA binding domains; WHTH, zalpha, ZBD, kinase, innate immunity, Z-DNA, Z-RNA, EI transferase-DNA complex; 1.80A {Danio rerio} PDB: 4lb5_A
+Probab=76.37  E-value=12  Score=23.96  Aligned_cols=57  Identities=7%  Similarity=0.100  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEE
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEV  154 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v  154 (264)
+                      ..+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..+...++
+T Consensus        12 ~~~~il~~l~~~~~~~~~~la~~~~~~~-~~v~~~l~~L~~~g~i~~~~~~~~~~~~~   68 (72)
+T 4lb6_B           12 IEMRICDYLRRHGRSTVQDIFKELKLEK-STVNRHLYSLQASKQVFKTVEDNKRPVWN   68 (72)
+T ss_dssp             HHHHHHHHHHHHCSBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEECCTTSCCEEE
+T ss_pred             HHHHHHHHHHHcCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCCeEeecCCCCCceee
+
+
+No 66 
+>2d1h_A ST1889, 109AA long hypothetical transcriptional regulator; helix-turn-helix, intermolecular and intramolecular S-S bond structural genomics; 2.05A {Sulfolobus tokodaii} SCOP: a.4.5.50
+Probab=76.05  E-value=22  Score=25.22  Aligned_cols=80  Identities=9%  Similarity=0.106  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCC--EEEEEeecCCCCCHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQ--LLEVDFCIGRDIRKKDINNIVKTL  174 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~--~v~v~~~~~Rd~~~~~~~~l~~~L  174 (264)
+                      +..-+..+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++  .....+...    .+-+..+...+
+T Consensus        23 ~~~il~~l~~~~~~~t~~ela~~~~~~~-~tv~~~l~~L~~~gli~~~~~~~d~~gr~~~~~~t~----~~~~~~~~~~~   97 (109)
+T 2d1h_A           23 DVAVLLKMVEIEKPITSEELADIFKLSK-TTVENSLKKLIELGLVVRTKTEGKKIGRPKYYYSIS----SNILEKIRNDL   97 (109)
+T ss_dssp             HHHHHHHHHHHCSCEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEC-------CCEEEEEC----TTHHHHHHHHH
+T ss_pred             HHHHHHHHHhcCCCCCHHHHHHHhCcCH-HHHHHHHHHHHHCCCeeeccccCCCCCCCceeeecC----hHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHH
+Q Fri_Dec_23_02:  175 HEWCDGC  181 (264)
+Q Consensus       175 ~~W~~~~  181 (264)
+                      ..|...+
+T Consensus        98 ~~~~~~~  104 (109)
+T 2d1h_A           98 LNCAKRM  104 (109)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+
+
+No 67 
+>3i4p_A Transcriptional regulator, ASNC family; PSI, structural genom protein structure initiative, midwest center for structural genomics; 2.30A {Agrobacterium tumefaciens str}
+Probab=75.67  E-value=22  Score=27.55  Aligned_cols=80  Identities=10%  Similarity=0.038  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEE---EEeCCC---CEEEEEeecCCCCCHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQG---KLDQRN---QLLEVDFCIGRDIRKKDINNI  170 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~g---kIDq~~---~~v~v~~~~~Rd~~~~~~~~l  170 (264)
+                      ..+.|+.+......+++.+|++.++++. ..+-..+-.+...|+|..   .+|...   ....+-+........+....+
+T Consensus         4 ~~~~il~~l~~~~~~~~~~la~~l~~s~-~tv~~~l~~L~~~g~i~~~~~~~~~~~~g~~~~~~v~i~~~~~~~~~~~~~   82 (162)
+T 3i4p_A            4 LDRKILRILQEDSTLAVADLAKKVGLST-TPCWRRIQKMEEDGVIRRRVALLDPVKVNTKVTVFVSIRTASHSIEWLKRF   82 (162)
+T ss_dssp             HHHHHHHHHTTCSCSCHHHHHHHHTCCH-HHHHHHHHHHHHTTSSCCCCCCCCTTTTTCCEEEEEEEECCSCCHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCCCHHHHHHHHCCCH-HHHHHHHHHHHhCCceEeecccCChhhcCCCEEEEEEEEEccCChHHHHHH
+
+
+Q ss_pred             HHHHHHH
+Q Fri_Dec_23_02:  171 VKTLHEW  177 (264)
+Q Consensus       171 ~~~L~~W  177 (264)
+                      .+.|..+
+T Consensus        83 ~~~l~~~   89 (162)
+T 3i4p_A           83 SEVVSEF   89 (162)
+T ss_dssp             HHHHHHC
+T ss_pred             HHHHhCC
+
+
+No 68 
+>1tbx_A ORF F-93, hypothetical 11.0 kDa protein; sulfolobus spindle virus, winged helix, fusellovirus; 2.70A {Sulfolobus virus 1} SCOP: a.4.5.48 l.1.1.1
+Probab=75.26  E-value=22  Score=25.03  Aligned_cols=81  Identities=7%  Similarity=-0.007  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHH----HHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVL----LKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVK  172 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I----~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~  172 (264)
+                      ..+.++.+......++..+|    ++.++++. ..+-..|-.+...|+|.-.-|.....+.++..     +..-+..+..
+T Consensus         9 ~~~~iL~~l~~~~~~~~~ela~~la~~~~~~~-~tvs~~l~~L~~~gli~~~~~~~~~~~~lT~~-----G~~~~~~~~~   82 (99)
+T 1tbx_A            9 PEAIVLAYLYDNEGIATYDLYKKVNAEFPMST-ATFYDAKKFLIQEGFVKERQERGEKRLYLTEK-----GKLFAISLKT   82 (99)
+T ss_dssp             HHHHHHHHHTTCTTCBHHHHHHHHHTTSCCCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEECHH-----HHHHHHHHHH
+T ss_pred             hHHHHHHHHHHCCCccHHHHHHHHHHhcCCCh-hHHHHHHHHHHHCCCEEEeecCCeEEEEECHh-----HHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHH
+Q Fri_Dec_23_02:  173 TLHEWCDGCEA  183 (264)
+Q Consensus       173 ~L~~W~~~~~~  183 (264)
+                      .+..|...+..
+T Consensus        83 ~~~~~~~~~~~   93 (99)
+T 1tbx_A           83 AIETYKQIKKR   93 (99)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHhh
+
+
+No 69 
+>2qvo_A Uncharacterized protein AF_1382; PSI, structural genomics, southeast collaboratory for structural genomics; 1.85A {Archaeoglobus fulgidus dsm 4304} PDB: 3o3k_A 3ov8_A
+Probab=74.88  E-value=15  Score=25.34  Aligned_cols=79  Identities=10%  Similarity=0.053  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhc----CCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASR----MKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVK  172 (264)
+Q Consensus        97 r~LtL~sLa~~----~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~  172 (264)
+                      ..+.++.+...    ...++..+|++.++++. ..+-..|-.+...|+|.-.-|.....+.++..     +..-+..+..
+T Consensus        13 ~~~~iL~~l~~~~~~~~~~~~~~la~~~~~~~-~~v~~~l~~L~~~gli~~~~~~r~~~~~lT~~-----G~~~~~~~~~   86 (95)
+T 2qvo_A           13 KALEILMTIYYESLGGNDVYIQYIASKVNSPH-SYVWLIIKKFEEAKMVECELEGRTKIIRLTDK-----GQKIAQQIKS   86 (95)
+T ss_dssp             HHHHHHHHHHHHHHTTCCEEHHHHHHHSSSCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEECHH-----HHHHHHHHHH
+T ss_pred             cHHHHHHHHHHhhccCCCccHHHHHHHhCCCH-HHHHHHHHHHHHCCCEEeecCCCeEEEEEChH-----HHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHH
+Q Fri_Dec_23_02:  173 TLHEWCDGC  181 (264)
+Q Consensus       173 ~L~~W~~~~  181 (264)
+                      .+..|...+
+T Consensus        87 ~~~~~~~~~   95 (95)
+T 2qvo_A           87 IIDIMENDT   95 (95)
+T ss_dssp             HHHHC----
+T ss_pred             HHHHHhccC
+
+
+No 70 
+>3bro_A Transcriptional regulator; helix_TURN_helix, multiple antibiotic resistance protein (MA structural genomics, PSI-2, protein structure initiative; HET: MSE; 2.04A {Oenococcus oeni} SCOP: a.4.5.28
+Probab=74.58  E-value=29  Score=25.85  Aligned_cols=83  Identities=13%  Similarity=0.167  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcC--CcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec----------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRM--KCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI----------------  158 (264)
+Q Consensus        97 r~LtL~sLa~~~--~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~----------------  158 (264)
+                      ..+.++.+....  ..++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                
+T Consensus        35 ~~~~iL~~l~~~~~~~~t~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~  113 (141)
+T 3bro_A           35 TQMTIIDYLSRNKNKEVLQRDLESEFSIKS-STATVLLQRMEIKKLLYRKVSGKDSRQKCLKLTKKANKLETIILSYMDS  113 (141)
+T ss_dssp             HHHHHHHHHHHTTTSCCBHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECSSCTTSEEEEECHHHHTTHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHccCCCcCHHHHHHHHCCch-hhHHHHHHHHHHCCCEEecCCCCCCceeEEEECHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             -----CCCCCHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 -----GRDIRKKDINNIVKTLHEWCDG  180 (264)
+Q Consensus       159 -----~Rd~~~~~~~~l~~~L~~W~~~  180 (264)
+                           ...++++++..+...|..+..+
+T Consensus       114 ~~~~~~~~l~~~e~~~l~~~l~~~~~~  140 (141)
+T 3bro_A          114 DQSQMTSGLNKEEVVFLEKILKRMIES  140 (141)
+T ss_dssp             HHHHHTTTCCHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHccCCHHHHHHHHHHHHHHHcC
+
+
+No 71 
+>4rs8_A ASPA; PADR family, DNA segregation, centromere DNA binding, PNOB8 binding protein; 2.29A {Sulfolobus SP} PDB: 5k5q_C* 5k1y_C* 5kk1_C*
+Probab=74.56  E-value=20  Score=23.91  Aligned_cols=77  Identities=5%  Similarity=-0.020  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      ..+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|.....+.++..     +.+-+..+...+..
+T Consensus         6 ~~~~il~~l~~~~~~~~~~la~~l~~~~-~~v~~~l~~L~~~gli~~~~~~r~~~~~lt~~-----g~~~~~~~~~~~~~   79 (84)
+T 4rs8_A            6 PRAYIIVHLLKVGKAKASEISENTQIPY-QTVIQNIRWLLAEGYVVKEQKGEEIYYKLTDK-----GKQMATAELEKIRK   79 (84)
+T ss_dssp             HHHHHHHHHHHHSEEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEECHH-----HHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHcCCCCHHHHHHHHCcCH-HHHHHHHHHHHHCCCEEEeccCceEEEEECHH-----HHHHHHHHHHHHHH
+
+
+Q ss_pred             HHH
+Q Fri_Dec_23_02:  177 WCD  179 (264)
+Q Consensus       177 W~~  179 (264)
+                      +..
+T Consensus        80 ~~~   82 (84)
+T 4rs8_A           80 LVE   82 (84)
+T ss_dssp             HHH
+T ss_pred             HHh
+
+
+No 72 
+>2w25_A Probable transcriptional regulatory protein; transcription regulation, mutant, RV3291C, Glu104Ala, DNA-binding; 2.15A {Mycobacterium tuberculosis} PDB: 2vbw_A* 2vbx_A* 2vby_A* 2vbz_A* 2vc0_A 2vc1_A 2w24_A 2ivm_A 2w29_A 2qz8_A
+Probab=74.15  E-value=10  Score=28.85  Aligned_cols=56  Identities=9%  Similarity=0.129  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEE---EEeCCC------CEEEEE
+Q Fri_Dec_23_02:   99 LTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQG---KLDQRN------QLLEVD  155 (264)
+Q Consensus        99 LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~g---kIDq~~------~~v~v~  155 (264)
+                      +.|+.+......+++.+|++.++++. ..+-..|-.+...|+|.+   .+|...      ..+.++
+T Consensus        10 ~~iL~~L~~~~~~~~~ela~~l~is~-~tv~~~l~~L~~~G~I~~~~~~~d~~~~g~~~~~~v~lt   74 (150)
+T 2w25_A           10 RILVRELAADGRATLSELATRAGLSV-SAVQSRVRRLESRGVVQGYSARINPEAVGHLLSAFVAIT   74 (150)
+T ss_dssp             HHHHHHHHHCTTCCHHHHHHHHTSCH-HHHHHHHHHHHHTTSEEEEEEEECTGGGTCCEEEEEEEE
+T ss_pred             HHHHHHHHHcCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCeEeeeEEEECHHHcCCcEEEEEEEE
+
+
+No 73 
+>1s3j_A YUSO protein; structural genomics, MARR transcriptional regulator family, PSI, protein structure initiative; HET: MSE; 2.25A {Bacillus subtilis} SCOP: a.4.5.28
+Probab=74.08  E-value=31  Score=26.23  Aligned_cols=84  Identities=6%  Similarity=0.056  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++....-...                   
+T Consensus        39 ~~~iL~~l~~~~~~~~~~la~~l~~s~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~g~~~~~~~~~~~~~~~~  117 (155)
+T 1s3j_A           39 QLFVLASLKKHGSLKVSEIAERMEVKP-SAVTLMADRLEQKNLIARTHNTKDRRVIDLSLTDEGDIKFEEVLAGRKAIMA  117 (155)
+T ss_dssp             HHHHHHHHHHHSEEEHHHHHHHHTSCH-HHHHHHHHHHHHTTSEEEEECSSCTTSEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCcCHHHHHHHhCCCH-HHHHHHHHHHHHCCCeEeecCCCCCceEEEEEChhHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCE  182 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~  182 (264)
+                        ...++++++..+...|..+...+.
+T Consensus       118 ~~~~~l~~~e~~~l~~~l~~~~~~~~  143 (155)
+T 1s3j_A          118 RYLSFLTEEEMLQAAHITAKLAQAAE  143 (155)
+T ss_dssp             HHHTTSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHcc
+
+
+No 74 
+>3kp7_A Transcriptional regulator TCAR; multiple drug resistance, biofilm, transcription regulation, binding, transcription regulator; 2.30A {Staphylococcus epidermidis RP62A} PDB: 3kp3_A* 3kp4_A* 3kp5_A* 3kp2_A* 3kp6_A 4ejt_A 4eju_A 4ejv_A* 4ejw_A* 4kdp_A*
+Probab=73.93  E-value=28  Score=26.32  Aligned_cols=89  Identities=8%  Similarity=0.096  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEe--CCCCEEEEEeec-----------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLD--QRNQLLEVDFCI-----------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkID--q~~~~v~v~~~~-----------------  158 (264)
+                      .+.++.+.... .++..+|++.++++. ..+-..|-.+...|+|.-.-+  ..++....-...                 
+T Consensus        40 ~~~iL~~l~~~-~~~~~ela~~l~~~~-~tvs~~l~~L~~~gli~~~~~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~~~  117 (151)
+T 3kp7_A           40 QSHVLNMLSIE-ALTVGQITEKQGVNK-AAVSRRVKKLLNAELVKLEKPDSNTDQRLKIIKLSNKGKKYIKERKAIMSHI  117 (151)
+T ss_dssp             HHHHHHHHHHS-CBCHHHHHHHHCSCS-SHHHHHHHHHHHTTSEEC-----------CCBEECHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHC-CCCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEeeCCCCCCCCCeeeeEECHhHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ----CCCCCHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ----GRDIRKKDINNIVKTLHEWCDGCEAVLLGI  188 (264)
+Q Consensus       159 ----~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~l  188 (264)
+                          ...+++++...+...|......+......+
+T Consensus       118 ~~~~~~~l~~~e~~~l~~~l~~~~~~~~~~~~~~  151 (151)
+T 3kp7_A          118 ASDMTSDFDSKEIEKVRQVLEIIDYRIQSYTSKL  151 (151)
+T ss_dssp             HHHTTTTSCHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHcCCCHHHHHHHHHHHHHHHHHHHHhhccC
+
+
+No 75 
+>3bpv_A Transcriptional regulator; MARR, DNA binding, transcription factor, winged helix motif, DNA-binding; 1.40A {Methanobacterium thermoautotrophicum} SCOP: a.4.5.0 PDB: 3bpx_A*
+Probab=73.75  E-value=30  Score=25.60  Aligned_cols=85  Identities=11%  Similarity=0.032  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      ...++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++....-...                   
+T Consensus        31 ~~~iL~~l~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lt~~g~~~~~~~~~~~~~~~~  109 (138)
+T 3bpv_A           31 QVACLLRIHREPGIKQDELATFFHVDK-GTIARTLRRLEESGFIEREQDPENRRRYILEVTRRGEEIIPLILKVEERWED  109 (138)
+T ss_dssp             HHHHHHHHHHSTTCBHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEEEEECHHHHHTHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCcCHHHHHHHHCCCH-HHHHHHHHHHHHCCcEEEecCCccCCeeeeeeCccHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCEA  183 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~~  183 (264)
+                        ...+++++...+...|......+..
+T Consensus       110 ~~~~~l~~~e~~~l~~~l~~~~~~~~~  136 (138)
+T 3bpv_A          110 LLFRDFTEDERKLFRKMCRRLAEEAVR  136 (138)
+T ss_dssp             HHTTTSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHhc
+
+
+No 76 
+>4kmf_A Interferon-inducible and double-stranded-dependen 2kinase; zalpha, Z-DNA, PKZ, goldfish, transferase-DNA complex; HET: DNA; 1.70A {Carassius auratus} PDB: 2rvc_A
+Probab=73.72  E-value=9.2  Score=23.47  Aligned_cols=57  Identities=4%  Similarity=-0.008  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEE
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEV  154 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v  154 (264)
+                      ....|+.+......++..+|++.++++. ..+-..+-.+...|+|.-.-+.......+
+T Consensus         6 ~~~~il~~l~~~~~~~~~~ia~~~~~s~-~~v~~~l~~L~~~g~i~~~~~~~~~~y~~   62 (62)
+T 4kmf_A            6 MERKIIDFLRQNGKSIALTIAKEIGLDK-STVNRHLYNLQRSNQVFNSNEKPPVWDLM   62 (62)
+T ss_dssp             HHHHHHHHHHHHCSEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEECSCSSCEEEEC
+T ss_pred             HHHHHHHHHHHCCCcCHHHHHHHHCCCH-HHHHHHHHHHHhCCceEeeccCCceEeeC
+
+
+No 77 
+>3cjn_A Transcriptional regulator, MARR family; silicibacter pomeroy structural genomics, PSI-2, protein structure initiative; 1.95A {Silicibacter pomeroyi dss-3} SCOP: a.4.5.0
+Probab=73.61  E-value=35  Score=26.29  Aligned_cols=83  Identities=11%  Similarity=0.109  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                   
+T Consensus        54 ~~~iL~~l~~~~~~~~~ela~~l~~s~-~tvs~~l~~L~~~gli~r~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~~  132 (162)
+T 3cjn_A           54 KMRALAILSAKDGLPIGTLGIFAVVEQ-STLSRALDGLQADGLVRREVDSDDQRSSRVYLTPAGRAVYDRLWPHMRASHD  132 (162)
+T ss_dssp             HHHHHHHHHHSCSEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEC--CCSSEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHCCCCCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEeccCCCCCCeeEeEECHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGC  181 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~  181 (264)
+                        ...++++++..+...|..+...+
+T Consensus       133 ~~~~~l~~~e~~~l~~~l~~l~~~~  157 (162)
+T 3cjn_A          133 RMFQGITPQERQAFLATLNKMLANI  157 (162)
+T ss_dssp             HHTTTCCHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHhh
+
+
+No 78 
+>4aik_A Transcriptional regulator SLYA; transcription, transcription factor; 1.85A {Yersinia pseudotuberculosis} PDB: 4aih_A 4aij_A 3qpt_A* 3q5f_A*
+Probab=73.57  E-value=33  Score=26.05  Aligned_cols=86  Identities=8%  Similarity=-0.010  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec------------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI------------------  158 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~------------------  158 (264)
+                      +...|..+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                  
+T Consensus        33 ~~~iL~~l~~~~~~~t~~ela~~l~~~~-~tvs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~  111 (151)
+T 4aik_A           33 HWVTLYNINRLPPEQSQIQLAKAIGIEQ-PSLVRTLDQLEEKGLITRHTSANDRRAKRIKLTEQSSPIIEQVDGVISSTR  111 (151)
+T ss_dssp             HHHHHHHHHHSCTTSCHHHHHHHHTSCH-HHHHHHHHHHHHTTSEEEEECSSCTTCEEEEECGGGHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCCCHHHHHHHHCCCc-chHHHHHHHHHHCCCEEecCCCCccccceeeECHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---CCCCCHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ---GRDIRKKDINNIVKTLHEWCDGCEA  183 (264)
+Q Consensus       159 ---~Rd~~~~~~~~l~~~L~~W~~~~~~  183 (264)
+                         ...+++++...+...|......+..
+T Consensus       112 ~~~~~~l~~~e~~~l~~~l~~l~~~~~~  139 (151)
+T 4aik_A          112 KEILGGISSDEIAVLSGLIDKLEKNIIQ  139 (151)
+T ss_dssp             HHHTTTSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHccCCHHHHHHHHHHHHHHHHHHHh
+
+
+No 79 
+>1r7j_A Conserved hypothetical protein SSO10A; winged helix-turn-helix, two-stranded antiparallel coiled CO structural genomics, PSI; 1.47A {Sulfolobus solfataricus} SCOP: a.4.5.49 PDB: 1xsx_A
+Probab=73.45  E-value=25  Score=24.50  Aligned_cols=83  Identities=8%  Similarity=0.046  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      ..+.|+.+..  ..++..+|++.++++. ..+-..|-.+...|+|.-.-    +.+.++..      -..+......+..
+T Consensus         9 ~~~~iL~~l~--~~~~~~~la~~~~~~~-~~v~~~l~~L~~~gli~~~~----~~~~lT~~------G~~~~~~~~~~~~   75 (95)
+T 1r7j_A            9 IIQAILEACK--SGSPKTRIMYGANLSY-ALTGRYIKMLMDLEIIRQEG----KQYMLTKK------GEELLEDIRKFNE   75 (95)
+T ss_dssp             HHHHHHHHHT--TCBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEET----TEEEECHH------HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHh--CCCCHHHHHHHhCCCH-HHHHHHHHHHHhCCCeeecC----CEEEECHh------HHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  177 WCDGCEAVLLGIEQQV  192 (264)
+Q Consensus       177 W~~~~~~vl~~l~~~~  192 (264)
+                      |...+......++...
+T Consensus        76 ~~~~~~~~~~~~~~~~   91 (95)
+T 1r7j_A           76 MRKNMDQLKEKINSVL   91 (95)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHh
+
+
+No 80 
+>3cuo_A Uncharacterized HTH-type transcriptional regulato; DNA-binding transcriptional regulator, structural genomics, MCSG; 2.00A {Escherichia coli K12}
+Probab=73.09  E-value=24  Score=24.25  Aligned_cols=75  Identities=16%  Similarity=0.137  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      ..+.++.+......++..+|++.++++. ..+-..+-.+...|+|.-.-+.....+.+...        .+..+...+..
+T Consensus        25 ~~~~il~~l~~~~~~~~~el~~~~~~s~-~tv~~~l~~L~~~gli~~~~~~~~~~~~l~~~--------~~~~~~~~~~~   95 (99)
+T 3cuo_A           25 KRLLILCMLSGSPGTSAGELTRITGLSA-SATSQHLARMRDEGLIDSQRDAQRILYSIKNE--------AVNAIIATLKN   95 (99)
+T ss_dssp             HHHHHHHHHTTCCSEEHHHHHHHHCCCH-HHHHHHHHHHHHTTSEEEEECSSCEEEEECCH--------HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhCCCcCHHHHHHHHCcCH-HHHHHHHHHHHHCCCEEEeecCCEEEEEECHH--------HHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Fri_Dec_23_02:  177 WCDG  180 (264)
+Q Consensus       177 W~~~  180 (264)
+                      +...
+T Consensus        96 ~~~~   99 (99)
+T 3cuo_A           96 VYCP   99 (99)
+T ss_dssp             HHC-
+T ss_pred             HhCC
+
+
+No 81 
+>3deu_A Transcriptional regulator SLYA; MARR, WING-helix, transcription regulator, activator, DNA-binding, repressor; HET: SAL; 2.30A {Salmonella typhimurium} SCOP: a.4.5.28 l.1.1.1
+Probab=72.55  E-value=31  Score=27.09  Aligned_cols=90  Identities=9%  Similarity=-0.004  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec------------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI------------------  158 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~------------------  158 (264)
+                      +...|..+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                  
+T Consensus        55 ~~~iL~~l~~~~~~~t~~ela~~l~is~-~tvs~~l~~L~~~GlI~r~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~~~~  133 (166)
+T 3deu_A           55 HWVTLHNIHQLPPDQSQIQLAKAIGIEQ-PSLVRTLDQLEDKGLISRQTCASDRRAKRIKLTEKAEPLIAEMEEVIHKTR  133 (166)
+T ss_dssp             HHHHHHHHHHSCSSEEHHHHHHHHTSCH-HHHHHHHHHHHHTTSEEEC--------CEEEECGGGHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCcCHHHHHHHHCCCc-chHHHHHHHHHHCCCEEeeCCCccCCeeeeEECHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---CCCCCHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ---GRDIRKKDINNIVKTLHEWCDGCEAVLLG  187 (264)
+Q Consensus       159 ---~Rd~~~~~~~~l~~~L~~W~~~~~~vl~~  187 (264)
+                         ...++++++..+...|......+......
+T Consensus       134 ~~~~~~l~~~e~~~l~~~l~~l~~~l~~~~~~  165 (166)
+T 3deu_A          134 GEILAGISSEEIELLIKLIAKLEHNIMELHSH  165 (166)
+T ss_dssp             HHHHTTCCHHHHHHHHHHHHHHHHHHHHC---
+T ss_pred             HHHHhcCCHHHHHHHHHHHHHHHHHHHHhhcC
+
+
+No 82 
+>1z7u_A Hypothetical protein EF0647; winged-helix-turn-helix, MARR, structural genomics, PSI, Pro structure initiative; 2.20A {Enterococcus faecalis} SCOP: a.4.5.69 l.1.1.1
+Probab=72.19  E-value=29  Score=24.78  Aligned_cols=88  Identities=10%  Similarity=0.086  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHc-CCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDL-EMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L-~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      .+.|+..... ..+++.+|++.+ +++. ..+-..|-.+...|+|.-.-+..++........+.   -.++......+..
+T Consensus        24 ~~~iL~~l~~-~~~~~~~l~~~l~~~s~-~~v~~~l~~L~~~gli~~~~~~~~~r~~~~~lt~~---g~~~~~~~~~~~~   98 (112)
+T 1z7u_A           24 KLSLMDELFQ-GTKRNGELMRALDGITQ-RVLTDRLREMEKDGLVHRESFNELPPRVEYTLTPE---GYALYDALSSLCH   98 (112)
+T ss_dssp             HHHHHHHHHH-SCBCHHHHHHHSTTCCH-HHHHHHHHHHHHHTSEEEEEECCSSCEEEEEECHH---HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHc-CCCCHHHHHHHccCCCH-HHHHHHHHHHHHCCCEEEeccCCCCCeeEEeeCHh---HHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  177 WCDGCEAVLLGIEQ  190 (264)
+Q Consensus       177 W~~~~~~vl~~l~~  190 (264)
+                      |.......+..++.
+T Consensus        99 ~~~~~~~~~~~~~~  112 (112)
+T 1z7u_A           99 WGETFAQKKARLNK  112 (112)
+T ss_dssp             HHHHHHHHHHHHC-
+T ss_pred             HHHHccccHhhccC
+
+
+No 83 
+>2gxg_A 146AA long hypothetical transcriptional regulator; winged helix; 1.45A {Sulfolobus tokodaii} PDB: 2eb7_A 2yr2_A 3gez_A 3gf2_A* 3gfi_A 3gfm_A 3gfj_A 3gfl_A
+Probab=72.12  E-value=35  Score=25.64  Aligned_cols=86  Identities=7%  Similarity=0.012  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-----------------
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-----------------  158 (264)
+Q Consensus        96 Lr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-----------------  158 (264)
+                      ...+ ++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++....-...                 
+T Consensus        37 ~~~~-iL~~l~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~  114 (146)
+T 2gxg_A           37 YLDF-LVLRATSDGPKTMAYLANRYFVTQ-SAITASVDKLEEMGLVVRVRDREDRRKILIEITEKGLETFNKGIEIYKKL  114 (146)
+T ss_dssp             HHHH-HHHHHHTTSCBCHHHHHHHTTCCH-HHHHHHHHHHHHTTSEEEEECSSCTTCEEEEECHHHHHHHHHHHHHHHHH
+T ss_pred             HHHH-HHHHHHhcCCcCHHHHHHHhCCCH-HHHHHHHHHHHHCCCEEeecCCCCCceEEEEEChhHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ----CCCCCHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ----GRDIRKKDINNIVKTLHEWCDGCEA  183 (264)
+Q Consensus       159 ----~Rd~~~~~~~~l~~~L~~W~~~~~~  183 (264)
+                          ...+++++...+...|......+..
+T Consensus       115 ~~~~~~~l~~~e~~~l~~~l~~~~~~~~~  143 (146)
+T 2gxg_A          115 ANEVTGDLSEDEVILVLDKISKILKRIEE  143 (146)
+T ss_dssp             HHHHTTTSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHccCCHHHHHHHHHHHHHHHHHHHH
+
+
+No 84 
+>3oop_A LIN2960 protein; protein structure initiative, PSI-2, structural genomics, MI center for structural genomics, MCSG, unknown function; 1.78A {Listeria innocua}
+Probab=71.78  E-value=32  Score=25.70  Aligned_cols=84  Identities=10%  Similarity=0.120  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEE---eCCCCEEEEEee----------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKL---DQRNQLLEVDFC----------------  157 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkI---Dq~~~~v~v~~~----------------  157 (264)
+                      ..+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-   |.....+.++..                
+T Consensus        38 ~~~~iL~~l~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~  116 (143)
+T 3oop_A           38 EQWSVLEGIEANEPISQKEIALWTKKDT-PTVNRIVDVLLRKELIVREISTEDRRISLLSLTDKGRKETTELRDIVEASC  116 (143)
+T ss_dssp             HHHHHHHHHHHHSSEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEC----CCSCEEEECHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCCCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEeecCCCCCceeEeeECHhHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --cCCCCCHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  158 --IGRDIRKKDINNIVKTLHEWCDGC  181 (264)
+Q Consensus       158 --~~Rd~~~~~~~~l~~~L~~W~~~~  181 (264)
+                        ....+++++...+...|..+..++
+T Consensus       117 ~~~~~~l~~~e~~~l~~~l~~~~~~~  142 (143)
+T 3oop_A          117 EKMFAGVTRTDLEQFTAILKNISTNI  142 (143)
+T ss_dssp             HHHTTTCCHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHhCCCHHHHHHHHHHHHHHHHhc
+
+
+No 85 
+>4g9y_A PCAV transcriptional regulator; MARR family, winged helix-turn-helix, transcription factor; 2.05A {Streptomyces coelicolor} PDB: 4fht_A
+Probab=71.57  E-value=38  Score=25.85  Aligned_cols=84  Identities=4%  Similarity=0.029  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec-------------------
+Q Fri_Dec_23_02:   98 HLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI-------------------  158 (264)
+Q Consensus        98 ~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~-------------------  158 (264)
+                      .+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++...+-...                   
+T Consensus        40 ~~~iL~~l~~~~~~~~~~la~~l~~~~-~tvs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~g~~~~~~~~~~~~~~~~  118 (157)
+T 4g9y_A           40 QYAVLNALVAEPGLDQRTVGERVGLDR-STIAEVVSRLGRRGLLDKVRDPQDGRRSLLRLTDEGLRVHRRLGVRIARMNQ  118 (157)
+T ss_dssp             HHHHHHHHHHSTTCBHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECSSSTTSEEEEECHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHCCCCCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEeecCCCCCceeEeEECHhHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --CCCCCHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 --GRDIRKKDINNIVKTLHEWCDGCE  182 (264)
+Q Consensus       159 --~Rd~~~~~~~~l~~~L~~W~~~~~  182 (264)
+                        ...+++++...+...|......+.
+T Consensus       119 ~~~~~l~~~e~~~l~~~l~~l~~~~~  144 (157)
+T 4g9y_A          119 VFLAPLAADEQAVFFDLIRRVADAAE  144 (157)
+T ss_dssp             HHHTTSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcCCHHHHHHHHHHHHHHHHHHH
+
+
+No 86 
+>2fbh_A Transcriptional regulator PA3341; MARR, transcription regulator, APC5857, structural genomics, protein structure initiative; 1.80A {Pseudomonas aeruginosa} SCOP: a.4.5.28
+Probab=71.37  E-value=36  Score=25.54  Aligned_cols=85  Identities=11%  Similarity=0.043  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec------------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI------------------  158 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~------------------  158 (264)
+                      +...|..+......++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...                  
+T Consensus        39 ~~~iL~~l~~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~  117 (146)
+T 2fbh_A           39 RWLVLLHLARHRDSPTQRELAQSVGVEG-PTLARLLDGLESQGLVRRLAVAEDRRAKHIVLTPKADVLIADIEAIAASVR  117 (146)
+T ss_dssp             HHHHHHHHHHCSSCCBHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEECCBTTBCSCEEEECTTHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCCCHHHHHHHhCCCc-chHHHHHHHHHHCCCeEeccCCcCCCcceeeECHhHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---CCCCCHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ---GRDIRKKDINNIVKTLHEWCDGCE  182 (264)
+Q Consensus       159 ---~Rd~~~~~~~~l~~~L~~W~~~~~  182 (264)
+                         ...+++++...+...|..+...+.
+T Consensus       118 ~~~~~~l~~~e~~~l~~~l~~~~~~~~  144 (146)
+T 2fbh_A          118 NDVLTGIDESEQALCQQVLLRILANLE  144 (146)
+T ss_dssp             HHHTTTCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhCCCHHHHHHHHHHHHHHHHHHh
+
+
+No 87 
+>3e6m_A MARR family transcriptional regulator; APC88769, silicibacter pomeroyi DSS, structural genomics, PSI-2, protein structure initiative; 2.20A {Silicibacter pomeroyi} SCOP: a.4.5.0
+Probab=70.09  E-value=19  Score=27.87  Aligned_cols=87  Identities=14%  Similarity=0.117  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEE---eCCCCEEEEEee----------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKL---DQRNQLLEVDFC----------------  157 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkI---Dq~~~~v~v~~~----------------  157 (264)
+                      ..+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-   |.....+.++..                
+T Consensus        54 ~~~~iL~~l~~~~~~t~~ela~~l~~~~-~~vs~~l~~L~~~gli~r~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~~~~  132 (161)
+T 3e6m_A           54 PKLRLLSSLSAYGELTVGQLATLGVMEQ-STTSRTVDQLVDEGLAARSISDADQRKRTVVLTRKGKKKLAEISPLINDFH  132 (161)
+T ss_dssp             HHHHHHHHHHHHSEEEHHHHHHHTTCCH-HHHHHHHHHHHHTTSEEECC---CCCSCEEEECHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhcCCCCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEecCCCCCcceeEEEEChhHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             --cCCCCCHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  158 --IGRDIRKKDINNIVKTLHEWCDGCEAV  184 (264)
+Q Consensus       158 --~~Rd~~~~~~~~l~~~L~~W~~~~~~v  184 (264)
+                        ....+++++...+...|......+...
+T Consensus       133 ~~~~~~l~~~e~~~l~~~l~~~~~~~~~~  161 (161)
+T 3e6m_A          133 AELVGNVDPDKLQTCIEVLGEILKGKTDY  161 (161)
+T ss_dssp             HHHHTTCCHHHHHHHHHHHHHHHHHTC--
+T ss_pred             HHHHhcCCHHHHHHHHHHHHHHHHhhhcC
+
+
+No 88 
+>3zmd_A ABSC, putative transcriptional regulator; MARR-family, winged helix motif; HET: SAL; 1.95A {Streptomyces coelicolor}
+Probab=69.99  E-value=47  Score=26.34  Aligned_cols=87  Identities=13%  Similarity=0.118  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhcC--CcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEE---eCCCCEEEEEee-------------
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRM--KCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKL---DQRNQLLEVDFC-------------  157 (264)
+Q Consensus        96 Lr~LtL~sLa~~~--~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkI---Dq~~~~v~v~~~-------------  157 (264)
+                      ...+.++.+....  ..++..+|++.++++. ..+-..|-.+...|+|.-.-   |.....+.++..             
+T Consensus        63 ~~~~~iL~~l~~~~~~~~t~~ela~~l~is~-~tvs~~l~~L~~~GlI~r~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~  141 (178)
+T 3zmd_A           63 MNDYEILVNLSESEGDRMRMSDLATATMQSK-SRLSHQITRMENANLVRRENCESDRRGLFAVLTEHGLETMRKVAPHHV  141 (178)
+T ss_dssp             HHHHHHHHHHHTSGGGEEEHHHHHHHTTCCH-HHHHHHHHHHHHTTSEEEECCSSCSSCCEEEECHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhCCCCCcCHHHHHHHhCCCc-ccHHHHHHHHHHCCCEEeccCCCCCCeeEEEECHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ------cCCCCCHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  158 ------IGRDIRKKDINNIVKTLHEWCDGCEA  183 (264)
+Q Consensus       158 ------~~Rd~~~~~~~~l~~~L~~W~~~~~~  183 (264)
+                            ....++++++..+...|......+..
+T Consensus       142 ~~~~~~~~~~l~~~e~~~l~~~l~~l~~~l~~  173 (178)
+T 3zmd_A          142 ASVRRHFIDLLAPEDLTELDKALKPIAEHLRG  173 (178)
+T ss_dssp             HHHHHHTGGGSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCHHHHHHHHHHHHHHHHHhcc
+
+
+No 89 
+>4gcv_A Putative transcription protein; helex-turn-helex, transcription factor, DNA binding; 2.30A {Pseudomonas aeruginosa PAO1} SCOP: a.4.5.0
+Probab=69.87  E-value=43  Score=26.82  Aligned_cols=79  Identities=9%  Similarity=0.106  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHH
+Q Fri_Dec_23_02:   95 KLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTL  174 (264)
+Q Consensus        95 KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L  174 (264)
+                      ..+.+-|..+.  ....++.+|++.++++. ..+-..|-.+...|+|.-.-++.++..........   -.++......+
+T Consensus        23 ~~~llil~~l~--~g~~~~~ela~~l~is~-~~ls~~L~~L~~~Gli~r~~~~~d~r~~~y~LT~~---G~~l~~~~~~~   96 (168)
+T 4gcv_A           23 WWSILIMRDAL--QGLRRFDEFSRSLDIAP-NMLTRRLNALVEAGLLERQPYSQRPLRYQYVPTAK---GEDFRVVLMAF   96 (168)
+T ss_dssp             HHHHHHHHHHH--TTCCBHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECCSCC-CEEEEECHH---HHHTHHHHHHH
+T ss_pred             hHHHHHHHHHh--cCCcCHHHHHHHhCcCH-HHHHHHHHHHHhCCcEEEeeccCCCCeEEEEECcc---cHHHHHHHHHH
+
+
+Q ss_pred             HHHHH
+Q Fri_Dec_23_02:  175 HEWCD  179 (264)
+Q Consensus       175 ~~W~~  179 (264)
+                      ..|..
+T Consensus        97 ~~~~~  101 (168)
+T 4gcv_A           97 VAWGN  101 (168)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+
+
+No 90 
+>4un1_B Putative transcriptional regulator, ASNC family; oxidoreductase; HET: OBV; 1.97A {Desulfovibrio desulfuricans} PDB: 4czd_B*
+Probab=69.08  E-value=19  Score=28.93  Aligned_cols=80  Identities=9%  Similarity=0.185  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcC---CcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcE---EEEeCCCCEEEEEeecCCCCCHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRM---KCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQ---GKLDQRNQLLEVDFCIGRDIRKKDINNI  170 (264)
+Q Consensus        97 r~LtL~sLa~~~---~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~---gkIDq~~~~v~v~~~~~Rd~~~~~~~~l  170 (264)
+                      ..+.|+.+....   ..+++.+|++.++++. ..+-..+-.+...|+|.   +.+|....-..+.....=.+.+.....+
+T Consensus        28 ~d~~IL~~L~~~~p~~~~~~~ela~~lg~s~-~tv~~~l~~L~~~G~I~~~~~~~d~~~~g~~~~a~v~i~~~~~~~~~~  106 (179)
+T 4un1_B           28 EEQAVLRIVQANLPDSLTPYADLAEQAGMTE-AQVLELLGRLKASGAIRRFGASIKHQKTGWTHNAMVAWKVTPDQVDDC  106 (179)
+T ss_dssp             HHHHHHHHHTTCCCSSSCHHHHHHHHTTSCH-HHHHHHHHHHHHHTSEEEEEEEESCSCTTSEEEEEEEECCCHHHHHHH
+T ss_pred             HHHHHHHHHHhcCCCCCCCHHHHHHHhCcCH-HHHHHHHHHHHHCCcEEeecCcCChHHhCceEEEEEEEEeChHHHHHH
+
+
+Q ss_pred             HHHHHHH
+Q Fri_Dec_23_02:  171 VKTLHEW  177 (264)
+Q Consensus       171 ~~~L~~W  177 (264)
+                      .+.|..+
+T Consensus       107 ~~~l~~~  113 (179)
+T 4un1_B          107 GRKAAEH  113 (179)
+T ss_dssp             HHHHHTS
+T ss_pred             HHHHhcC
+
+
+No 91 
+>2cfx_A HTH-type transcriptional regulator LRPC; transcriptional regulation, DNA binding, FFRP; 2.4A {Bacillus subtilis} SCOP: a.4.5.32 d.58.4.2
+Probab=68.52  E-value=12  Score=28.36  Aligned_cols=45  Identities=11%  Similarity=0.136  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEE
+Q Fri_Dec_23_02:   99 LTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGK  144 (264)
+Q Consensus        99 LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gk  144 (264)
+                      +.|+.+......+++.+|++.++++. ..+-..+-.+...|+|.+.
+T Consensus         8 ~~il~~l~~~~~~~~~~la~~l~~s~-~~v~~~l~~L~~~g~i~~~   52 (144)
+T 2cfx_A            8 LNIIEELKKDSRLSMRELGRKIKLSP-PSVTERVRQLESFGIIKQY   52 (144)
+T ss_dssp             HHHHHHHHHCSCCCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEE
+T ss_pred             HHHHHHHHHcCCCCHHHHHHHHCcCH-HHHHHHHHHHHHCCCccee
+
+
+No 92 
+>2ia0_A Putative HTH-type transcriptional regulator PF086; ASNC, PSI, structural genomics, southeast collaboratory for structural genomics; 2.37A {Pyrococcus furiosus}
+Probab=68.17  E-value=11  Score=30.23  Aligned_cols=50  Identities=14%  Similarity=0.035  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCC
+Q Fri_Dec_23_02:   99 LTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRN  149 (264)
+Q Consensus        99 LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~  149 (264)
+                      +.|+.+......+++.+|++.++++. ..+-..|-.+...|+|.+.-...+
+T Consensus        20 ~~il~~L~~~~~~~~~~la~~l~~s~-~tv~~~l~~L~~~g~i~~~~~~~d   69 (171)
+T 2ia0_A           20 RNILRLLKKDARLTISELSEQLKKPE-STIHFRIKKLQERGVIERYTIILG   69 (171)
+T ss_dssp             HHHHHHHHHCTTCCHHHHHHHHTSCH-HHHHHHHHHHHHTTSEEEEEEEEC
+T ss_pred             HHHHHHHHHcCCCCHHHHHHHHCcCH-HHHHHHHHHHHHCCCeEEeccccc
+
+
+No 93 
+>1r1t_A Transcriptional repressor SMTB; zinc, transcriptional regulation, winged HTH protein, DNA binding, transcription repressor; 1.70A {Synechococcus elongatus pcc 7942} SCOP: a.4.5.5 PDB: 1r23_A 1smt_A 1r22_A
+Probab=67.95  E-value=36  Score=24.73  Aligned_cols=71  Identities=10%  Similarity=0.122  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLHE  176 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~~  176 (264)
+                      ..+.|+.+.... .++..+|++.++++. ..+-..|-.+...|+|.-.-+.....+.++..        .+..+...+..
+T Consensus        47 ~~~~il~~l~~~-~~t~~ela~~l~~s~-~tv~~~l~~L~~~gli~~~~~~r~~~y~l~~~--------~~~~~~~~~~~  116 (122)
+T 1r1t_A           47 NRLRLLSLLARS-ELCVGDLAQAIGVSE-SAVSHQLRSLRNLRLVSYRKQGRHVYYQLQDH--------HIVALYQNALD  116 (122)
+T ss_dssp             HHHHHHHHHTTC-CBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEEETTEEEEEESSH--------HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhC-CCCHHHHHHHHCcCH-HHHHHHHHHHHHCCCEEEEecCCeEEEEEChH--------HHHHHHHHHHH
+
+
+Q ss_pred             H
+Q Fri_Dec_23_02:  177 W  177 (264)
+Q Consensus       177 W  177 (264)
+                      |
+T Consensus       117 ~  117 (122)
+T 1r1t_A          117 H  117 (122)
+T ss_dssp             H
+T ss_pred             H
+
+
+No 94 
+>4asn_A TUBR; transcription, tubulin, FTSZ, segregation, partition; 3.50A {Bacillus megaterium}
+Probab=66.93  E-value=25  Score=24.23  Aligned_cols=58  Identities=12%  Similarity=0.145  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCC------cccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEE
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMK------CIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVD  155 (264)
+Q Consensus        97 r~LtL~sLa~~~~------~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~  155 (264)
+                      ..+.++.......      .+++.+|++.++++. ..+-..|-.+...|+|.-.-|.....+.++
+T Consensus        15 ~~~~iL~~l~~~~~~~~~~~~~~~~la~~l~~s~-~~v~~~l~~L~~~gli~~~~~~r~~~~~lt   78 (101)
+T 4asn_A           15 EDVSILGWLFQNEANAVFKAIKKSSIADELEYST-ANFRKTLNKLEAIHFIGTVTGGKEHKLYLT   78 (101)
+T ss_dssp             HHHHHHHHHHHTTCCSGGGCEEHHHHHTTSCCCS-HHHHHHHHHHHHTTCEEEECSSSSCEEEEC
+T ss_pred             HHHHHHHHHHhCcccccccccCHHHHHHHHCCCH-HHHHHHHHHHHHCCCEEEecCCCeeEEEEC
+
+
+No 95 
+>4hf0_A HTH-type transcriptional regulator ISCR; WHTH, protein-DNA complex, iron-sulfur cluster, winged helix helix, redox sensor; 1.90A {Escherichia coli}
+Probab=66.62  E-value=38  Score=26.10  Aligned_cols=65  Identities=12%  Similarity=0.097  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEE
+Q Fri_Dec_23_02:   88 LSTAQQNKLKHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEV  154 (264)
+Q Consensus        88 L~~~~~~KLr~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v  154 (264)
+                      ++.....-++.|..+.-......++..+|++.++++. ..+...+-.+...|+|... ...++.+.+
+T Consensus         3 ~s~~~~~al~iL~~L~~~~~~~~~s~~ela~~~~is~-~~v~~il~~L~~~Glv~~~-~g~~ggy~L   67 (141)
+T 4hf0_A            3 LTSKGRYAVTAMLDVALNSEAGPVPLADISERQGISL-SYLEQLFSRLRKNGLVSSV-RGPGGGYLL   67 (141)
+T ss_dssp             BCHHHHHHHHHHHHHHHHGGGSCBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEE-CSTTCEEEE
+T ss_pred             CchHHHHHHHHHHHHHhCCCCCcCcHHHHHHHhCcCH-HHHHHHHHHHHHCCceEee-eCCCCCeec
+
+
+No 96 
+>5f6f_A MARR family regulatory protein; winged helix-turn-helix, DNA binding protein, transcription regulation, multidrug resistance; 1.75A {Staphylococcus aureus}
+Probab=66.60  E-value=52  Score=25.47  Aligned_cols=85  Identities=7%  Similarity=0.027  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhcC--CcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec---------------
+Q Fri_Dec_23_02:   96 LKHLTIVSLASRM--KCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI---------------  158 (264)
+Q Consensus        96 Lr~LtL~sLa~~~--~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~---------------  158 (264)
+                      ...+.++.+....  ..++..+|++.++++. ..+-..|-.+...|+|.-.-|..++....-...               
+T Consensus        53 ~~~~~iL~~l~~~~~~~~t~~ela~~l~~s~-~tvs~~l~~L~~~GlI~r~~~~~d~R~~~~~lT~~G~~~~~~~~~~~~  131 (161)
+T 5f6f_A           53 NEQRHTLGYLYAHQQDGLTQNDIAKALQRTG-PTVSNLLRNLERKKLIYRYVDAQDTRRKNIGLTTSGIKLVEAFTSIFD  131 (161)
+T ss_dssp             HHHHHHHHHHHHHGGGCBCHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEEECSSCTTCEEEEECHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhCCCCCcCHHHHHHHhCCCh-hHHHHHHHHHHHCCCEEeeCCCCCCCeeEEEECHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ------CCCCCHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ------GRDIRKKDINNIVKTLHEWCDGC  181 (264)
+Q Consensus       159 ------~Rd~~~~~~~~l~~~L~~W~~~~  181 (264)
+                            ...++++++..+...|.....++
+T Consensus       132 ~~~~~~~~~l~~~e~~~l~~~l~~l~~~l  160 (161)
+T 5f6f_A          132 EMEQTLVSQLSEEENEQMKANLTKMLSSL  160 (161)
+T ss_dssp             HHHHHHHTTSCHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhcCCHHHHHHHHHHHHHHHHhc
+
+
+No 97 
+>2htj_A P fimbrial regulatory protein KS71A; winged helix-turn-helix, PAP PILI, transcription activator; NMR {Escherichia coli} SCOP: a.4.5.73 l.1.1.1
+Probab=66.09  E-value=13  Score=24.89  Aligned_cols=58  Identities=9%  Similarity=-0.013  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEE
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVD  155 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~  155 (264)
+                      +...|+.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+...+...+.
+T Consensus         1 ~~~~il~~l~~~~~~~~~ela~~~~~s~-~tv~~~l~~L~~~gli~~~~~~~~r~~~~~   58 (81)
+T 2htj_A            1 MKNEILEFLNRHNGGKTAEIAEALAVTD-YQARYYLLLLEKAGMVQRSPLRRGMATYWF   58 (81)
+T ss_dssp             CHHHHHHHHHHSCCCCHHHHHHHHTSCH-HHHHHHHHHHHHHTSEEEECCSSSSSCEEE
+T ss_pred             CHHHHHHHHHHcCCCCHHHHHHHhCCCH-HHHHHHHHHHHHCCCEEeeccCCCCeEEEE
+
+
+No 98 
+>3pqk_A Biofilm growth-associated repressor; helix-turn-helix motif, winged-helix fold, transcriptional R DNA binding, transcription; 2.09A {Xylella fastidiosa} SCOP: a.4.5.0 PDB: 3pqj_A
+Probab=66.06  E-value=34  Score=23.82  Aligned_cols=57  Identities=9%  Similarity=0.086  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEE
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVD  155 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~  155 (264)
+                      ..+.|+.+.. ...++..+|++.++++. ..+-..+-.+...|+|.-.-+.....+.++
+T Consensus        24 ~~~~il~~l~-~~~~~~~ela~~~~~s~-~~v~~~l~~L~~~gli~~~~~~~~~~y~l~   80 (102)
+T 3pqk_A           24 VRLMLVCTLV-EGEFSVGELEQQIGIGQ-PTLSQQLGVLRESGIVETRRNIKQIFYRLT   80 (102)
+T ss_dssp             HHHHHHHHHH-TCCBCHHHHHHHHTCCT-THHHHHHHHHHHTTSEEEECSSSCCEEEEC
+T ss_pred             HHHHHHHHHH-cCCCCHHHHHHHHCCCh-hHHHHHHHHHHHCCCeEEEeeCCeEEEEEC
+
+
+No 99 
+>4nb5_A DNA binding protein; HET: DNA 2JT; 1.64A {Mycobacterium tuberculosis}
+Probab=65.88  E-value=54  Score=25.46  Aligned_cols=115  Identities=6%  Similarity=-0.066  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCc-ccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeecCCCCCHHHHHHHHHHHH
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKC-IPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCIGRDIRKKDINNIVKTLH  175 (264)
+Q Consensus        97 r~LtL~sLa~~~~~-I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~~Rd~~~~~~~~l~~~L~  175 (264)
+                      +...+.-|...... ++..+|++.++++. ..+-..|-.+...|+|.-.-+..++...+...  .+.+..-+..+...+.
+T Consensus        36 ~~~il~~l~~~~~~~~t~~ela~~l~is~-~tvs~~l~~L~~~Gli~~~~~~~d~r~~~~~~--t~~g~~~~~~~~~~~~  112 (171)
+T 4nb5_A           36 AGRLLGWLLVCDPERQSSEELATALAASS-GGISTNARMLIQFGFIERLAVAGDRRTYFRLR--PNAFAAGERERIRAMA  112 (171)
+T ss_dssp             HHHHHHHHHHCSSSCEEHHHHHHHHTCCH-HHHHHHHHHHHHTTSEEEECCTTCCSCEEEEC--TTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCCCCHHHHHHHHCCCH-HHHHHHHHHHHhCCcEEEecCCCCceeEEEeC--chHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  176 EWCDGCEAVLLGIE-------QQVLRANQYKENHNRTQQQVEAEVT  214 (264)
+Q Consensus       176 ~W~~~~~~vl~~l~-------~~~~~~~~~~~~~~~~~~~~~~~~~  214 (264)
+                      .|...+..++..+.       ..+..+...-..-...-.++..+..
+T Consensus       113 ~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~l~~~~~~~~~~~~  158 (171)
+T 4nb5_A          113 ELQDLADVGLRALGDAPPQRSRRLREMRDLLAYMENVVSDALGRYS  158 (171)
+T ss_dssp             HHHHHHHHHHHHTTTSCGGGGHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhcccCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 100
+>3ech_A MEXR, multidrug resistance operon repressor; winged helix, helix-turn-helix, protein-peptide complex; 1.80A {Pseudomonas aeruginosa} SCOP: a.4.5.28 PDB: 1lnw_A 3mex_A
+Probab=65.82  E-value=30  Score=25.81  Aligned_cols=83  Identities=10%  Similarity=0.065  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHhcCCcccHHHHHHHcCCCCHHHHHHHHHHHHHCCCcEEEEeCCCCEEEEEeec------------------
+Q Fri_Dec_23_02:   97 KHLTIVSLASRMKCIPYSVLLKDLEMRNLRELEDLIIEAVYTDIIQGKLDQRNQLLEVDFCI------------------  158 (264)
+Q Consensus        97 r~LtL~sLa~~~~~I~y~~I~~~L~i~~~~elE~lII~aI~~glI~gkIDq~~~~v~v~~~~------------------  158 (264)
+                      ..+.++.+......++..+|++.++++. ..+-..|-.+...|+|.-.-+..++....-...                  
+T Consensus        38 ~~~~iL~~l~~~~~~~~~~la~~l~~~~-~~vs~~l~~L~~~gli~~~~~~~d~r~~~~~lT~~G~~~~~~~~~~~~~~~  116 (142)
+T 3ech_A           38 PDVHVLKLIDEQRGLNLQDLGRQMCRDK-ALITRKIRELEGRNLVRRERNPSDQRSFQLFLTDEGLAIHLHAELIMSRVH  116 (142)
+T ss_dssp             HHHHHHHHHHHTTTCCHHHHHHHHC----CHHHHHHHHHHHTTSEEC----------CCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhCCCCCHHHHHHHHCcCH-HHHHHHHHHHHhCCCEEeccCCCCCceeEeEECHhHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---CCCCCHHHHHHHHHHHHHHHHH
+Q Fri_Dec_23_02:  159 ---GRDIRKKDINNIVKTLHEWCDG  180 (264)
+Q Consensus       159 ---~Rd~~~~~~~~l~~~L~~W~~~  180 (264)
+                         ...+++++...+...|..+..+
+T Consensus       117 ~~~~~~l~~~e~~~l~~~l~~~~~~  141 (142)
+T 3ech_A          117 DELFAPLTPVEQATLVHLLDQCLAA  141 (142)
+T ss_dssp             HHHHTTSCHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHhcCCHHHHHHHHHHHHHHHhc
+
+
+Done!
+
