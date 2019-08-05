@@ -1,4 +1,0 @@
-The sampling precision is defined as the largest allowed RMSD between the cluster centroid and a  Cop9_DHS model within any cluster in the finest clustering for which each sample contributes models proportionally to its size (considering both significance and magnitude of the difference) and for which a sufficient proportion of all models occur in sufficiently large clusters. The sampling precision for our  Cop9_DHS  modeling is 36.064  A.
-Sampling precision, P-value, Cramer's V and percentage of clustered models below:
-36.064	0.000	0.067	99.217
-
