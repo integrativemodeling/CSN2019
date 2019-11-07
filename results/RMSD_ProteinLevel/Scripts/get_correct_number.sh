@@ -75,7 +75,7 @@ do
 	    
 	        mean2=$(cat RMSD_WRT_Centroid_${dir0}/RMSD_pairs_all_versus_centroid_${i}_${j}.csv | awk '{sum+=$1;b++}END{print sum/b}');
 		    devi2=$(cat RMSD_WRT_Centroid_${dir0}/RMSD_pairs_all_versus_centroid_${i}_${j}.csv | awk '{sum+=$1; sum2+=$1*$1; b++}END{print sqrt(sum2/b - sum/b*sum/b)}');
-		        cent1=$(cat structures/RMSD_CSN_vs_$(echo $dir | sed 's/_/./g')/RMSD_pairs_all_versus_centroid_${i}_${j}.csv | awk '{sum+=$1;b++}END{print sum/b}');
+		        cent1=$(cat structures/RMSD_CSNn_vs_$(echo $dir | sed 's/_/./g')/RMSD_pairs_all_versus_centroid_${i}_${j}.csv | awk '{sum+=$1;b++}END{print sum/b}');
 
 			    echo ${dir} RB$i RB$j $mean2 $devi2 $cent1;
 			    done;
