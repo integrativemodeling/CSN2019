@@ -6421,7 +6421,7 @@ _ihm_external_files.details
 'Script for starting comparative model'
 25 2 data/CSN7B/CSN7B_Modeller.py 'Modeling workflow or script' 656
 'Script for starting comparative model'
-4 3 Ensemble_DCD/B_CSNn.dcd 'Modeling or post-processing output' 385622520
+26 3 Ensemble_DCD/B_CSNn.dcd 'Modeling or post-processing output' 385622520
 'Coordinates of subsample B structures in the largest cluster'
 #
 #
