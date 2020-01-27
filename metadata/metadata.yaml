@@ -1,0 +1,7 @@
+title: Structural dynamics of the human COP9 signalosome revealed by cross-linking mass spectrometry and integrative modeling
+tags: [chemical crosslinks, PMI, X-ray, comparative modelling]
+prereqs: [python/numpy, modeller]
+accessions: [PDBDEV_00000037, PDBDEV_00000038]
+test:
+    runtime: 24h
+    build: release
