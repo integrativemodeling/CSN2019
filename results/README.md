@@ -5,7 +5,10 @@ Directory for the main results of the modeling pipelines for the canonical and n
 ## List of files and directories:
 
 `results`   	 contains all results reported for both structures of the CSN complex
-- IntegrativeStructure.CSN contains the subdirectories for the canonical structure of CSN complex (centroid and localization probability densities):
+
+- `CSN.cif` and `CSNn.cif` are the two CIFs file corresponding to the canonical and noncanonical structure of the CSN complex, respectively.
+
+- `IntegrativeStructure.CSN` contains the subdirectories for the canonical structure of CSN complex (centroid and localization probability densities):
     * [Canonical CSN (DSSO+DHSO+BMSO)](./IntegrativeStructure.CSN/Structure_DSSO_DHSO_BMSO/) at a precision of 16Å.
     * [Subsample CSN (DHSO+BMSO)](./IntegrativeStructure.CSN/Structure_DHSO_BMSO/) at a precision of 22Å.
     * [Subsample CSN (DSSO+DHSO)](./IntegrativeStructure.CSN/Structure_DSSO_DHSO/) at a precision of 24Å.
@@ -13,8 +16,24 @@ Directory for the main results of the modeling pipelines for the canonical and n
     * [Subsample CSN (DSSO)](./IntegrativeStructure.CSN/Structure_DSSO/) at a precision of 27Å.
     * [Subsample CSN (DHSO)](./IntegrativeStructure.CSN/Structure_DHSO/) at a precision of 29Å.
     * [Subsample CSN (BMSO)](./IntegrativeStructure.CSN/Structure_BMSO/) at a precision of 37Å.
-- [Noncanonical CSN](./IntegrativeStructure.CSNn) contains the centroid and localization probability densities of the structure of the noncanonical CSN complex
-- [Sampling Precision](./CSN_Sampling_Precision) contains the results of the exhaustiveness tests for the [canonical CSN complex](./Cross_Validations/DSSO_DHSO_BMSO	) and for each of the [subsamples](./CSN_Sampling_Precision/Cross_Validations/). The scripts are located in [Sampling_Precision_Scripts](./CSN_Sampling_Precision/Sampling_Precision_Scripts/). 
+    * [Sampling Precision](./sampling_precision_canonical) contains the results of the exhaustiveness tests for the [canonical CSN complex](./sampling_precision_canonical/DSSO_DHSO_BMSO) and for each of the [subsamples](./sampling_precision_canonical/sampling_precision_subsamples.tar). The plotting scripts are located in [sampling_precision_plotting_scripts](./sampling_precision_canonical/sampling_precision_plotting_scripts/). 
+
+- `IntegrativeStructure.CSNn` contains the subdirectories for the noncanonical structure of CSN complex (centroid and localization probability densities):
+      *[Noncanonical CSN](./IntegrativeStructure.CSNn/Structure_DSSO_DHSO_BMSO) at a precision of 22Å. 
+      *[Sampling Precision](./IntegrativeStructure.CSNn/sampling_precision_noncanonical) contains the results of the exhaustiveness tests for the noncanonical CSN complex.
+      
+- `Mapping_XLs` contains the analysis of the cross-links on the different structures of the CSN complex.
+    *[Canonical CSN](./Mapping_XLs/CSN_XL_Analysis) contains the results of the mapping of the canonical XLs to the canonical CSN complex.
+    *[Noncanonical CSN](./Mapping_XLs/CSNn_XL_Analysis) contains the results of the mapping of the noncanonical XLs to the noncanonical CSN complex.
+    *[Cross Mapping](./Mapping_XLs/CrossMapping) contains the mapping of all the cross-links to the crystal structure, canonical, and noncanonical structure of CSN. 
+
+- `RMSD_ProteinLevel` contains the results of the structural differences among all the determined structure of CSN: canonical, subsampled canonical, noncanonical, crystal, bound to CRL1, and bound to CRL4. 
+  
+- `CSN_contact_frequency.zip` and `CSNn_contact_frequency.zip` are the files used to generate the contact frequency maps for the two CSN structures.
+  
+- `Chimera_sessions` contains different Chimera sessions to visualize the structures. 
+  
+  
 
 README is still under construction
 
