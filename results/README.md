@@ -19,13 +19,13 @@ Directory for the main results of the modeling pipelines for the canonical and n
     * [Sampling Precision](./sampling_precision_canonical) contains the results of the exhaustiveness tests for the [canonical CSN complex](./sampling_precision_canonical/DSSO_DHSO_BMSO) and for each of the [subsamples](./sampling_precision_canonical/sampling_precision_subsamples.tar). The plotting scripts are located in [sampling_precision_plotting_scripts](./sampling_precision_canonical/sampling_precision_plotting_scripts/). 
 
 - `IntegrativeStructure.CSNn` contains the subdirectories for the noncanonical structure of CSN complex (centroid and localization probability densities):
-      *[Noncanonical CSN](./IntegrativeStructure.CSNn/Structure_DSSO_DHSO_BMSO) at a precision of 22Å. 
-      *[Sampling Precision](./IntegrativeStructure.CSNn/sampling_precision_noncanonical) contains the results of the exhaustiveness tests for the noncanonical CSN complex.
+      * [Noncanonical CSN](./IntegrativeStructure.CSNn/Structure_DSSO_DHSO_BMSO) at a precision of 22Å. 
+      * [Sampling Precision](./IntegrativeStructure.CSNn/sampling_precision_noncanonical) contains the results of the exhaustiveness tests for the noncanonical CSN complex.
       
 - `Mapping_XLs` contains the analysis of the cross-links on the different structures of the CSN complex.
-    *[Canonical CSN](./Mapping_XLs/CSN_XL_Analysis) contains the results of the mapping of the canonical XLs to the canonical CSN complex.
-    *[Noncanonical CSN](./Mapping_XLs/CSNn_XL_Analysis) contains the results of the mapping of the noncanonical XLs to the noncanonical CSN complex.
-    *[Cross Mapping](./Mapping_XLs/CrossMapping) contains the mapping of all the cross-links to the crystal structure, canonical, and noncanonical structure of CSN. 
+    * [Canonical CSN](./Mapping_XLs/CSN_XL_Analysis) contains the results of the mapping of the canonical XLs to the canonical CSN complex.
+    * [Noncanonical CSN](./Mapping_XLs/CSNn_XL_Analysis) contains the results of the mapping of the noncanonical XLs to the noncanonical CSN complex.
+    * [Cross Mapping](./Mapping_XLs/CrossMapping) contains the mapping of all the cross-links to the crystal structure, canonical, and noncanonical structure of CSN. 
 
 - `RMSD_ProteinLevel` contains the results of the structural differences among all the determined structure of CSN: canonical, subsampled canonical, noncanonical, crystal, bound to CRL1, and bound to CRL4. 
   
