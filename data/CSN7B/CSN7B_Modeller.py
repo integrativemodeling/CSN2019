@@ -25,4 +25,6 @@ a = MyModel(env,
 
 a.starting_model= 0
 a.ending_model  = 500
+
+if '--test' in sys.argv: a.ending_model = 1
 a.make()
