@@ -8,9 +8,8 @@ import IMP.rmf
 import os
 import sys
 
-
-import DLFCN as dl
-sys.setdlopenflags(dl.RTLD_NOW | dl.RTLD_GLOBAL)
+#import DLFCN as dl
+#sys.setdlopenflags(dl.RTLD_NOW | dl.RTLD_GLOBAL)
 
 import IMP.pmi
 import IMP.pmi.topology
@@ -20,8 +19,8 @@ import IMP.pmi.restraints
 import IMP.pmi.restraints.stereochemistry
 import IMP.pmi.restraints.crosslinking
 
-sys.path.append('../util/')
-import make_archive
+#sys.path.append('../util/')
+#import make_archive
 
 #---------------------------
 # Define Input Files
@@ -91,14 +90,14 @@ sampleobjects = []  # sampling objects
 #  To speed up this expensive restraint, we operate it at resolution 20
 
 sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan0", sf.evaluate(False)
+print("ilan0", sf.evaluate(False))
 
 CSN = []
 crs = []
 
 moldict = bs.get_molecules()[0]
 for molname in moldict:
-    print molname
+    print(molname)
     for mol in moldict[molname]:
 
         cr = IMP.pmi.restraints.stereochemistry.ConnectivityRestraint(
@@ -113,7 +112,7 @@ for molname in moldict:
 
 print(CSN)
 sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan0", sf.evaluate(False)
+print("ilan0", sf.evaluate(False))
 ev1 = IMP.pmi.restraints.stereochemistry.ExcludedVolumeSphere(included_objects=CSN,
                                                               resolution=10)
 ev1.add_to_model()
@@ -121,7 +120,7 @@ ev1.set_label('CSN')
 outputobjects.append(ev1)
 
 sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan1", sf.evaluate(False)
+print("ilan1", sf.evaluate(False))
 
 
 # Crosslinks - dataset
@@ -162,7 +161,7 @@ outputobjects.append(x_dss1)
 dof.get_nuisances_from_restraint(x_dss1)
 
 sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan3", sf.evaluate(False)
+print("ilan3", sf.evaluate(False))
 
 # Medium + High Confidence Intramolecular crosslinks
 DSS2 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
@@ -208,7 +207,7 @@ outputobjects.append(x_bms1)
 dof.get_nuisances_from_restraint(x_bms1)
 
 sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan3", sf.evaluate(False)
+print("ilan3", sf.evaluate(False))
 
 # Medium + High Confidence Intramolecular crosslinks
 BMS2 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
@@ -229,7 +228,7 @@ outputobjects.append(x_bms2)
 dof.get_nuisances_from_restraint(x_bms2)
 
 Sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan3", sf.evaluate(False)
+print("ilan3", sf.evaluate(False))
 
 #############
 #############
@@ -256,7 +255,7 @@ outputobjects.append(x_dhs1)
 dof.get_nuisances_from_restraint(x_dhs1)
 
 sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan3", sf.evaluate(False)
+print("ilan3", sf.evaluate(False))
 
 # Medium + High Confidence Intramolecular crosslinks
 DHS2 = IMP.pmi.io.crosslink.CrossLinkDataBase(kw)
@@ -277,7 +276,7 @@ outputobjects.append(x_dhs2)
 dof.get_nuisances_from_restraint(x_dhs2)
 
 Sf = IMP.core.RestraintsScoringFunction(IMP.pmi.tools.get_restraint_set(m))
-print "ilan3", sf.evaluate(False)
+print("ilan3", sf.evaluate(False))
 
 
 ###Shuffling for random initial conformations 
