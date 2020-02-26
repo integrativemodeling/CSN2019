@@ -2,6 +2,7 @@ title: Integrative structures of the human Cop9 signalosome
 tags: [chemical crosslinks, PMI, X-ray, MODELLER]
 prereqs: [python/numpy, modeller]
 accessions: [PDBDEV_00000037, PDBDEV_00000038]
+pmid: 32034103
 test:
     runtime: 24h
     build: release
