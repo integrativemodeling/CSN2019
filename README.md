@@ -20,4 +20,6 @@ International License.
 _Last known good IMP version_: [![build info](https://integrativemodeling.org/systems/31/badge.svg?branch=master)](https://integrativemodeling.org/systems/) [![build info](https://integrativemodeling.org/systems/31/badge.svg?branch=develop)](https://integrativemodeling.org/systems/)
 
 _Publications_:
-
+Structural dynamics of the human COP9 signalosome revealed by cross-linking mass spectrometry and integrative modeling
+Craig Gutierrez*, Ilan E. Chemmama*, Haibin Mao, Clinton Yu, Ignacia Echeverria, Sarah A. Block, Scott D. Rychnovsky, Ning Zheng, Andrej Sali, Lan Huang
+Proceedings of the National Academy of Sciences Feb 2020, 117 (8) 4088-4098; DOI: [10.1073/pnas.1915542117](http://dx.doi.org/10.1073/pnas.1915542117).
