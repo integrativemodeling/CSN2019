@@ -18,6 +18,7 @@ import IMP.pmi.macros
 import IMP.pmi.restraints
 import IMP.pmi.restraints.stereochemistry
 import IMP.pmi.restraints.crosslinking
+import ihm.cross_linkers
 
 #sys.path.append('../util/')
 #import make_archive
@@ -148,7 +149,8 @@ DSS1.create_set_from_file(datadirectory + 'DSS.Inter.csv')
 
 x_dss1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DSS1,
+    database=DSS1,
+    linker=ihm.cross_linkers.dss,
     length=21,
     label="DSS_Inter",
     resolution=1.0,
@@ -169,7 +171,8 @@ DSS2.create_set_from_file(datadirectory + 'DSS.Intra.csv')
 
 x_dss2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DSS2,
+    database=DSS2,
+    linker=ihm.cross_linkers.dss,
     length=21,
     label="DSS_Intra",
     resolution=1.0,
@@ -194,7 +197,8 @@ BMS1.create_set_from_file(datadirectory + 'BMS.Inter.csv')
 
 x_bms1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=BMS1,
+    database=BMS1,
+    linker=ihm.cross_linkers.bmso,
     length=29,
     label="BMS_Inter",
     resolution=1.0,
@@ -215,7 +219,8 @@ BMS2.create_set_from_file(datadirectory + 'BMS.Intra.csv')
 
 x_bms2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=BMS2,
+    database=BMS2,
+    linker=ihm.cross_linkers.bmso,
     length=29,
     label="BMS_Intra",
     resolution=1.0,
@@ -242,7 +247,8 @@ DHS1.create_set_from_file(datadirectory + 'DHS.Inter.csv')
 
 x_dhs1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DHS1,
+    database=DHS1,
+    linker=ihm.cross_linkers.dhso,
     length=21,
     label="DHS_Inter",
     resolution=1.0,
@@ -263,7 +269,8 @@ DHS2.create_set_from_file(datadirectory + 'DHS.Intra.csv')
 
 x_dhs2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DHS2,
+    database=DHS2,
+    linker=ihm.cross_linkers.dhso,
     length=21,
     label="DHS_Intra",
     resolution=1.0,
