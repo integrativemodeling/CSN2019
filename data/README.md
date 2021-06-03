@@ -12,18 +12,29 @@ Master data directory; used by all modeling scripts to generate the solutions of
 - `CSN1.pdb` is the complete model of the CSN1 subunit, obtained using MODELLER (see [CSN1](./CSN1))
 - `CSN7B.pdb` is the structure of the CSN7B subunit isoform, modeled against subunit CSN7A isoform using MODELLER (see [CSN7B](./CSN7B)).
 
+### Representation Summary
+![](./CSN.Representation.T.png)
+
+
 ## Cross-linking datasets for the canonical CSN complex
-- `BMS.Inter.csv` and `BMS.Intra.csv`: BMSO intermolecular and intramolecular cross-links for the canonical CSN complex
-- `DHS.Inter.csv` and `DHS.Intra.csv`: DHSO intermolecular and intramolecular cross-links for the canonical CSN complex
-- `DSS.Inter.csv` and `DSS.Intra.csv`: DSSO intermolecular and intramolecular cross-links for the canonical CSN complex
+- `BMS.Inter.csv` and `BMS.Intra.csv`: BMSO - 41 intermolecular and 33 intramolecular cross-links for the canonical CSN complex
+- `DHS.Inter.csv` and `DHS.Intra.csv`: DHSO - 93 intermolecular and 79 intramolecular cross-links for the canonical CSN complex
+- `DSS.Inter.csv` and `DSS.Intra.csv`: DSSO - 75 intermolecular and 142 intramolecular cross-links for the canonical CSN complex
+
+### Summary of the canonical CSN cross-linking dataset
+![](./CSN.XL.T.png)
 
 ## Cross-linking datasets for the noncanonical CSN complex (CSN1-8 + CSN9)
-- `BMS.Inter.P.csv` and `BMS.Intra.P.csv`: BMSO intermolecular and intramolecular cross-links for the CSN complex with CSN9
-- `DHSO.Inter.P.csv` and `DHSO.Intra.P.csv`: DHSO intermolecular and intramolecular cross-links for the CSN complex with CSN9
-- `DSS.Inter.P.csv` and `DSS.Intra.P.csv`: DSSO intermolecular and intramolecular cross-links for the CSN complex with CSN9
+- `BMS.Inter.P.csv` and `BMS.Intra.P.csv`: BMSO - 76 intermolecular and 35 intramolecular cross-links for the CSN complex with CSN9
+- `DHSO.Inter.P.csv` and `DHSO.Intra.P.csv`: DHSO - 108 intermolecular and 132 intramolecular cross-links for the CSN complex with CSN9
+- `DSS.Inter.P.csv` and `DSS.Intra.P.csv`: DSSO - 87 intermolecular and 187 intramolecular cross-links for the CSN complex with CSN9
+
+### Summary of the noncanonical CSN cross-linking dataset
+![](./CSNn.XL.T.png)
 
 ## Topology files used for modeling: defining rigid bodies and flexible beads regions.
 - `topology_free.txt` and `topology_free_plus.txt` are the topology files for the canonical and noncanonical CSN complex, respectively.
+
 
 ## Information
 

@@ -1,14 +1,20 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3827934.svg)](https://doi.org/10.5281/zenodo.3827934)
 
-These scripts demonstrate the use of [IMP](http://salilab.org/imp) in the modeling of the Cop9 Signalosome (CSN) complex using multi-crosslinking datasets. 
-The scripts work with the [IMP](http://salilab.org/imp) (Release 2.8.0).
+# Integrative Structure Determination of the Human Cop9 Signalosome complex (CSN)
 
+## Summary
+The COP9 signalosome (CSN) is an evolutionarily conserved eight-subunit (CSN1–8) protein complex that controls protein ubiquitination by deneddylating Cullin-RING E3 ligases (CRLs). The activation and function of CSN hinges on its structural dynamics, which has been challenging to decipher by conventional tools. Here, we determine the interaction and structural dynamics of CSN with the recently discovered ninth subunit, CSN9, in solution. Our results determined the localization of CSN9 binding sites and revealed CSN9-dependent structural changes of CSN. Together with biochemical analysis, we propose a structural model in which CSN9 binding triggers CSN to adopt a configuration that facilitates CSN–CRL interactions, thereby augmenting CSN deneddylase activity. 
+These scripts demonstrate the use of [IMP](http://salilab.org/imp) in the modeling of the human Cop9 Signalosome (CSN) complex using multi-crosslinking datasets. 
+The scripts work with the [IMP](http://salilab.org/imp) (Release 2.8.0 and newer).
 
 ## List of files and directories:
 
 - `data`   	 contains all relevant information: experimental data, statistical analyses, and prior information.
-- `modeling_scripts`	 contains all the modeling script versions for each of the determined structures.
-- `results`	 contains all the relevent results discussed in the manuscript.
+- `modeling_scripts`	 contains all the modeling script variants for each of the determined structures to reproduce the ensemble of solutions. 
+- `results`	 contains all the relevent results discussed in the published paper.
+
+## Integrative modeling approach summary for this project
+![](./CSN.FourStages.T.png)
 
 ## Information
 

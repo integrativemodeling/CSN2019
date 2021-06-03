@@ -1,6 +1,8 @@
-# Cop9_Signalosome Complex results
-
-Directory for visualizing the canonical human CSN complex, obtained by integrative modeling. 
+# Integrative Structure of the human canonical Cop9 Signalosome Complex 
+Directory for visualizing the human canonical CSN complex, obtained by integrative modeling.
+ 
+## Highlights of results.
+![](./CSN.Canonical.T.png)
 
 ## List of files and directories:
 
@@ -14,8 +16,17 @@ Directory for visualizing the canonical human CSN complex, obtained by integrati
     * [Subsample CSN (BMSO)](./IntegrativeStructure.CSN/Structure_BMSO/) at a precision of 37Å.
     * [Sampling Precision](./sampling_precision_canonical) contains the results of the exhaustiveness tests for the [canonical CSN complex](./sampling_precision_canonical/DSSO_DHSO_BMSO) and for each of the [subsamples](./sampling_precision_canonical/sampling_precision_subsamples.tar). The plotting scripts are located in [sampling_precision_plotting_scripts](./sampling_precision_canonical/sampling_precision_plotting_scripts/). 
 
-- To display the ensembles, one can modify the provided UCSF Chimera python script ***chimera_display_ensemble.py*** by changing the *suffix* variable in the script. 
+## Highlights of the validation
 
+![](./CSN.Validation.T.png)
+
+## Highlights of the cross-validation
+
+![](./CSN.CrossValidation.T.png)
+
+## Notes
+
+- To display the ensembles, one can modify the provided UCSF Chimera python script ***chimera_display_ensemble.py*** by changing the *suffix* variable in the script. 
 
 _Author(s)_: Ilan E. Chemmama
 
