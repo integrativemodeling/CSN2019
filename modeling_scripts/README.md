@@ -1,4 +1,4 @@
-# Cop9_Signalosome Complex
+# Modeling scripts for the human Cop9 Signalosome Complex
 
 Directory for the production scripts for the structure of the canonical and noncanonical CSN complex.
 
@@ -6,7 +6,7 @@ Directory for the production scripts for the structure of the canonical and nonc
 
 `modeling_scripts`   	 contains all scripts used for modeling
 - job.*.sub are the relevant submission scripts for a SGE cluster (Wynton at UCSF / QB3 Cluster at UCSF).
-- smodeling.*.py are the modeling script for PMI. 
+- smodeling.*.py are the modeling script used by PMI to generate the samples
 
 ## Input for all the scripts
 

@@ -1,7 +1,6 @@
-# Cop9_Signalosome Complex
+# Representation and data used for the integrative structure determination of the human Cop9 Signalosome Complex
 
-Master data directory; used by all modeling scripts to generate the solutions of the CSN complex.
-
+Master data directory; used by all modeling scripts to generate the ensemble of solutions of the CSN complex.
 
 ## List of files and directories:
 

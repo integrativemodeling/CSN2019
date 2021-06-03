@@ -1,6 +1,6 @@
-# Cop9_Signalosome Complex results
+# Results for the human Cop9 Signalosome Complex
 
-Directory for the main results of the modeling pipelines for the canonical and noncanonical CSN complex
+Directory for the main results of the modeling pipelines for the canonical and noncanonical CSN complex that follows the four stages of integrative modeling. (see README.md in parent directory)
 
 ## List of files and directories:
 
@@ -32,7 +32,6 @@ Directory for the main results of the modeling pipelines for the canonical and n
 - `CSN_contact_frequency.zip` and `CSNn_contact_frequency.zip` are the files used to generate the contact frequency maps for the two CSN structures.
   
 - `Chimera_sessions` contains different Chimera sessions to visualize the structures. 
-  
   
 
 README is still under construction

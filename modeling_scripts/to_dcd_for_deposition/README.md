@@ -1,4 +1,4 @@
-# Cop9_Signalosome Complex
+# Generating DCD file for deposition 
 
 Directory for example scripts to create dcd files for the trajectories / ensembles for depositions.
 
