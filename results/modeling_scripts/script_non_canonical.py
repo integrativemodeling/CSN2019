@@ -24,7 +24,7 @@ import IMP.pmi.mmcif
 #---------------------------
 # Define Input Files
 #---------------------------
-datadirectory = "../data/"
+datadirectory = "../../data/"
 topology_file = datadirectory + "topology_free_plus.txt"
 
 #--------------------------
@@ -62,7 +62,7 @@ bs = IMP.pmi.macros.BuildSystem(m)
 
 #if '--mmcif' in sys.argv:
 # Record the modeling protocol to an mmCIF file
-po = IMP.pmi.mmcif.ProtocolOutput(open('CSNn.cif', 'w'))
+po = IMP.pmi.mmcif.ProtocolOutput()
 po.system.title = ('Integrative structure of the human CSNn complex')
 print(po.system.title)
 bs.system.add_protocol_output(po)
@@ -155,11 +155,12 @@ DSS1.create_set_from_file(datadirectory + 'DSS.Inter.P.csv')
 
 x_dss1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DSS1,
+    database=DSS1,
     length=21,
     label="DSS_Inter",
     resolution=1.0,
-    slope=0.02)
+    slope=0.02,
+    linker=ihm.cross_linkers.dsso)
 
 x_dss1.rs.set_weight(3.0)
 x_dss1.add_to_model()
@@ -175,11 +176,12 @@ DSS2.create_set_from_file(datadirectory + 'DSS.Intra.P.csv')
 
 x_dss2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DSS2,
+    database=DSS2,
     length=21,
     label="DSS_Intra",
     resolution=1.0,
-    slope=0.02)
+    slope=0.02,
+    linker=ihm.cross_linkers.dsso)
 
 x_dss2.rs.set_weight(1.00)
 x_dss2.add_to_model()
@@ -200,11 +202,12 @@ BMS1.create_set_from_file(datadirectory + 'BMS.Inter.P.csv')
 
 x_bms1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=BMS1,
+    database=BMS1,
     length=29,
     label="BMS_Inter",
     resolution=1.0,
-    slope=0.02)
+    slope=0.02,
+    linker=ihm.cross_linkers.bmso)
 x_bms1.rs.set_weight(3.0)
 x_bms1.add_to_model()
 sampleobjects.append(x_bms1)
@@ -220,11 +223,12 @@ BMS2.create_set_from_file(datadirectory + 'BMS.Intra.P.csv')
 
 x_bms2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=BMS2,
+    database=BMS2,
     length=29,
     label="BMS_Intra",
     resolution=1.0,
-    slope=0.02)
+    slope=0.02,
+    linker=ihm.cross_linkers.bmso)
 
 x_bms2.rs.set_weight(1.00)
 x_bms2.add_to_model()
@@ -246,11 +250,12 @@ DHS1.create_set_from_file(datadirectory + 'DHSO.Inter.P.csv')
 
 x_dhs1 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DHS1,
+    database=DHS1,
     length=21,
     label="DHS_Inter",
     resolution=1.0,
-    slope=0.02)
+    slope=0.02,
+    linker=ihm.cross_linkers.dhso)
 x_dhs1.rs.set_weight(3.0)
 x_dhs1.add_to_model()
 sampleobjects.append(x_dhs1)
@@ -266,11 +271,12 @@ DHS2.create_set_from_file(datadirectory + 'DHSO.Intra.P.csv')
 
 x_dhs2 = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
     root_hier=representation,
-    CrossLinkDataBase=DHS2,
+    database=DHS2,
     length=21,
     label="DHS_Intra",
     resolution=1.0,
-    slope=0.02)
+    slope=0.02,
+    linker=ihm.cross_linkers.dhso)
 
 x_dhs2.rs.set_weight(1.00)
 x_dhs2.add_to_model()

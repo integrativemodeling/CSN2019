@@ -202,7 +202,7 @@ for m, info in models.items():
 
     tmpd = tempfile.mkdtemp()
     centroid = fix_rmf_file(
-        '../Localization_Probability_Densities/IntegrativeStructure.CSN/Structure_'+str(info['xls'])+'/cluster_center_model.rmf3',
+        '../IntegrativeStructure.CSN/Structure_'+str(info['xls'])+'/cluster_center_model.rmf3',
         moldict,
         tmpd)
 
@@ -216,7 +216,7 @@ for m, info in models.items():
     # Look up the ihm.AsymUnit corresponding to a PMI component name
     for asym in po.asym_units:
         name = asym.split('.')[0]
-        fname = '../Localization_Probability_Densities/IntegrativeStructure.CSN/Structure_'+str(info['xls'])+'/'+str(info['xls'])+'.'+name+'.LPD.mrc'
+        fname = '../IntegrativeStructure.CSN/Structure_'+str(info['xls'])+'/'+str(info['xls'])+'.'+name+'.LPD.mrc'
         print('fname', fname)
         loc = ihm.location.OutputFileLocation(fname)
         den = ihm.model.LocalizationDensity(file=loc, asym_unit=po.asym_units[asym])
@@ -225,59 +225,32 @@ for m, info in models.items():
 
     from ihm import cross_linkers
 
-    for r in po.system.restraints:
-        if hasattr(r, 'linker_type') and r.linker_type == 'DSS_Inter':
-            r.linker_type = 'DSSO'
-        elif hasattr(r, 'linker_type') and r.linker_type == 'DSS_Intra':
-            r.linker_type = 'DSSO'
-        elif hasattr(r, 'linker_type') and r.linker_type == 'DHS_Inter':
-            r.linker_type = 'DHSO'
-        elif hasattr(r, 'linker_type') and r.linker_type == 'DHS_Intra':
-            r.linker_type = 'DHSO'
-        elif hasattr(r, 'linker_type') and r.linker_type == 'BMS_Inter':
-            r.linker_type = 'BMSO'
-        elif hasattr(r, 'linker_type') and r.linker_type == 'BMS_Intra':
-            r.linker_type = 'BMSO'
+    # Point to repositories where files are deposited
+    scriptrepos = ihm.location.Repository(
+        doi="10.5281/zenodo.3827934",
+        root=".",
+        top_directory="modeling_scripts",
+        url="https://zenodo.org/record/3827934/files/modeling_scripts.zip")
+    datarepos = ihm.location.Repository(
+        doi="10.5281/zenodo.3827934",
+        root="../data",
+        top_directory="data",
+        url="https://zenodo.org/record/3827934/files/data.zip")
 
-        elif hasattr(r, 'linker') and r.linker.auth_name == 'DSS_Inter':
-            r.linker = cross_linkers.dsso
-        elif hasattr(r, 'linker') and r.linker.auth_name == 'DSS_Intra':
-             r.linker = cross_linkers.dsso
-        elif hasattr(r, 'linker') and r.linker.auth_name == 'DHS_Inter':
-             r.linker = cross_linkers.dhso
-        elif hasattr(r, 'linker') and r.linker.auth_name == 'DHS_Intra':
-             r.linker = cross_linkers.dhso
-        elif hasattr(r, 'linker') and r.linker.auth_name == 'BMS_Inter':
-             r.linker = cross_linkers.bmso
-        elif hasattr(r, 'linker') and r.linker.auth_name == 'BMS_Intra':
-             r.linker = cross_linkers.bmso
+    densityrepos = ihm.location.Repository(
+        doi="10.5281/zenodo.3827934",
+        root='../Localization_Probability_Densities',
+        top_directory="Localization_Probability_Densities",
+        url="https://zenodo.org/record/3827934/files/Localization_Probability_Densities.zip")
 
+    dcdrepos = ihm.location.Repository(
+        doi="10.5281/zenodo.3827934",
+        root="../Ensemble_DCD",
+        top_directory="Ensemble_DCD",
+        url="https://zenodo.org/record/3827934/files/Ensemble_DCD.zip")
 
-        # Point to repositories where files are deposited
-        scriptrepos = ihm.location.Repository(
-            doi="10.5281/zenodo.3827934",
-            root=".",
-            top_directory="modeling_scripts",
-            url="https://zenodo.org/record/3827934/files/modeling_scripts.zip")
-        datarepos = ihm.location.Repository(
-            doi="10.5281/zenodo.3827934",
-            root="../data",
-            top_directory="data",
-            url="https://zenodo.org/record/3827934/files/data.zip")
+    po.system.update_locations_in_repositories([scriptrepos, datarepos, densityrepos, dcdrepos])
 
-        densityrepos = ihm.location.Repository(
-            doi="10.5281/zenodo.3827934",
-            root='../Localization_Probability_Densities',
-            top_directory="Localization_Probability_Densities",
-            url="https://zenodo.org/record/3827934/files/Localization_Probability_Densities.zip")
-
-        dcdrepos = ihm.location.Repository(
-            doi="10.5281/zenodo.3827934",
-            root="../Ensemble_DCD",
-            top_directory="Ensemble_DCD",
-            url="https://zenodo.org/record/3827934/files/Ensemble_DCD.zip")
-
-        po.system.update_locations_in_repositories([scriptrepos, datarepos, densityrepos, dcdrepos])
-
-po.flush()
-
+po.finalize()
+with open('CSN.cif', 'w') as fh:
+    ihm.dumper.write(fh, [po.system])
