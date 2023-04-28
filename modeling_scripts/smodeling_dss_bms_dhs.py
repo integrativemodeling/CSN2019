@@ -295,7 +295,7 @@ dof.optimize_flexible_beads(200)
 #--------------------------
 # This object defines all components to be sampled as well as the sampling
 # protocol
-mc1 = IMP.pmi.macros.ReplicaExchange0(m,
+mc1 = IMP.pmi.macros.ReplicaExchange(m,
                                 root_hier=representation,
                                 monte_carlo_sample_objects=dof.get_movers(),
                                 output_objects=outputobjects,
