@@ -14,7 +14,7 @@ The scripts work with the [IMP](http://salilab.org/imp) (Release 2.8.0 and newer
 - `results`	 contains all the relevent results discussed in the published paper.
 
 ## Integrative modeling approach summary for this project
-![](./CSN.FourStages.T.png)
+![four stages image](./CSN.FourStages.T.png)
 
 ## Information
 
