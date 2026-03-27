@@ -24,7 +24,7 @@ _License_: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
 International License.
 
-_Last known good IMP version_: [![build info](https://integrativemodeling.org/systems/31/badge.svg?branch=master)](https://integrativemodeling.org/systems/) [![build info](https://integrativemodeling.org/systems/31/badge.svg?branch=develop)](https://integrativemodeling.org/systems/)
+_Last known good IMP version_: [![build info](https://integrativemodeling.org/systems/31/badge.svg?branch=main)](https://integrativemodeling.org/systems/) [![build info](https://integrativemodeling.org/systems/31/badge.svg?branch=develop)](https://integrativemodeling.org/systems/)
 
 _Publications_:
 Structural dynamics of the human COP9 signalosome revealed by cross-linking mass spectrometry and integrative modeling.  
